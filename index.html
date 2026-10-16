@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0e17"><title>Mahler 5 · 五乐章原声与动机导览</title><link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script defer src="data.js"></script><script defer src="engine.js"></script><script defer src="app.js"></script></head>
+<body>
+<a class="skip" href="#content">跳到导览</a>
+<audio id="audio" preload="metadata"></audio>
+<header id="console" class="console">
+ <div class="console-inner">
+  <div class="console-top"><div class="brand"><div class="dg">DG<small>1988</small></div><div><h1 id="consoleMovement">Mahler 5</h1><p><span id="heroLength">Bernstein · Wiener Philharmoniker</span><span class="desktop-only"> · 五乐章原声 · 动机积木 · 声部导览</span></p></div></div><div class="utilities"><button data-action="settings">音源与校准</button><button data-action="sources">资料</button><button id="themeBtn" aria-label="切换主题">🌙 主题</button></div></div>
+  <nav id="movementNav" aria-label="切换乐章"></nav>
+  <div class="transport"><button id="prevMovement" aria-label="上一乐章">◀ 上一章</button><button id="play" class="play" aria-label="播放">▶ 播放原声</button><div class="nudge-group"><button id="back5" aria-label="后退五秒">−5s</button><button id="forward5" aria-label="前进五秒">+5s</button></div><div class="clock"><b id="currentTime">00:00</b> / <span id="duration">00:00</span></div><button id="nextMovement" aria-label="下一乐章">下一章 ▶</button><button id="loop" aria-pressed="false">🔁 段落循环</button><button id="follow" class="active" aria-pressed="true">📍 自动跟随</button><button id="continuous" class="active" aria-pressed="true">⇥ 连续乐章</button><label class="speed-label"><span class="sr-only">播放速度</span><select id="speed" aria-label="播放速度"><option value="0.75">0.75×</option><option value="1" selected>1×</option><option value="1.25">1.25×</option></select></label><button id="mute" aria-label="静音">♪</button></div>
+  <div class="wave-wrap" id="waveWrap"><canvas id="wave" aria-hidden="true"></canvas><input id="scrub" type="range" min="0" max="900" step="0.1" value="0" aria-label="播放位置"><span id="waveHover" class="wave-hover" hidden></span></div>
+  <div class="wave-meta"><span id="waveSource">原声波形 · 点击或拖动定位</span><span id="wavePosition"></span><div id="quickJumps" class="quick-jumps"></div></div>
+  <div class="telemetry"><div class="live-row"><span id="liveActBadge" class="act-badge"></span><span id="liveTimeRange" class="time-badge"></span><h2 id="liveStage"></h2><span id="syncBadge" class="sync-badge"></span></div><p id="liveFocus" class="live-focus"></p><div id="liveBlockBadges" class="block-badges"></div><div id="choirRadarGrid" class="radar-grid" aria-label="本段声部导听"></div></div>
+ </div>
+</header>
+<main id="content" tabindex="-1">
+ <section id="synthLab" class="panel synth-lab"></section>
+ <div id="motifCards" class="motif-minis"></div>
+ <section class="timeline-section"><div class="panel timeline-heading"><div><h2>🗺️ <span id="heroTitle"></span> · <span id="mapCount"></span> 节点全景时间轴</h2><p id="timingNote"></p></div><div id="filters" class="filters"></div><nav id="contextLinks" class="context-links" aria-label="本章的音乐线索"></nav></div><div id="timeline" class="timeline"></div></section>
+ <section class="panel chapter-intro"><h2>🎼 这一章怎么听？</h2><p id="chapterIntro"></p><p id="firstMission"></p><p id="heroGerman" class="quiet"></p><div class="intro-actions"><button id="startFromBeginning" class="primary-small">▶ 从头听这章</button><button data-action="overview">全曲线索</button><button data-action="glossary">小词典</button></div><div id="nextCard" class="next-card"></div></section>
+ <footer><span>Mahler 5 · Bernstein / Wiener Philharmoniker</span><button data-action="sources">音源与定位说明</button><span>Space 播放 · ← → 5 秒 · Esc 停止积木试听</span></footer>
+</main>
+<div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+<dialog id="dialog" aria-labelledby="dialogTitle"><div class="dialog-head"><h2 id="dialogTitle"></h2><button id="closeDialog" aria-label="关闭">×</button></div><div id="dialogBody"></div></dialog>
+</body></html>
