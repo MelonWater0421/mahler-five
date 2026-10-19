@@ -271,6 +271,8 @@
   function pausePlayback(){playbackIntent++;pendingAutoplay=false;audio.pause();updateClock();}
   async function play(){
     playbackIntent++;pendingAutoplay=false;stopSynth();
+    state.manualUntil=0;
+    followCurrent({force:true});
     try{await audio.play();}catch(err){if(err.name==='AbortError')return;toast(t('播放没有开始，请再点击播放；若音轨载入失败，可在「音源与校准」重试。','Playback did not start. Click Play again or check Audio Settings.'));}
     updateClock();
   }
@@ -285,10 +287,11 @@
     }catch{}
   }
 
-  function seek(time,autoplay=false,{preserveSynth=false,referenceTime=null}={}){
+  function seek(time,autoplay=false,{preserveSynth=false,referenceTime=null,scroll=true}={}){
     if(!preserveSynth)stopSynth();
     const target=E.clamp(time,0,Math.max(0,source().duration-.05));
     pendingSeek=target;pendingReference=referenceTime;
+    const prevActive=state.active;
     state.active=E.stageAt(stages,target);
     renderTelemetry();
     $('currentTime').textContent=fmt(target);
@@ -306,6 +309,7 @@
     }
 
     if(autoplay){
+      state.manualUntil=0;
       const p=play();
       if(p&&p.then){
         p.then(()=>{
@@ -314,6 +318,10 @@
           }
         });
       }
+    }
+    if(scroll&&(autoplay||state.active!==prevActive)){
+      if(autoplay)state.manualUntil=0;
+      followCurrent({force:autoplay||wantsPlayback()});
     }
   }
 
@@ -329,8 +337,8 @@
     if(state.loop&&!state.loop.once){const b=E.stageBounds(stages,index,source().duration);setLoop({...b,index});}
     if(loop){setLoop({start:s.start,end:Math.min(source().duration,s.start+15),index,referenceStart:movement().stages[index].start});}
     else if(state.loop?.once)state.loop=null;
-    state.active=index;seek(s.start,true,{referenceTime:movement().stages[index].start});renderToggles();
-    followCurrent();
+    state.manualUntil=0;
+    state.active=index;seek(s.start,true,{referenceTime:movement().stages[index].start,scroll:true});renderToggles();
   }
 
   function loadMovement(index,{time=0,referenceTime=null,autoplay=false,scroll=true}={}){
@@ -339,7 +347,8 @@
     state.index=index;state.active=0;state.filter='all';state.loop=null;pendingSeek=time;pendingReference=referenceTime;pendingAutoplay=autoplay;
     const serial=++loadSerial,intent=++playbackIntent;
     audio.src=source().url;audio.playbackRate=state.speed;rebuildStages();renderMovement();store();
-    if(scroll)window.scrollTo({top:0,behavior:reduced?'instant':'smooth'});updateHash(index,time);
+    if(scroll&&time<=0)window.scrollTo({top:0,behavior:reduced?'instant':'smooth'});
+    updateHash(index,time);
     audio.addEventListener('loadedmetadata',function ready(){
       if(serial!==loadSerial)return;
       const measured=audio.duration;
@@ -353,18 +362,30 @@
         }
         renderMovement();
       }
-      seek(pendingSeek,false,{preserveSynth:true});
+      seek(pendingSeek,false,{preserveSynth:true,scroll:scroll&&pendingSeek>0});
       if(pendingAutoplay&&intent===playbackIntent)play();
     },{once:true});
     audio.load();loadWave(index);
   }
 
   function updateHash(index,time){hashBusy=true;history.replaceState(null,'',`#movement=${index+1}${time>0?`&time=${Math.floor(time)}`:''}`);queueMicrotask(()=>hashBusy=false);}
-  function followCurrent(){
-    if(!state.follow||state.view!=='map'||performance.now()<state.manualUntil||!isPlaying())return;
-    const el=$(`stage-${state.active}`);if(!el)return;
-    const rect=el.getBoundingClientRect(),top=$('console').getBoundingClientRect().bottom+20;
-    if(rect.top<top||rect.bottom>innerHeight-30)el.scrollIntoView({behavior:reduced?'instant':'smooth',block:'center'});
+  function followCurrent({force=false}={}){
+    if(!state.follow||state.view!=='map')return;
+    if(!force&&(performance.now()<state.manualUntil||!wantsPlayback()))return;
+    let el=$(`stage-${state.active}`);
+    if(!el&&force&&state.filter!=='all'){
+      state.filter='all';renderFilters();renderTimeline();
+      el=$(`stage-${state.active}`);
+    }
+    if(!el)return;
+    const consoleBottom=$('console').getBoundingClientRect().bottom+16;
+    const rect=el.getBoundingClientRect();
+    if(force||rect.top<consoleBottom||rect.bottom>innerHeight-24){
+      const avail=Math.max(0,innerHeight-consoleBottom);
+      const pad=avail>rect.height+32?Math.min(48,(avail-rect.height)*0.22):0;
+      const targetY=Math.max(0,window.scrollY+rect.top-consoleBottom-pad);
+      window.scrollTo({top:targetY,behavior:reduced?'instant':'smooth'});
+    }
   }
 
   function audioTick(){
@@ -376,7 +397,7 @@
     }
     if(state.loop&&curT>=state.loop.end-.045){
       if(state.loop.once){audio.pause();state.loop=null;renderToggles();}
-      else{seek(state.loop.start,false);return;}
+      else{seek(state.loop.start,false,{scroll:false});return;}
     }
     const index=E.stageAt(stages,curT);
     if(index!==state.active){state.active=index;renderTelemetry();followCurrent();}
@@ -580,7 +601,7 @@
   $('play').onclick=togglePlay;$('back5').onclick=()=>seek(currentAudioTime()-5);$('forward5').onclick=()=>seek(currentAudioTime()+5);
   $('prevMovement').onclick=()=>loadMovement(state.index-1,{autoplay:wantsPlayback()});$('nextMovement').onclick=()=>loadMovement(state.index+1,{autoplay:wantsPlayback()});
   $('startFromBeginning').onclick=()=>{state.loop=null;renderToggles();seek(0,true);};
-  $('follow').onclick=()=>{state.follow=!state.follow;state.manualUntil=0;renderToggles();store();if(state.follow)followCurrent();};
+  $('follow').onclick=()=>{state.follow=!state.follow;state.manualUntil=0;renderToggles();store();if(state.follow)followCurrent({force:true});};
   $('continuous').onclick=()=>{state.continuous=!state.continuous;renderToggles();store();};
   $('loop').onclick=()=>{if(state.loop){state.loop=null;}else if(setLoop({...E.stageBounds(stages,state.active,source().duration),index:state.active})){const curT=currentAudioTime();if(curT<state.loop.start||curT>=state.loop.end)seek(state.loop.start);}renderToggles();};
   $('themeBtn').onclick=()=>{state.theme=state.theme==='dark'?'light':'dark';renderToggles();drawWave();store();};
@@ -590,18 +611,24 @@
   $('scrub').onpointermove=e=>{const box=$('scrub').getBoundingClientRect(),ratio=E.clamp((e.clientX-box.left)/box.width,0,1);$('waveHover').hidden=false;$('waveHover').textContent=fmt(ratio*source().duration);$('waveHover').style.left=`${Math.min(box.width-45,Math.max(0,ratio*box.width-20))}px`;};
   $('scrub').onpointerleave=()=>$('waveHover').hidden=true;
   $('closeDialog').onclick=closeDialog;
-  $('dialog').addEventListener('click',event=>{if(event.target===$('dialog')){const r=$('dialog').getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)closeDialog();}});
+  $('dialog').addEventListener('click',event=>{if(event.target===$('dialog')){const r=$('dialog').getBoundingClientRect();if(event.target===$('dialog')&&(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom))closeDialog();}});
   audio.addEventListener('timeupdate',audioTick);
   audio.addEventListener('seeked',()=>{
     pendingSeek=null;
     const curT=audio.currentTime||0;
-    state.active=E.stageAt(stages,curT);
+    const idx=E.stageAt(stages,curT);
+    const changed=idx!==state.active;
+    state.active=idx;
     state.positions[source().key]=curT;
     renderTelemetry();
     updateClock();
+    if(changed)followCurrent();
   });
-  audio.addEventListener('ended',ended);audio.addEventListener('play',()=>{stopSynth();updateClock();});audio.addEventListener('pause',()=>{updateClock();store();});audio.addEventListener('error',()=>{pausePlayback();toast(t('音轨未能载入。请检查文件或在「音源与校准」替换音轨。','Audio failed to load. Check file or replace in Settings.'));});audio.addEventListener('waiting',()=>{$('play').title=t('音频缓冲中','Buffering audio');});audio.addEventListener('playing',()=>{$('play').title=t('暂停','Pause');});audio.addEventListener('volumechange',renderToggles);
-  window.addEventListener('resize',drawWave);window.addEventListener('wheel',()=>state.manualUntil=performance.now()+10000,{passive:true});window.addEventListener('touchmove',()=>state.manualUntil=performance.now()+10000,{passive:true});window.addEventListener('pagehide',()=>{pausePlayback();stopSynth();store();});
+  audio.addEventListener('ended',ended);audio.addEventListener('play',()=>{stopSynth();updateClock();followCurrent();});audio.addEventListener('pause',()=>{updateClock();store();});audio.addEventListener('error',()=>{pausePlayback();toast(t('音轨未能载入。请检查文件或在「音源与校准」替换音轨。','Audio failed to load. Check file or replace in Settings.'));});audio.addEventListener('waiting',()=>{$('play').title=t('音频缓冲中','Buffering audio');});audio.addEventListener('playing',()=>{$('play').title=t('暂停','Pause');});audio.addEventListener('volumechange',renderToggles);
+  window.addEventListener('resize',drawWave);
+  window.addEventListener('wheel',e=>{if(!e.target?.closest?.('#console'))state.manualUntil=performance.now()+4000;},{passive:true});
+  window.addEventListener('touchmove',e=>{if(!e.target?.closest?.('#console'))state.manualUntil=performance.now()+4000;},{passive:true});
+  window.addEventListener('pagehide',()=>{pausePlayback();stopSynth();store();});
   window.addEventListener('keydown',event=>{if(event.code==='Escape'){stopSynth();return;}if(event.target.closest('input,select,textarea,button,a,summary')||$('dialog').open)return;if(event.code==='Space'){event.preventDefault();togglePlay();}else if(event.code==='ArrowLeft'){event.preventDefault();seek(currentAudioTime()-5);}else if(event.code==='ArrowRight'){event.preventDefault();seek(currentAudioTime()+5);}});
   
   const parseHash=()=>{const q=new URLSearchParams(location.hash.slice(1)),rawTime=Number(q.get('time'));return {index:Math.round(E.clamp((Number(q.get('movement'))||1)-1,0,D.movements.length-1)),time:Number.isFinite(rawTime)?Math.max(0,rawTime):0};};
