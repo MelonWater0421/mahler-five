@@ -7,7 +7,7 @@
   'use strict';
   const D=window.BRUCKNER_DATA||window.MAHLER_DATA,E=window.BrucknerEngine||window.MahlerEngine,$=id=>document.getElementById(id),asset=path=>window.BRUCKNER_ASSETS?.[path]||path;
   const fmt=E.formatTime,esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const storageKey='bruckner-eight-atlas-v3';
+  const storageKey='bruckner-eight-atlas-v4';
   let saved={};try{saved=JSON.parse(localStorage.getItem(storageKey)||'{}')||{};}catch{}
   saved.bookmarks=(Array.isArray(saved.bookmarks)?saved.bookmarks:[]).map(key=>D.metadata?.bookmarkMigration?.[key]||key);
   const state={index:0,active:0,view:'map',filter:'all',follow:saved.follow!==false,continuous:saved.continuous!==false,bookmarks:Array.isArray(saved.bookmarks)?saved.bookmarks:[],calibrations:saved.calibrations||{},positions:saved.positions||{},theme:saved.theme==='light'?'light':'dark',speed:[.75,1,1.25].includes(saved.speed)?saved.speed:1,loop:null,manualUntil:0,lang:saved.lang==='en'?'en':'zh'};
@@ -352,7 +352,7 @@
     audio.addEventListener('loadedmetadata',function ready(){
       if(serial!==loadSerial)return;
       const measured=audio.duration;
-      if(Number.isFinite(measured)&&measured>0){
+      if(source().custom&&Number.isFinite(measured)&&measured>0){
         source().duration=measured;rebuildStages();
         if(pendingReference!==null)pendingSeek=mappedTime(pendingReference);
         if(state.loop){

@@ -21,8 +21,8 @@ window.BRUCKNER_DATA = {
       "shortEn": "Allegro moderato",
       "originalTitle": "I. Allegro moderato (C minor · 417 Bars · Robert Haas Edition)",
       "duration": 908,
-      "audio": "assets/movement-1.mp3",
-      "rms": "assets/movement-1-rms.json",
+      "audio": "assets/movement-1.mp3?v=boulez3",
+      "rms": "assets/movement-1-rms.json?v=boulez3",
       "timing": "inherited",
       "audioMatched": true,
       "radarGroups": [
@@ -77,7 +77,7 @@ window.BRUCKNER_DATA = {
           "earprint_en": "First violins arch upward in warm G major with the signature 'two quarters + triplet' pulse.",
           "color": "#f59e0b",
           "stageIndex": 4,
-          "audioStart": 133.4
+          "audioStart": 133.6
         },
         {
           "id": "m1-steigerung",
@@ -97,7 +97,7 @@ window.BRUCKNER_DATA = {
           "earprint_en": "After the collapse, timpani tap a steady C pulse while strings repeat a falling four-note figure.",
           "color": "#8b5cf6",
           "stageIndex": 28,
-          "audioStart": 847.6
+          "audioStart": 849.8
         }
       ],
       "synthModes": [
@@ -653,7 +653,7 @@ window.BRUCKNER_DATA = {
           "name": "G 大调歌唱期（Gesangsperiode）：「2+3 布鲁克纳节奏」五部弦乐与木管对位",
           "name_en": "G-Major Gesangsperiode: '2+3 Bruckner Rhythm' in 5-Part Strings & Winds",
           "coord": "总谱第 51–62 小节 · 参考位置 02:13",
-          "realJumpSec": 133.4,
+          "realJumpSec": 133.6,
           "bpm": 88.0,
           "totalBeats": 48.0,
           "desc": "排练号 C（第 51–62 小节）：高音弦乐唱出温暖的「二拍 + 三连音」复合律动，中低音弦乐与随后加入的木管在下方织出天鹅绒般的多声部对位网。",
@@ -1974,8 +1974,8 @@ window.BRUCKNER_DATA = {
         {
           "name": "死亡时钟（Totenuhr）：定音鼓匀速滴答与弦乐下行拨弦",
           "name_en": "The Death Clock (Totenuhr): Ticking Timpani & Falling Pizzicatos",
-          "coord": "总谱第 393–402 小节 · 参考位置 14:07",
-          "realJumpSec": 847.6,
+          "coord": "总谱第 393–402 小节 · 参考位置 14:09",
+          "realJumpSec": 849.8,
           "bpm": 84.0,
           "totalBeats": 40.0,
           "desc": "排练号 V（第 393 小节）：定音鼓在 C 音上如怀表般匀速轻敲，弦乐不断重复四音下行音阶，单簧管在上方吐出幽灵般的残句。",
@@ -3054,10 +3054,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 18.1,
-              "label": "第 6 小节 · 木管凄厉半音叹息首次加入应答",
-              "label_en": "Bar 6 · Woodwinds enter with plaintive chromatic sighs",
-              "scoreTick": 2527,
+              "sec": 11.05,
+              "label": "第 5 小节 · 木管凄厉半音叹息首次加入应答",
+              "label_en": "Bar 5 · Woodwinds enter with plaintive chromatic sighs",
+              "scoreTick": 2047,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -3095,7 +3095,7 @@ window.BRUCKNER_DATA = {
           "score": {
             "bar": 1,
             "rehearsal": "Opening",
-            "label": "排练号 Opening · 第 1–11 小节 (Haas)",
+            "label": "排练号 Opening · 第 1–9 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
             "observation": "乐曲不在主调 C 小调开始，而是从悬空的 F 音震音（pp）切入。第 2 小节底部的低音弦乐潜入「短—长」附点加五连音的核心节奏细胞，在降 B 小调与降 D 大调之间游移，仿佛大教堂地基在迷雾中缓缓浮现。",
@@ -3110,7 +3110,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 127,
-            "localMeanCosine": 0.9827,
+            "localMeanCosine": 0.6359,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -3140,7 +3140,7 @@ window.BRUCKNER_DATA = {
         },
         {
           "id": "m1-s02",
-          "start": 33.8,
+          "start": 23.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -3155,8 +3155,8 @@ window.BRUCKNER_DATA = {
           "foreground_en": "Low strings & Bassoons: sequential upward climb of the fate rhythm",
           "background": "长笛、双簧管与单簧管：焦灼的半音下行叹息与渐强震音",
           "background_en": "Flutes, Oboes & Clarinets: anxious chromatic sighs and swelling tremolos",
-          "desc": "经历短暂的停顿后，低音弦乐提高音区发起第二次冲击。木管群的呼喊愈发急促，定音鼓在底部隐隐滚动，全乐队像拉满的巨弓般聚拢向主调的第一次全面爆发。",
-          "desc_en": "After a brief breath, low strings launch a higher sequential ascent. Woodwind cries intensify over a subterranean timpani roll, drawing the orchestra taut toward the first tutti eruption.",
+          "desc": "经历第 9 小节的短暂呼吸后，第 10 小节低音弦乐提高音区发起第二次冲击。木管群的呼喊愈发急促，定音鼓在底部隐隐滚动，全乐队像拉满的巨弓般聚拢向主调的第一次全面爆发。",
+          "desc_en": "After a brief breath in m. 9, low strings launch a higher sequential ascent at m. 10. Woodwind cries intensify over a subterranean timpani roll, drawing the orchestra taut toward the first tutti eruption.",
           "blocks": [
             "m1-rhythmic-cell"
           ],
@@ -3195,10 +3195,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 45.8,
-              "label": "第 17 小节 · 全乐队渐强直扑排练号 A",
-              "label_en": "Bar 17 · Orchestral crescendo surging into Letter A",
-              "scoreTick": 7807,
+              "sec": 37.96,
+              "label": "第 16 小节 · 全乐队渐强直扑排练号 A",
+              "label_en": "Bar 16 · Orchestral crescendo surging into Letter A",
+              "scoreTick": 7327,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -3234,13 +3234,13 @@ window.BRUCKNER_DATA = {
             }
           ],
           "score": {
-            "bar": 12,
-            "rehearsal": "m.12",
-            "label": "排练号 m.12 · 第 12–22 小节 (Haas)",
+            "bar": 10,
+            "rehearsal": "m.10",
+            "label": "排练号 m.10 · 第 10–22 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "经历短暂的停顿后，低音弦乐提高音区发起第二次冲击。木管群的呼喊愈发急促，定音鼓在底部隐隐滚动，全乐队像拉满的巨弓般聚拢向主调的第一次全面爆发。",
-            "observation_en": "After a brief breath, low strings launch a higher sequential ascent. Woodwind cries intensify over a subterranean timpani roll, drawing the orchestra taut toward the first tutti eruption.",
+            "observation": "经历第 9 小节的短暂呼吸后，第 10 小节低音弦乐提高音区发起第二次冲击。木管群的呼喊愈发急促，定音鼓在底部隐隐滚动，全乐队像拉满的巨弓般聚拢向主调的第一次全面爆发。",
+            "observation_en": "After a brief breath in m. 9, low strings launch a higher sequential ascent at m. 10. Woodwind cries intensify over a subterranean timpani roll, drawing the orchestra taut toward the first tutti eruption.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -3250,15 +3250,15 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 5407,
-            "localMeanCosine": 0.8138,
+            "scoreTick": 4447,
+            "localMeanCosine": 0.8891,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s03",
-          "start": 65.2,
+          "start": 65.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -3369,14 +3369,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 10687,
-            "localMeanCosine": 0.9142,
+            "localMeanCosine": 0.9166,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s04",
-          "start": 95.2,
+          "start": 95.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -3431,7 +3431,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 113.4,
+              "sec": 112.65,
               "label": "第 44 小节 · 第 45 小节弦乐与木管渐弱消散",
               "label_en": "Bar 44 · Strings and winds fade toward the General Pause",
               "scoreTick": 20767,
@@ -3487,14 +3487,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 17407,
-            "localMeanCosine": 0.9098,
+            "localMeanCosine": 0.9369,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s05",
-          "start": 133.4,
+          "start": 133.6,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -3549,7 +3549,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 145.2,
+              "sec": 145.44,
               "label": "第 57 小节 · 第 57 小节木管群加入温暖和声复沓",
               "label_en": "Bar 57 · Woodwinds join the warm harmonic statement at m. 57",
               "scoreTick": 27007,
@@ -3605,7 +3605,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 24127,
-            "localMeanCosine": 0.9103,
+            "localMeanCosine": 0.9204,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -3627,7 +3627,7 @@ window.BRUCKNER_DATA = {
                   "label_en": "Hear Gesangsperiode Entry",
                   "movement": 1,
                   "stageId": "m1-s05",
-                  "time": 133.4
+                  "time": 133.6
                 }
               ]
             }
@@ -3635,7 +3635,7 @@ window.BRUCKNER_DATA = {
         },
         {
           "id": "m1-s06",
-          "start": 158.6,
+          "start": 158.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -3690,7 +3690,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 169.6,
+              "sec": 169.66,
               "label": "第 68 小节 · 第 69 小节铜管温暖辉光托举歌唱顶点",
               "label_en": "Bar 68 · Brass warm glow supports the lyrical peak at m. 69",
               "scoreTick": 32287,
@@ -3746,14 +3746,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 29887,
-            "localMeanCosine": 0.9451,
+            "localMeanCosine": 0.8834,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s07",
-          "start": 184.8,
+          "start": 185.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -3808,7 +3808,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 197.4,
+              "sec": 197.46,
               "label": "第 79 小节 · 第 79 小节弦乐内声部半音爬升",
               "label_en": "Bar 79 · Chromatic inner-string ascent at m. 79",
               "scoreTick": 37567,
@@ -3864,7 +3864,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 34687,
-            "localMeanCosine": 0.923,
+            "localMeanCosine": 0.9294,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -3927,7 +3927,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 224.6,
+              "sec": 224.5,
               "label": "第 91 小节 · 第 91 小节全乐队音量陡增",
               "label_en": "Bar 91 · Orchestral dynamic surge at m. 91",
               "scoreTick": 43327,
@@ -3983,7 +3983,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 40447,
-            "localMeanCosine": 0.7752,
+            "localMeanCosine": 0.7109,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -4045,7 +4045,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 255.8,
+              "sec": 255.9,
               "label": "第 106 小节 · 第 108 小节排练号 F 调性进一步推高",
               "label_en": "Bar 106 · Letter F (m. 108) harmonic intensification",
               "scoreTick": 50527,
@@ -4101,7 +4101,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 46207,
-            "localMeanCosine": 0.9612,
+            "localMeanCosine": 0.9523,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -4163,7 +4163,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 296.8,
+              "sec": 299.12,
               "label": "第 127 小节 · 第 125 小节铜管圣咏最强音延展",
               "label_en": "Bar 127 · Peak brass chorale extension at m. 125",
               "scoreTick": 60607,
@@ -4219,14 +4219,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 54847,
-            "localMeanCosine": 0.8694,
+            "localMeanCosine": 0.8969,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s11",
-          "start": 325.0,
+          "start": 329.9,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -4281,7 +4281,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 344.2,
+              "sec": 344.28,
               "label": "第 146 小节 · 第 147 小节弦乐极弱长音收束呈示部",
               "label_en": "Bar 146 · Pianissimo string sustain closing the exposition at m. 147",
               "scoreTick": 69727,
@@ -4337,14 +4337,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 66367,
-            "localMeanCosine": 0.7272,
+            "localMeanCosine": 0.6772,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s12",
-          "start": 364.2,
+          "start": 361.3,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -4399,7 +4399,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 385.0,
+              "sec": 383.71,
               "label": "第 161 小节 · 第 163 小节排练号 H 低音主题碎片浮现",
               "label_en": "Bar 161 · Main theme fragment emerges at Letter H (m. 163)",
               "scoreTick": 76927,
@@ -4455,7 +4455,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 73087,
-            "localMeanCosine": 0.7111,
+            "localMeanCosine": 0.7185,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -4517,7 +4517,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 415.0,
+              "sec": 414.35,
               "label": "第 176 小节 · 第 177 小节弦乐声部加厚准备转位",
               "label_en": "Bar 176 · Strings thicken in preparation for the inversion at m. 177",
               "scoreTick": 84127,
@@ -4573,7 +4573,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 80767,
-            "localMeanCosine": 0.8818,
+            "localMeanCosine": 0.8813,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -4636,7 +4636,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 444.8,
+              "sec": 444.22,
               "label": "第 191 小节 · 第 193 小节排练号 I 倒影歌唱句全面展开",
               "label_en": "Bar 191 · Inverted cantabile phrase unfolds at Letter I (m. 193)",
               "scoreTick": 91327,
@@ -4692,14 +4692,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 87487,
-            "localMeanCosine": 0.8388,
+            "localMeanCosine": 0.8579,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s15",
-          "start": 461.8,
+          "start": 461.92,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -4755,7 +4755,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 475.6,
+              "sec": 476.0,
               "label": "第 207 小节 · 第 209 小节全弦乐震音陡然加密",
               "label_en": "Bar 207 · String tremolos intensify sharply at m. 209",
               "scoreTick": 99007,
@@ -4811,14 +4811,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 95167,
-            "localMeanCosine": 0.9365,
+            "localMeanCosine": 0.9254,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s16",
-          "start": 488.4,
+          "start": 488.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -4874,7 +4874,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 496.2,
+              "sec": 496.88,
               "label": "第 220 小节 · 第 221 小节铜管群集体切入强音",
               "label_en": "Bar 220 · Full brass fortissimo entry at m. 221",
               "scoreTick": 105247,
@@ -4930,7 +4930,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 102847,
-            "localMeanCosine": 0.9142,
+            "localMeanCosine": 0.9336,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -4993,7 +4993,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 516.8,
+              "sec": 518.52,
               "label": "第 230 小节 · 第 230 小节休止喘息后二次蓄力",
               "label_en": "Bar 230 · Brief breath at m. 230 before the second wave",
               "scoreTick": 110047,
@@ -5049,7 +5049,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 107647,
-            "localMeanCosine": 0.8811,
+            "localMeanCosine": 0.919,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -5063,16 +5063,16 @@ window.BRUCKNER_DATA = {
           "act": 2,
           "actName": "第二幕 · 展开部：圣咏静默、赋格风暴与末日浩劫",
           "actName_en": "Act II · Development: Chorale Silence, Fugato & Cataclysm",
-          "title": "第二、三重巨浪：排山倒海的半音阶顶峰冲刺",
-          "title_en": "Second & Third Waves: Relentless Climb to the Brink",
-          "focus": "三重梯级",
-          "focus_en": "Threefold Surge",
-          "foreground": "全铜管群与定音鼓：每隔数小节便拔高一层的雷霆齐奏",
-          "foreground_en": "Full Brass & Timpani: thunderous terraced bursts ratcheting higher every few bars",
+          "title": "第二重巨浪：排山倒海的半音阶顶峰冲刺",
+          "title_en": "Second Titanic Wave: Relentless Climb to the Brink",
+          "focus": "断崖巨浪",
+          "focus_en": "Second Surge",
+          "foreground": "全铜管群与定音鼓：拔高一层的雷霆齐奏与第 240 小节断崖休止",
+          "foreground_en": "Full Brass & Timpani: thunderous terraced burst and m. 240 cliff-edge pause",
           "background": "弦乐与木管声嘶力竭的极限震音",
           "background_en": "Strings and woodwinds at maximum tremolo intensity",
-          "desc": "第 235 小节起，全乐队掀起第二重、第三重巨浪（第 235–239、245–249 小节），每一次断崖式的休止之后都是更高、更猛烈的铜管雷暴，直到把整个交响建筑推向崩塌的边缘！",
-          "desc_en": "From m. 235 the orchestra hurls a second and third titanic wave across cliff-edge pauses, ratcheting the tension to the breaking point.",
+          "desc": "第 235–240 小节，全乐队掀起第二重巨浪，并在第 240 小节留下令人窒息的断崖式休止，把整个交响建筑推向排练号 M 终极爆发的边缘！",
+          "desc_en": "Across mm. 235–240 the orchestra hurls a second titanic wave into a cliff-edge pause at m. 240, ratcheting tension to the brink of Letter M.",
           "blocks": [
             "m1-rhythmic-cell",
             "m1-steigerung"
@@ -5100,22 +5100,22 @@ window.BRUCKNER_DATA = {
             "brass": {
               "active": true,
               "highlight": true,
-              "role": "重铜管连续三次将音高推向极限",
-              "role_en": "Heavy brass drive three successive waves to the registral ceiling"
+              "role": "重铜管将音高进一步推向极限",
+              "role_en": "Heavy brass drive the wave to the registral ceiling"
             },
             "perc": {
               "active": true,
               "highlight": true,
               "role": "定音鼓以雷霆万钧的滚奏推动巨浪",
-              "role_en": "Timpani propel the waves with thunderous rolls"
+              "role_en": "Timpani propel the wave with thunderous rolls"
             }
           },
           "cues": [
             {
-              "sec": 539.2,
-              "label": "第 241 小节 · 第 245 小节第三重巨浪冲向末日顶点",
-              "label_en": "Bar 241 · Third wave surges into the cataclysm at m. 245",
-              "scoreTick": 115327,
+              "sec": 536.58,
+              "label": "第 238 小节 · 第 238 小节断崖休止前的强音撕裂",
+              "label_en": "Bar 238 · Fortissimo burst before the m. 240 cliff-edge pause",
+              "scoreTick": 113887,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -5138,14 +5138,14 @@ window.BRUCKNER_DATA = {
                 "brass": {
                   "active": true,
                   "highlight": true,
-                  "role": "重铜管连续三次将音高推向极限",
-                  "role_en": "Heavy brass drive three successive waves to the registral ceiling"
+                  "role": "重铜管将音高进一步推向极限",
+                  "role_en": "Heavy brass drive the wave to the registral ceiling"
                 },
                 "perc": {
                   "active": true,
                   "highlight": true,
                   "role": "定音鼓以雷霆万钧的滚奏推动巨浪",
-                  "role_en": "Timpani propel the waves with thunderous rolls"
+                  "role_en": "Timpani propel the wave with thunderous rolls"
                 }
               }
             }
@@ -5153,11 +5153,11 @@ window.BRUCKNER_DATA = {
           "score": {
             "bar": 235,
             "rehearsal": "m.235",
-            "label": "排练号 m.235 · 第 235–246 小节 (Haas)",
+            "label": "排练号 m.235 · 第 235–240 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "第 235 小节起，全乐队掀起第二重、第三重巨浪（第 235–239、245–249 小节），每一次断崖式的休止之后都是更高、更猛烈的铜管雷暴，直到把整个交响建筑推向崩塌的边缘！",
-            "observation_en": "From m. 235 the orchestra hurls a second and third titanic wave across cliff-edge pauses, ratcheting the tension to the breaking point.",
+            "observation": "第 235–240 小节，全乐队掀起第二重巨浪，并在第 240 小节留下令人窒息的断崖式休止，把整个交响建筑推向排练号 M 终极爆发的边缘！",
+            "observation_en": "Across mm. 235–240 the orchestra hurls a second titanic wave into a cliff-edge pause at m. 240, ratcheting tension to the brink of Letter M.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -5168,14 +5168,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 112447,
-            "localMeanCosine": 0.8965,
+            "localMeanCosine": 0.914,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s19",
-          "start": 552.8,
+          "start": 546.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -5186,12 +5186,12 @@ window.BRUCKNER_DATA = {
           "title_en": "Letter M: Apocalyptic fff Climax on Blazing C Major",
           "focus": "末日顶点",
           "focus_en": "Cataclysmic Peak",
-          "foreground": "全铜管、木管与定音鼓：在刺眼的 C 大调上轰出拡大版主题节奏（fff）",
+          "foreground": "全铜管、木管与定音鼓：在刺眼的 C 大调上轰出扩大版主题节奏（fff）",
           "foreground_en": "Full Brass, Winds & Timpani: blinding C-major proclamation of the augmented theme (fff)",
           "background": "全弦乐撕裂般的震音巨浪",
           "background_en": "Searing full-string tremolo tempest",
-          "desc": "排练号 M（第 250 小节），展开部抵达令人战栗的最高潮（fff）！整个乐队在刺眼的 C 大调和弦上以扩大时值轰出核心节奏细胞——这不是欢庆的 C 大调，而是如闪电劈开黑夜般的末日审判。",
-          "desc_en": "At Letter M (m. 250), the development hits its terrifying fff climax: the entire orchestra blasts the augmented rhythmic cell on a blinding C-major triad like lightning splitting the night.",
+          "desc": "第 241–249 小节（排练号 M），展开部抵达令人战栗的最高潮（fff）！整个乐队在刺眼的 C 大调和弦上以扩大时值轰出核心节奏细胞——这不是欢庆的 C 大调，而是如闪电劈开黑夜般的末日审判。",
+          "desc_en": "Across mm. 241–249 (Letter M), the development hits its terrifying fff climax: the entire orchestra blasts the augmented rhythmic cell on a blinding C-major triad like lightning splitting the night.",
           "blocks": [
             "m1-rhythmic-cell",
             "m1-steigerung"
@@ -5231,10 +5231,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 562.4,
-              "label": "第 251 小节 · 第 250 小节排练号 M 三重强音爆发瞬间",
-              "label_en": "Bar 251 · Exact fff impact at Letter M (m. 250)",
-              "scoreTick": 120127,
+              "sec": 550.55,
+              "label": "第 245 小节 · 第 245 小节排练号 M 三重强音最高峰",
+              "label_en": "Bar 245 · Supreme fff impact at Letter M (m. 245)",
+              "scoreTick": 117247,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -5270,13 +5270,13 @@ window.BRUCKNER_DATA = {
             }
           ],
           "score": {
-            "bar": 247,
+            "bar": 241,
             "rehearsal": "M",
-            "label": "排练号 M · 第 247–255 小节 (Haas)",
+            "label": "排练号 M · 第 241–249 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "排练号 M（第 250 小节），展开部抵达令人战栗的最高潮（fff）！整个乐队在刺眼的 C 大调和弦上以扩大时值轰出核心节奏细胞——这不是欢庆的 C 大调，而是如闪电劈开黑夜般的末日审判。",
-            "observation_en": "At Letter M (m. 250), the development hits its terrifying fff climax: the entire orchestra blasts the augmented rhythmic cell on a blinding C-major triad like lightning splitting the night.",
+            "observation": "第 241–249 小节（排练号 M），展开部抵达令人战栗的最高潮（fff）！整个乐队在刺眼的 C 大调和弦上以扩大时值轰出核心节奏细胞——这不是欢庆的 C 大调，而是如闪电劈开黑夜般的末日审判。",
+            "observation_en": "Across mm. 241–249 (Letter M), the development hits its terrifying fff climax: the entire orchestra blasts the augmented rhythmic cell on a blinding C-major triad like lightning splitting the night.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -5286,8 +5286,8 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 118207,
-            "localMeanCosine": 0.7615,
+            "scoreTick": 115327,
+            "localMeanCosine": 0.8301,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -5308,7 +5308,7 @@ window.BRUCKNER_DATA = {
                   "label_en": "Jump to Cataclysm",
                   "movement": 1,
                   "stageId": "m1-s19",
-                  "time": 552.8
+                  "time": 546.0
                 }
               ]
             }
@@ -5316,7 +5316,7 @@ window.BRUCKNER_DATA = {
         },
         {
           "id": "m1-s20",
-          "start": 571.4,
+          "start": 559.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -5327,12 +5327,12 @@ window.BRUCKNER_DATA = {
           "title_en": "Cliff-Edge Plunge: Abrupt Cutoff & Ghostly Bridge",
           "focus": "断崖转折",
           "focus_en": "Abrupt Cutoff",
-          "foreground": "独奏木管与低音弦乐：在废墟上摸索的苍白残影",
+          "foreground": "独奏木管与低音弦乐：在全奏骤停后的废墟上幽微摸索",
           "foreground_en": "Solo Woodwinds & Low Strings: pale remnants groping through the aftermath",
           "background": "大教堂空间中漫长的强音残响消散",
           "background_en": "Long cathedral reverberation decaying into silence",
-          "desc": "末日强音如断崖般戛然而止，只留孤零零的木管与低音弦乐在废墟中摸索，悄无声息地滑入再现部。",
-          "desc_en": "The fff cataclysm cuts off over a precipice, leaving solitary woodwinds and low strings to grope through the aftermath into the recapitulation.",
+          "desc": "第 250 小节，末日强音如断崖般戛然而止！只留孤零零的木管与低音弦乐在死寂的废墟中摸索，悄无声息地滑入第 263 小节的再现部。",
+          "desc_en": "At m. 250, the fff cataclysm cuts off over a precipice, leaving solitary woodwinds and low strings to grope through the silence into the recapitulation.",
           "blocks": [
             "m1-rhythmic-cell"
           ],
@@ -5371,10 +5371,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 576.8,
-              "label": "第 259 小节 · 第 260 小节低音提琴悄然引出再现部",
-              "label_en": "Bar 259 · Double basses quietly usher in the recapitulation at m. 260",
-              "scoreTick": 123967,
+              "sec": 570.91,
+              "label": "第 256 小节 · 第 257 小节低音提琴悄然引出再现部",
+              "label_en": "Bar 256 · Double basses quietly usher in the recapitulation at m. 257",
+              "scoreTick": 122527,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -5410,13 +5410,13 @@ window.BRUCKNER_DATA = {
             }
           ],
           "score": {
-            "bar": 256,
-            "rehearsal": "m.256",
-            "label": "排练号 m.256 · 第 256–262 小节 (Haas)",
+            "bar": 250,
+            "rehearsal": "m.250",
+            "label": "排练号 m.250 · 第 250–262 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "末日强音如断崖般戛然而止，只留孤零零的木管与低音弦乐在废墟中摸索，悄无声息地滑入再现部。",
-            "observation_en": "The fff cataclysm cuts off over a precipice, leaving solitary woodwinds and low strings to grope through the aftermath into the recapitulation.",
+            "observation": "第 250 小节，末日强音如断崖般戛然而止！只留孤零零的木管与低音弦乐在死寂的废墟中摸索，悄无声息地滑入第 263 小节的再现部。",
+            "observation_en": "At m. 250, the fff cataclysm cuts off over a precipice, leaving solitary woodwinds and low strings to grope through the silence into the recapitulation.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -5426,15 +5426,15 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 122527,
-            "localMeanCosine": 0.7718,
+            "scoreTick": 119647,
+            "localMeanCosine": 0.7774,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s21",
-          "start": 584.4,
+          "start": 584.6,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -5448,7 +5448,7 @@ window.BRUCKNER_DATA = {
           "foreground": "大提琴与低音提琴：重现开篇的潜行主题",
           "foreground_en": "Cellos & Basses: restating the prowling opening theme",
           "background": "双簧管、单簧管与长笛：新加入的哀婉对位副旋律",
-          "background_en": "Oboes, Clarinets & Flutes: newly added哀婉 contrapuntal counter-melodies",
+          "background_en": "Oboes, Clarinets & Flutes: newly added contrapuntal counter-melodies",
           "desc": "排练号 N（第 263 小节），第一主题在幽暗中再现。与呈示部不同的是，此时木管声部在上方织入了凄美的对位线条，仿佛带着展开部劫难的记忆。",
           "desc_en": "At Letter N (m. 263), the main theme returns in the bass, now shadowed by poignant new woodwind counter-lines bearing the scars of the development.",
           "blocks": [
@@ -5489,7 +5489,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 601.4,
+              "sec": 601.25,
               "label": "第 273 小节 · 第 273 小节再现部第二次半音爬升",
               "label_en": "Bar 273 · Second chromatic ascent of the recapitulation at m. 273",
               "scoreTick": 130687,
@@ -5545,7 +5545,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 125887,
-            "localMeanCosine": 0.8313,
+            "localMeanCosine": 0.8318,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -5559,16 +5559,16 @@ window.BRUCKNER_DATA = {
           "act": 3,
           "actName": "第三幕 · 再现部与尾声：悲剧凯旋与死亡时钟",
           "actName_en": "Act III · Recapitulation & Coda: Tragic Triumph & Death Clock",
-          "title": "排练号 O：再现部全奏爆发与悲剧转折",
-          "title_en": "Letter O: Recapitulation Tutti Outburst & Tragic Turn",
-          "focus": "全奏再现",
-          "focus_en": "Tutti Return",
-          "foreground": "重铜管与圆号：再度咆哮的 C 小调主主题全奏",
-          "foreground_en": "Heavy Brass & Horns: roaring C-minor tutti return of the main theme",
-          "background": "弦乐激流与逐渐归于沉寂的休止过渡",
-          "background_en": "String torrents subsiding toward the General Pause",
-          "desc": "排练号 O（第 285 小节），全乐队再度爆发 C 小调全奏，随后在木管与圆号的叹息中渐弱，于第 310 小节再次迎来大休止符。",
-          "desc_en": "At Letter O (m. 285), the full orchestra erupts in C minor once more before subsiding through woodwind and horn sighs into the General Pause at m. 310.",
+          "title": "排练号 O：暗流蓄力、C 小调全奏爆发与大休止",
+          "title_en": "Letter O: Subterranean Surge, C-Minor Tutti Outburst & General Pause",
+          "focus": "蓄力全奏",
+          "focus_en": "Surge to Tutti",
+          "foreground": "低音弦乐与木管暗流蓄力 + 第 299 小节重铜管 C 小调全奏爆发（ff）",
+          "foreground_en": "Low-string/wind buildup + blazing C-minor heavy brass tutti outburst at m. 299 (ff)",
+          "background": "弦乐激流与第 310 小节归于死寂的全场大休止（GP）",
+          "background_en": "String torrents subsiding into the m. 310 General Pause",
+          "desc": "排练号 O（第 285 小节）起，低音弦乐与木管从幽暗中层层蓄力，于第 299 小节再度引爆雷霆万钧的 C 小调重铜管全奏（ff），随后在叹息中迅速退潮，于第 310 小节坠入全场大休止符。",
+          "desc_en": "From Letter O (m. 285), low strings and winds coil in dark buildup before erupting at m. 299 into a blazing C-minor brass tutti, subsiding into the General Pause at m. 310.",
           "blocks": [
             "m1-rhythmic-cell"
           ],
@@ -5583,8 +5583,8 @@ window.BRUCKNER_DATA = {
             "winds": {
               "active": true,
               "highlight": false,
-              "role": "后半段木管接手，将风暴导入大休止",
-              "role_en": "Woodwinds take over to guide the storm into the pause"
+              "role": "前后两端由木管引导蓄力与大休止前的退潮",
+              "role_en": "Woodwinds frame the buildup and the recession into the pause"
             },
             "horns": {
               "active": true,
@@ -5595,8 +5595,8 @@ window.BRUCKNER_DATA = {
             "brass": {
               "active": true,
               "highlight": true,
-              "role": "小号与长号再次轰出 C 小调主题",
-              "role_en": "Trumpets and trombones blast the C-minor theme anew"
+              "role": "小号与长号在第 299 小节轰出 C 小调全奏主题",
+              "role_en": "Trumpets and trombones blast the C-minor tutti at m. 299"
             },
             "perc": {
               "active": false,
@@ -5607,9 +5607,9 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 639.4,
-              "label": "第 297 小节 · 第 297 小节风暴退潮走向大休止",
-              "label_en": "Bar 297 · Storm recedes at m. 297 toward the General Pause",
+              "sec": 633.47,
+              "label": "第 297 小节 · 第 299 小节重铜管 C 小调全奏爆发",
+              "label_en": "Bar 297 · Heavy brass C-minor tutti outburst at m. 299",
               "scoreTick": 142207,
               "choirs": {
                 "strings": {
@@ -5621,8 +5621,8 @@ window.BRUCKNER_DATA = {
                 "winds": {
                   "active": true,
                   "highlight": false,
-                  "role": "后半段木管接手，将风暴导入大休止",
-                  "role_en": "Woodwinds take over to guide the storm into the pause"
+                  "role": "前后两端由木管引导蓄力与大休止前的退潮",
+                  "role_en": "Woodwinds frame the buildup and the recession into the pause"
                 },
                 "horns": {
                   "active": true,
@@ -5633,8 +5633,8 @@ window.BRUCKNER_DATA = {
                 "brass": {
                   "active": true,
                   "highlight": true,
-                  "role": "小号与长号再次轰出 C 小调主题",
-                  "role_en": "Trumpets and trombones blast the C-minor theme anew"
+                  "role": "小号与长号在第 299 小节轰出 C 小调全奏主题",
+                  "role_en": "Trumpets and trombones blast the C-minor tutti at m. 299"
                 },
                 "perc": {
                   "active": false,
@@ -5651,8 +5651,8 @@ window.BRUCKNER_DATA = {
             "label": "排练号 O · 第 283–310 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "排练号 O（第 285 小节），全乐队再度爆发 C 小调全奏，随后在木管与圆号的叹息中渐弱，于第 310 小节再次迎来大休止符。",
-            "observation_en": "At Letter O (m. 285), the full orchestra erupts in C minor once more before subsiding through woodwind and horn sighs into the General Pause at m. 310.",
+            "observation": "排练号 O（第 285 小节）起，低音弦乐与木管从幽暗中层层蓄力，于第 299 小节再度引爆雷霆万钧的 C 小调重铜管全奏（ff），随后在叹息中迅速退潮，于第 310 小节坠入全场大休止符。",
+            "observation_en": "From Letter O (m. 285), low strings and winds coil in dark buildup before erupting at m. 299 into a blazing C-minor brass tutti, subsiding into the General Pause at m. 310.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -5663,14 +5663,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 135487,
-            "localMeanCosine": 0.8928,
+            "localMeanCosine": 0.8408,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s23",
-          "start": 674.4,
+          "start": 674.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -5725,7 +5725,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 689.6,
+              "sec": 689.71,
               "label": "第 318 小节 · 第 319 小节木管声部加入歌唱扩展",
               "label_en": "Bar 318 · Woodwinds join the lyrical expansion at m. 319",
               "scoreTick": 152287,
@@ -5781,7 +5781,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 148927,
-            "localMeanCosine": 0.9681,
+            "localMeanCosine": 0.9628,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -5843,7 +5843,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 727.2,
+              "sec": 727.79,
               "label": "第 333 小节 · 第 333 小节木管与圆号幽暗问答",
               "label_en": "Bar 333 · Shadowed wind and horn dialogue at m. 333",
               "scoreTick": 159487,
@@ -5899,14 +5899,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 156127,
-            "localMeanCosine": 0.9426,
+            "localMeanCosine": 0.8972,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s25",
-          "start": 746.0,
+          "start": 746.5,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -5961,7 +5961,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 759.8,
+              "sec": 760.03,
               "label": "第 348 小节 · 第 349 小节全乐队进入排练号 S 前的狂飙",
               "label_en": "Bar 348 · Full orchestra hurtles toward Letter S at m. 349",
               "scoreTick": 166687,
@@ -6017,7 +6017,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 163327,
-            "localMeanCosine": 0.8643,
+            "localMeanCosine": 0.8548,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -6079,7 +6079,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 786.8,
+              "sec": 787.01,
               "label": "第 362 小节 · 第 363 小节铜管群全面切入准备轰鸣",
               "label_en": "Bar 362 · Brass choir locks in at m. 363 for the final onslaught",
               "scoreTick": 173407,
@@ -6135,14 +6135,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 170047,
-            "localMeanCosine": 0.8404,
+            "localMeanCosine": 0.8226,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s27",
-          "start": 799.2,
+          "start": 799.6,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -6153,12 +6153,12 @@ window.BRUCKNER_DATA = {
           "title_en": "Letter T: Three Trumpets Sound the Death Knell (fff)",
           "focus": "死神号角",
           "focus_en": "Death Knell Fanfare",
-          "foreground": "三支小号、长号与八支圆号：连续轰击第一主题的宿命节奏（fff）",
-          "foreground_en": "3 Trumpets, Trombones & 8 Horns: hammering the fate rhythm in relentless fff",
+          "foreground": "三支小号、长号与八支圆号：连续 20 小节轰击第一主题的宿命节奏（fff）",
+          "foreground_en": "3 Trumpets, Trombones & 8 Horns: hammering the fate rhythm for 20 bars in relentless fff",
           "background": "定音鼓雷霆重击与全弦乐 C 音震音火海",
           "background_en": "Thunderous timpani blows and a sea of C string tremolos",
-          "desc": "排练号 T（第 369 小节），三支小号与全体重铜管在 C 音上发出死神宣判般的连续轰鸣（fff）！长达 16 小节的铜管咆哮把悲剧推向令人窒息的极致。",
-          "desc_en": "At Letter T (m. 369), three trumpets and full heavy brass hammer out the fate rhythm on C in a relentless 16-bar fff death knell.",
+          "desc": "排练号 T（第 369–388 小节），三支小号与全体重铜管在 C 音上发出死神宣判般的连续轰鸣（fff）！长达 20 小节的铜管咆哮把悲剧推向令人窒息的极致。",
+          "desc_en": "At Letter T (mm. 369–388), three trumpets and full heavy brass hammer out the fate rhythm on C in a relentless 20-bar fff death knell.",
           "blocks": [
             "m1-rhythmic-cell",
             "m1-steigerung"
@@ -6186,8 +6186,8 @@ window.BRUCKNER_DATA = {
             "brass": {
               "active": true,
               "highlight": true,
-              "role": "三支小号与长号连续 16 小节轰出死神号角（fff）",
-              "role_en": "Three trumpets and trombones blast the 16-bar fff death knell"
+              "role": "三支小号与长号连续 20 小节轰出死神号角（fff）",
+              "role_en": "Three trumpets and trombones blast the 20-bar fff death knell"
             },
             "perc": {
               "active": true,
@@ -6198,10 +6198,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 815.2,
-              "label": "第 377 小节 · 第 377 小节铜管与定音鼓最后一次雷霆齐吼",
-              "label_en": "Bar 377 · Final thunderous brass and timpani roar at m. 377",
-              "scoreTick": 180607,
+              "sec": 818.75,
+              "label": "第 379 小节 · 第 379 小节铜管与定音鼓最后一次雷霆齐吼",
+              "label_en": "Bar 379 · Final thunderous brass and timpani roar at m. 379",
+              "scoreTick": 181567,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -6224,8 +6224,8 @@ window.BRUCKNER_DATA = {
                 "brass": {
                   "active": true,
                   "highlight": true,
-                  "role": "三支小号与长号连续 16 小节轰出死神号角（fff）",
-                  "role_en": "Three trumpets and trombones blast the 16-bar fff death knell"
+                  "role": "三支小号与长号连续 20 小节轰出死神号角（fff）",
+                  "role_en": "Three trumpets and trombones blast the 20-bar fff death knell"
                 },
                 "perc": {
                   "active": true,
@@ -6239,11 +6239,11 @@ window.BRUCKNER_DATA = {
           "score": {
             "bar": 369,
             "rehearsal": "T",
-            "label": "排练号 T · 第 369–384 小节 (Haas)",
+            "label": "排练号 T · 第 369–388 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "排练号 T（第 369 小节），三支小号与全体重铜管在 C 音上发出死神宣判般的连续轰鸣（fff）！长达 16 小节的铜管咆哮把悲剧推向令人窒息的极致。",
-            "observation_en": "At Letter T (m. 369), three trumpets and full heavy brass hammer out the fate rhythm on C in a relentless 16-bar fff death knell.",
+            "observation": "排练号 T（第 369–388 小节），三支小号与全体重铜管在 C 音上发出死神宣判般的连续轰鸣（fff）！长达 20 小节的铜管咆哮把悲剧推向令人窒息的极致。",
+            "observation_en": "At Letter T (mm. 369–388), three trumpets and full heavy brass hammer out the fate rhythm on C in a relentless 20-bar fff death knell.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -6254,14 +6254,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 176767,
-            "localMeanCosine": 0.7749,
+            "localMeanCosine": 0.6985,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s28",
-          "start": 835.2,
+          "start": 840.21,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -6276,8 +6276,8 @@ window.BRUCKNER_DATA = {
           "foreground_en": "Horns & Woodwinds: grieving cries amid the smoking ruins",
           "background": "第 392 小节深不见底的全乐队大休止（GP）",
           "background_en": "Abyssal General Pause at m. 392",
-          "desc": "第 385 小节（排练号 U），铜管的轰鸣突然坍塌！木管与圆号发出几声凄凉的哀叹后，第 392 小节全乐队陷入死一般的「大休止（Generalpause）」。",
-          "desc_en": "At Letter U (m. 385), the brass edifice collapses abruptly. After a few desolate cries from winds and horns, the orchestra falls into an abyssal General Pause at m. 392.",
+          "desc": "第 389 小节，铜管的雷霆轰鸣突然坍塌！木管与圆号发出几声凄凉的哀叹后，第 392 小节全乐队陷入死一般的「大休止（Generalpause）」。",
+          "desc_en": "At m. 389, the brass edifice collapses abruptly. After a few desolate cries from winds and horns, the orchestra falls into an abyssal General Pause at m. 392.",
           "blocks": [
             "m1-rhythmic-cell",
             "m1-todesuhr"
@@ -6315,54 +6315,15 @@ window.BRUCKNER_DATA = {
               "role_en": "Timpani and harps poised for structural articulatory points"
             }
           },
-          "cues": [
-            {
-              "sec": 841.2,
-              "label": "第 389 小节 · 第 390 小节大休止前的孤寂余音",
-              "label_en": "Bar 389 · Desolate final echo at m. 390 before the General Pause",
-              "scoreTick": 186367,
-              "choirs": {
-                "strings": {
-                  "active": true,
-                  "highlight": false,
-                  "role": "弦乐群维持内声部和声衬底与呼吸支撑",
-                  "role_en": "Strings sustain inner harmonic cushion and breathing pulse"
-                },
-                "winds": {
-                  "active": true,
-                  "highlight": true,
-                  "role": "木管声部在休止符前作最后一声哀鸣",
-                  "role_en": "Woodwinds breathe a final lament before the silence"
-                },
-                "horns": {
-                  "active": true,
-                  "highlight": true,
-                  "role": "圆号吹出支离破碎的垂死叹息",
-                  "role_en": "Horns utter broken, dying sighs"
-                },
-                "brass": {
-                  "active": true,
-                  "highlight": false,
-                  "role": "重铜管蓄势待发，把控建筑高潮的承重柱",
-                  "role_en": "Heavy brass in reserve for structural climactic pillars"
-                },
-                "perc": {
-                  "active": true,
-                  "highlight": false,
-                  "role": "定音鼓与竖琴静候关键结构节点",
-                  "role_en": "Timpani and harps poised for structural articulatory points"
-                }
-              }
-            }
-          ],
+          "cues": [],
           "score": {
-            "bar": 385,
+            "bar": 389,
             "rehearsal": "U",
-            "label": "排练号 U · 第 385–392 小节 (Haas)",
+            "label": "排练号 U · 第 389–392 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "第 385 小节（排练号 U），铜管的轰鸣突然坍塌！木管与圆号发出几声凄凉的哀叹后，第 392 小节全乐队陷入死一般的「大休止（Generalpause）」。",
-            "observation_en": "At Letter U (m. 385), the brass edifice collapses abruptly. After a few desolate cries from winds and horns, the orchestra falls into an abyssal General Pause at m. 392.",
+            "observation": "第 389 小节，铜管的雷霆轰鸣突然坍塌！木管与圆号发出几声凄凉的哀叹后，第 392 小节全乐队陷入死一般的「大休止（Generalpause）」。",
+            "observation_en": "At m. 389, the brass edifice collapses abruptly. After a few desolate cries from winds and horns, the orchestra falls into an abyssal General Pause at m. 392.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -6372,15 +6333,15 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 184447,
-            "localMeanCosine": 0.5481,
+            "scoreTick": 186367,
+            "localMeanCosine": 0.8759,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m1-s29",
-          "start": 847.6,
+          "start": 849.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -6435,7 +6396,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 864.0,
+              "sec": 867.64,
               "label": "第 399 小节 · 第 399 小节单簧管叹息消散于拨弦声中",
               "label_en": "Bar 399 · Clarinet sigh dissolves into the ticking pizzicatos at m. 399",
               "scoreTick": 191167,
@@ -6491,7 +6452,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 188287,
-            "localMeanCosine": 0.8181,
+            "localMeanCosine": 0.8492,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -6513,7 +6474,7 @@ window.BRUCKNER_DATA = {
                   "label_en": "Jump to Death Clock",
                   "movement": 1,
                   "stageId": "m1-s29",
-                  "time": 847.6
+                  "time": 849.8
                 }
               ]
             }
@@ -6521,7 +6482,7 @@ window.BRUCKNER_DATA = {
         },
         {
           "id": "m1-s30",
-          "start": 878.0,
+          "start": 881.4,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -6576,7 +6537,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 891.3,
+              "sec": 892.79,
               "label": "第 411 小节 · 第 413 小节最后三次 ppp 命运低语",
               "label_en": "Bar 411 · Final three ppp whispers of fate at m. 413",
               "scoreTick": 196927,
@@ -6632,7 +6593,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 194047,
-            "localMeanCosine": 0.8057,
+            "localMeanCosine": 0.8311,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -7249,8 +7210,8 @@ window.BRUCKNER_DATA = {
       "shortEn": "Scherzo & Trio",
       "originalTitle": "II. Scherzo: Allegro moderato — Trio: Langsam (483 Bars · Robert Haas Edition)",
       "duration": 819,
-      "audio": "assets/movement-2.mp3",
-      "rms": "assets/movement-2-rms.json",
+      "audio": "assets/movement-2.mp3?v=boulez3",
+      "rms": "assets/movement-2-rms.json?v=boulez3",
       "timing": "inherited",
       "audioMatched": true,
       "radarGroups": [
@@ -9866,8 +9827,8 @@ window.BRUCKNER_DATA = {
         {
           "name": "谐谑曲中段展开（排练号 E）：米歇尔动机的幽微倒影（Inversion）",
           "name_en": "Scherzo Development (Letter E): Hushed Inversion of the Michel Motif",
-          "coord": "总谱第 65–74 小节 · 参考位置 01:35",
-          "realJumpSec": 95.6,
+          "coord": "总谱第 65–74 小节 · 参考位置 01:37",
+          "realJumpSec": 97.3,
           "bpm": 126.0,
           "totalBeats": 30.0,
           "desc": "排练号 E（第 65–74 小节）：原本向下砸的五度动机被上下翻转（倒影），在极弱（pp）的弦乐内声部与木管之间如森林暗影般悄然传递。",
@@ -10938,7 +10899,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 14.4,
+              "sec": 14.31,
               "label": "第 10 小节 · 第 11 小节木管跳音加入乡村旋风",
               "label_en": "Bar 10 · Staccato woodwinds join the rustic whirlwind at m. 11",
               "scoreTick": 3367,
@@ -10994,7 +10955,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 127,
-            "localMeanCosine": 0.8128,
+            "localMeanCosine": 0.9204,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -11080,7 +11041,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 41.4,
+              "sec": 40.11,
               "label": "第 29 小节 · 第 25 小节排练号 B 圆号与木管灵动对话",
               "label_en": "Bar 29 · Playful horn and woodwind dialogue at Letter B (m. 25)",
               "scoreTick": 10207,
@@ -11136,14 +11097,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 6607,
-            "localMeanCosine": 0.916,
+            "localMeanCosine": 0.9316,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s03",
-          "start": 56.2,
+          "start": 53.1,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -11198,7 +11159,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 75.2,
+              "sec": 73.85,
               "label": "第 52 小节 · 第 53 小节排练号 D 铜管最强音冲刺",
               "label_en": "Bar 52 · Brass fortissimo sprint at Letter D (m. 53)",
               "scoreTick": 18487,
@@ -11254,14 +11215,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 13807,
-            "localMeanCosine": 0.9213,
+            "localMeanCosine": 0.8799,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s04",
-          "start": 95.6,
+          "start": 97.3,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -11317,7 +11278,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 109.6,
+              "sec": 109.07,
               "label": "第 75 小节 · 第 75 小节木管与弦乐半音转调交织",
               "label_en": "Bar 75 · Chromatic wind and string interweaving at m. 75",
               "scoreTick": 26767,
@@ -11373,14 +11334,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 23167,
-            "localMeanCosine": 0.6601,
+            "localMeanCosine": 0.7384,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s05",
-          "start": 123.1,
+          "start": 120.1,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -11435,7 +11396,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 136.6,
+              "sec": 135.09,
               "label": "第 94 小节 · 第 95 小节排练号 G 定音鼓与木管精妙对位",
               "label_en": "Bar 94 · Delicate timpani and woodwind counterpoint at Letter G (m. 95)",
               "scoreTick": 33607,
@@ -11491,7 +11452,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 30367,
-            "localMeanCosine": 0.8328,
+            "localMeanCosine": 0.7804,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -11554,7 +11515,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 164.2,
+              "sec": 164.4,
               "label": "第 112 小节 · 第 111 小节重铜管切入加速推向顶点",
               "label_en": "Bar 112 · Heavy brass join at m. 111 to drive toward the peak",
               "scoreTick": 40087,
@@ -11610,14 +11571,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 36847,
-            "localMeanCosine": 0.9164,
+            "localMeanCosine": 0.8848,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s07",
-          "start": 177.8,
+          "start": 178.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -11673,7 +11634,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 188.4,
+              "sec": 188.66,
               "label": "第 128 小节 · 第 129 小节弦乐震音悬索直通排练号 K",
               "label_en": "Bar 128 · Tremolo bridge leading into Letter K at m. 129",
               "scoreTick": 45847,
@@ -11729,14 +11690,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 43327,
-            "localMeanCosine": 0.8598,
+            "localMeanCosine": 0.8484,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s08",
-          "start": 197.2,
+          "start": 197.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -11792,7 +11753,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 215.2,
+              "sec": 215.65,
               "label": "第 147 小节 · 第 153 小节排练号 L 木管与圆号问答",
               "label_en": "Bar 147 · Woodwind and horn interplay at Letter L (m. 153)",
               "scoreTick": 52687,
@@ -11848,14 +11809,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 48367,
-            "localMeanCosine": 0.8636,
+            "localMeanCosine": 0.847,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s09",
-          "start": 232.4,
+          "start": 232.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -11910,7 +11871,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 245.2,
+              "sec": 244.19,
               "label": "第 168 小节 · 第 169 小节排练号 N 全乐队音量陡升",
               "label_en": "Bar 168 · Dynamic surge across the orchestra at Letter N (m. 169)",
               "scoreTick": 60247,
@@ -11966,14 +11927,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 57007,
-            "localMeanCosine": 0.7828,
+            "localMeanCosine": 0.7629,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s10",
-          "start": 259.6,
+          "start": 257.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -12029,7 +11990,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 272.6,
+              "sec": 273.54,
               "label": "第 187 小节 · 第 187 小节排练号 P 终极全奏冲刺",
               "label_en": "Bar 187 · Final tutti sprint at Letter P (m. 187)",
               "scoreTick": 67087,
@@ -12085,14 +12046,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 63847,
-            "localMeanCosine": 0.7939,
+            "localMeanCosine": 0.7931,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s11",
-          "start": 287.2,
+          "start": 288.3,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -12147,7 +12108,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 303.4,
+              "sec": 307.12,
               "label": "第 203 小节 · 第 204 小节木管加入田园牧歌对话",
               "label_en": "Bar 203 · Woodwinds join the pastoral dialogue at m. 204",
               "scoreTick": 72007,
@@ -12203,14 +12164,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 70327,
-            "localMeanCosine": 0.697,
+            "localMeanCosine": 0.631,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s12",
-          "start": 319.8,
+          "start": 325.6,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -12265,7 +12226,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 333.2,
+              "sec": 336.2,
               "label": "第 215 小节 · 第 216 小节渐慢准备迎接竖琴破晓",
               "label_en": "Bar 215 · Gentle broadening at m. 216 before the harps enter",
               "scoreTick": 74887,
@@ -12321,7 +12282,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 73687,
-            "localMeanCosine": 0.9308,
+            "localMeanCosine": 0.9067,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -12439,7 +12400,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 76327,
-            "localMeanCosine": 0.9223,
+            "localMeanCosine": 0.8845,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -12524,7 +12485,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 392.2,
+              "sec": 392.44,
               "label": "第 239 小节 · 第 241 小节排练号 C 竖琴与圆号再度交融",
               "label_en": "Bar 239 · Harps and horns blend anew at Trio Letter C (m. 241)",
               "scoreTick": 80647,
@@ -12580,7 +12541,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 79207,
-            "localMeanCosine": 0.9111,
+            "localMeanCosine": 0.9218,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -12642,7 +12603,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 431.8,
+              "sec": 432.45,
               "label": "第 253 小节 · 第 253 小节弦乐与木管温柔过渡向再现",
               "label_en": "Bar 253 · Strings and winds transition gently toward the Trio return at m. 253",
               "scoreTick": 84007,
@@ -12698,14 +12659,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 82087,
-            "localMeanCosine": 0.9252,
+            "localMeanCosine": 0.9618,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s16",
-          "start": 454.6,
+          "start": 455.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -12760,7 +12721,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 472.6,
+              "sec": 472.69,
               "label": "第 268 小节 · 第 269 小节竖琴再度加入温暖伴奏",
               "label_en": "Bar 268 · Harps rejoin the warm accompaniment at m. 269",
               "scoreTick": 87607,
@@ -12816,7 +12777,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 85927,
-            "localMeanCosine": 0.7659,
+            "localMeanCosine": 0.7385,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -12878,7 +12839,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 507.6,
+              "sec": 507.69,
               "label": "第 282 小节 · 第 283 小节竖琴最后一次琶音升空",
               "label_en": "Bar 282 · Final ascending harp arpeggio at m. 283",
               "scoreTick": 90967,
@@ -12934,14 +12895,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 89287,
-            "localMeanCosine": 0.8857,
+            "localMeanCosine": 0.8884,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s18",
-          "start": 527.0,
+          "start": 527.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -12997,7 +12958,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 545.2,
+              "sec": 545.35,
               "label": "第 301 小节 · 第 307 小节（Da Capo A）木管与弦乐声部轮转",
               "label_en": "Bar 301 · Woodwind and string rotation at m. 307 (Da Capo A)",
               "scoreTick": 96967,
@@ -13053,7 +13014,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 92647,
-            "localMeanCosine": 0.8743,
+            "localMeanCosine": 0.9117,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -13115,7 +13076,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 576.4,
+              "sec": 576.34,
               "label": "第 322 小节 · 第 325 小节全乐队渐强扑向铜管爆发",
               "label_en": "Bar 322 · Orchestral crescendo surging toward the brass entry at m. 325",
               "scoreTick": 104527,
@@ -13171,7 +13132,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 101287,
-            "localMeanCosine": 0.7657,
+            "localMeanCosine": 0.7518,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -13233,7 +13194,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 605.7,
+              "sec": 606.81,
               "label": "第 342 小节 · 第 341 小节（Da Capo D）重铜管最强音推顶",
               "label_en": "Bar 342 · Heavy brass peak at m. 341 (Da Capo D)",
               "scoreTick": 111727,
@@ -13289,14 +13250,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 108127,
-            "localMeanCosine": 0.8184,
+            "localMeanCosine": 0.8487,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s21",
-          "start": 623.2,
+          "start": 625.6,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -13352,7 +13313,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 636.2,
+              "sec": 636.38,
               "label": "第 363 小节 · 第 363 小节内声部半音阶游移",
               "label_en": "Bar 363 · Inner-voice chromatic wandering at m. 363",
               "scoreTick": 119287,
@@ -13408,14 +13369,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 115687,
-            "localMeanCosine": 0.6903,
+            "localMeanCosine": 0.7376,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s22",
-          "start": 651.2,
+          "start": 648.3,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -13470,7 +13431,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 665.2,
+              "sec": 663.99,
               "label": "第 382 小节 · 第 383 小节（Da Capo G）木管与定音鼓精巧咬合",
               "label_en": "Bar 382 · Delicate woodwind and timpani interlock at m. 383",
               "scoreTick": 126127,
@@ -13526,7 +13487,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 122887,
-            "localMeanCosine": 0.8646,
+            "localMeanCosine": 0.8044,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -13589,7 +13550,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 693.4,
+              "sec": 693.45,
               "label": "第 400 小节 · 第 399 小节铜管声部切入抬升音区",
               "label_en": "Bar 400 · Brass enter at m. 399 to lift the register",
               "scoreTick": 132607,
@@ -13645,7 +13606,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 129367,
-            "localMeanCosine": 0.9365,
+            "localMeanCosine": 0.883,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -13708,7 +13669,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 717.8,
+              "sec": 717.92,
               "label": "第 416 小节 · 第 417 小节圆号吹响最后再现的先导音",
               "label_en": "Bar 416 · Horns sound the herald for the final return at m. 417",
               "scoreTick": 138367,
@@ -13764,7 +13725,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 135847,
-            "localMeanCosine": 0.8765,
+            "localMeanCosine": 0.855,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -13827,7 +13788,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 745.2,
+              "sec": 745.54,
               "label": "第 435 小节 · 第 441 小节（Da Capo L）木管轻巧回旋",
               "label_en": "Bar 435 · Nimble woodwind turn at m. 441 (Da Capo L)",
               "scoreTick": 145207,
@@ -13883,7 +13844,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 140887,
-            "localMeanCosine": 0.8124,
+            "localMeanCosine": 0.8459,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -13945,7 +13906,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 775.4,
+              "sec": 775.12,
               "label": "第 456 小节 · 第 457 小节（Da Capo N）全乐队扑向终局",
               "label_en": "Bar 456 · Full orchestra hurtles into the finale at m. 457",
               "scoreTick": 152767,
@@ -14001,14 +13962,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 149527,
-            "localMeanCosine": 0.7879,
+            "localMeanCosine": 0.7407,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m2-s27",
-          "start": 790.0,
+          "start": 789.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -14064,7 +14025,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 801.4,
+              "sec": 801.11,
               "label": "第 474 小节 · 第 475 小节最后九小节全乐队极限狂飙",
               "label_en": "Bar 474 · Final nine bars of maximum orchestral fury at m. 475",
               "scoreTick": 159247,
@@ -14120,7 +14081,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 156367,
-            "localMeanCosine": 0.775,
+            "localMeanCosine": 0.7755,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -14737,8 +14698,8 @@ window.BRUCKNER_DATA = {
       "shortEn": "Adagio: Feierlich langsam",
       "originalTitle": "III. Adagio: Feierlich langsam; doch nicht schleppend (301 Bars · Robert Haas Edition)",
       "duration": 1492,
-      "audio": "assets/movement-3.mp3",
-      "rms": "assets/movement-3-rms.json",
+      "audio": "assets/movement-3.mp3?v=boulez3",
+      "rms": "assets/movement-3-rms.json?v=boulez3",
       "timing": "inherited",
       "audioMatched": true,
       "radarGroups": [
@@ -14793,7 +14754,7 @@ window.BRUCKNER_DATA = {
           "earprint_en": "Solemn four-part Wagner tuba chorales (Letter B, 02:45) paired with the soulful quintuplet cello cantabile in E and B-flat major (Letters C 04:35, I 11:40).",
           "color": "#a855f7",
           "stageIndex": 4,
-          "audioStart": 164.6
+          "audioStart": 165.4
         },
         {
           "id": "m3-cymbal-peak",
@@ -14803,7 +14764,7 @@ window.BRUCKNER_DATA = {
           "earprint_en": "At m. 249 (Letter U, 19:40), full brass fling open E-flat major crowned by crashing cymbals, triangle, and three cascading harps.",
           "color": "#f43f5e",
           "stageIndex": 35,
-          "audioStart": 1179.9
+          "audioStart": 1180.0
         },
         {
           "id": "m3-coda-peace",
@@ -16529,8 +16490,8 @@ window.BRUCKNER_DATA = {
         {
           "name": "排练号 B：瓦格纳大号、圆号与长号的修道院圣咏",
           "name_en": "Letter B: Monastic Chorale of Wagner Tubas, Horns & Trombones",
-          "coord": "总谱第 29–35 小节 · 参考位置 02:44",
-          "realJumpSec": 164.6,
+          "coord": "总谱第 29–35 小节 · 参考位置 02:45",
+          "realJumpSec": 165.4,
           "bpm": 44.0,
           "totalBeats": 28.0,
           "desc": "第 29–35 小节：瓦格纳大号、圆号与长号交织出深沉庄严的四部圣咏，木管与弦乐在句间作虔诚的呼吸应答。",
@@ -18893,8 +18854,8 @@ window.BRUCKNER_DATA = {
         {
           "name": "排练号 U：银河绝顶（fff）· 降 E 大调铜管圣号、三把竖琴与大钹轰鸣",
           "name_en": "Letter U: Cosmic Summit (fff) · E-Flat Brass, 3 Harps & Cymbals",
-          "coord": "总谱第 249–254 小节 · 参考位置 19:39",
-          "realJumpSec": 1179.9,
+          "coord": "总谱第 249–254 小节 · 参考位置 19:40",
+          "realJumpSec": 1180.0,
           "bpm": 50.0,
           "totalBeats": 24.0,
           "desc": "第 249–254 小节：全曲慢板最高潮！全体铜管在降 E 大调上轰出天国圣号，三把竖琴掀起飞瀑般的琶音，定音鼓与大钹辉煌轰鸣！",
@@ -21270,7 +21231,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 18.6,
+              "sec": 21.3,
               "label": "第 4 小节 · 第 5 小节木管与圆号首次轻柔托举",
               "label_en": "Bar 4 · Woodwinds and horns gently support the arch at m. 5",
               "scoreTick": 1567,
@@ -21326,7 +21287,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 127,
-            "localMeanCosine": 0.8007,
+            "localMeanCosine": 0.8014,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -21356,7 +21317,7 @@ window.BRUCKNER_DATA = {
         },
         {
           "id": "m3-s02",
-          "start": 39.8,
+          "start": 45.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -21411,7 +21372,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 55.2,
+              "sec": 58.5,
               "label": "第 11 小节 · 第 12 小节全乐队渐强迈向天国拱门",
               "label_en": "Bar 11 · Orchestral crescendo approaching Heaven's Gate at m. 12",
               "scoreTick": 4927,
@@ -21467,7 +21428,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 3487,
-            "localMeanCosine": 0.8676,
+            "localMeanCosine": 0.8443,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -21489,8 +21450,8 @@ window.BRUCKNER_DATA = {
           "foreground_en": "High octave violin hymn + radiant ascending arpeggios in 3 Harps",
           "background": "圆号与木管饱满的 A 大调/降 D 大调辉光",
           "background_en": "Rich A-major / D-flat major glow in horns and woodwinds",
-          "desc": "排练号 A（第 15 小节），音乐豁然开朗！三把竖琴伴随高音弦乐的庄严圣歌如瀑布般向上倾泻，仿佛大教堂彩绘玻璃窗被正午阳光瞬间照亮。",
-          "desc_en": "At Letter A (m. 15), the heavens open: three harps cascade upward beneath a radiant high-string hymn like sunlight flooding stained glass.",
+          "desc": "排练号 A（第 15–20 小节），音乐豁然开朗！三把竖琴伴随高音弦乐的庄严圣歌如瀑布般向上倾泻，仿佛大教堂彩绘玻璃窗被正午阳光瞬间照亮，并在第 20 小节留下神圣的休止回响。",
+          "desc_en": "At Letter A (mm. 15–20), the heavens open: three harps cascade upward beneath a radiant high-string hymn like sunlight flooding stained glass, pausing in sacred resonance at m. 20.",
           "blocks": [
             "m3-sehnsucht",
             "m3-cymbal-peak"
@@ -21530,7 +21491,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 96.2,
+              "sec": 97.14,
               "label": "第 18 小节 · 第 18 小节竖琴琶音第二次冲顶发光",
               "label_en": "Bar 18 · Second luminous harp crest at m. 18",
               "scoreTick": 8287,
@@ -21571,11 +21532,11 @@ window.BRUCKNER_DATA = {
           "score": {
             "bar": 15,
             "rehearsal": "A",
-            "label": "排练号 A · 第 15–21 小节 (Haas)",
+            "label": "排练号 A · 第 15–20 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "排练号 A（第 15 小节），音乐豁然开朗！三把竖琴伴随高音弦乐的庄严圣歌如瀑布般向上倾泻，仿佛大教堂彩绘玻璃窗被正午阳光瞬间照亮。",
-            "observation_en": "At Letter A (m. 15), the heavens open: three harps cascade upward beneath a radiant high-string hymn like sunlight flooding stained glass.",
+            "observation": "排练号 A（第 15–20 小节），音乐豁然开朗！三把竖琴伴随高音弦乐的庄严圣歌如瀑布般向上倾泻，仿佛大教堂彩绘玻璃窗被正午阳光瞬间照亮，并在第 20 小节留下神圣的休止回响。",
+            "observation_en": "At Letter A (mm. 15–20), the heavens open: three harps cascade upward beneath a radiant high-string hymn like sunlight flooding stained glass, pausing in sacred resonance at m. 20.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -21586,30 +21547,30 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 6847,
-            "localMeanCosine": 0.8402,
+            "localMeanCosine": 0.9352,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s04",
-          "start": 121.4,
+          "start": 117.5,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
           "act": 1,
           "actName": "第一幕 · 第一部（A–B–A）：宇宙脉搏、天国拱门与大提琴圣歌",
           "actName_en": "Act I · Part I (A–B–A): Cosmic Pulse, Heaven's Gate & Cello Hymn",
-          "title": "圣光渐敛：铜管初次礼赞与沉思过渡",
-          "title_en": "Fading Radiance: First Brass Benediction & Meditative Bridge",
+          "title": "圣光重聚：静谧重起、铜管礼赞与沉思休止",
+          "title_en": "Renewed Radiance: Hushed Restart, Brass Benediction & Pause",
           "focus": "铜管礼赞",
           "focus_en": "Brass Benediction",
-          "foreground": "重铜管与木管在第 24–25 小节发出庄严礼赞，随后渐弱沉静",
-          "foreground_en": "Solemn brass and wind benediction at mm. 24–25 subsiding into contemplation",
-          "background": "弦乐渐弱的下行线条",
-          "background_en": "Decrescendo descending string lines",
-          "desc": "第 24–25 小节铜管群发出庄严的强音礼赞后，光芒缓缓收敛，为排练号 B 瓦格纳大号的登场留出神圣的寂静。",
-          "desc_en": "After a solemn brass proclamation at mm. 24–25, the radiance gently recedes to prepare the sacred entry of the Wagner tubas at Letter B.",
+          "foreground": "第 21 小节弦乐静谧重起，第 25–26 小节重铜管与竖琴发出庄严礼赞",
+          "foreground_en": "Hushed string restart at m. 21 cresting in a solemn brass/harp benediction at mm. 25–26",
+          "background": "第 28 小节大休止前的渐弱沉思",
+          "background_en": "Decrescendo into the m. 28 General Pause",
+          "desc": "第 20 小节休止过后，第 21 小节弦乐再度从极弱升起，并于第 25–26 小节迎来铜管与竖琴庄严的强音礼赞，随后在第 28 小节完全休止，为排练号 B 瓦格纳大号的登场留出神圣空白。",
+          "desc_en": "After the m. 20 pause, strings rise anew from pianissimo at m. 21 to a solemn brass and harp proclamation at mm. 25–26, receding into the m. 28 pause before Letter B.",
           "blocks": [
             "m3-sehnsucht"
           ],
@@ -21624,8 +21585,8 @@ window.BRUCKNER_DATA = {
             "winds": {
               "active": true,
               "highlight": true,
-              "role": "木管温柔引导音乐归于宁静",
-              "role_en": "Woodwinds guide the texture back to stillness"
+              "role": "木管温柔引导音乐归于第 28 小节的寂静",
+              "role_en": "Woodwinds guide the texture into stillness at m. 28"
             },
             "horns": {
               "active": true,
@@ -21636,8 +21597,8 @@ window.BRUCKNER_DATA = {
             "brass": {
               "active": true,
               "highlight": true,
-              "role": "长号与小号在第 24 小节短暂辉煌发声",
-              "role_en": "Trombones and trumpets shine briefly at m. 24"
+              "role": "长号与小号在第 25–26 小节辉煌发声",
+              "role_en": "Trombones and trumpets shine at mm. 25–26"
             },
             "perc": {
               "active": true,
@@ -21648,9 +21609,9 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 138.0,
-              "label": "第 25 小节 · 第 25 小节铜管礼赞后的静谧回落",
-              "label_en": "Bar 25 · Hushed recession following the m. 25 brass glow",
+              "sec": 138.82,
+              "label": "第 25 小节 · 第 25 小节铜管与竖琴庄严礼赞",
+              "label_en": "Bar 25 · Solemn brass and harp benediction at m. 25",
               "scoreTick": 11647,
               "choirs": {
                 "strings": {
@@ -21662,8 +21623,8 @@ window.BRUCKNER_DATA = {
                 "winds": {
                   "active": true,
                   "highlight": true,
-                  "role": "木管温柔引导音乐归于宁静",
-                  "role_en": "Woodwinds guide the texture back to stillness"
+                  "role": "木管温柔引导音乐归于第 28 小节的寂静",
+                  "role_en": "Woodwinds guide the texture into stillness at m. 28"
                 },
                 "horns": {
                   "active": true,
@@ -21674,8 +21635,8 @@ window.BRUCKNER_DATA = {
                 "brass": {
                   "active": true,
                   "highlight": true,
-                  "role": "长号与小号在第 24 小节短暂辉煌发声",
-                  "role_en": "Trombones and trumpets shine briefly at m. 24"
+                  "role": "长号与小号在第 25–26 小节辉煌发声",
+                  "role_en": "Trombones and trumpets shine at mm. 25–26"
                 },
                 "perc": {
                   "active": true,
@@ -21687,13 +21648,13 @@ window.BRUCKNER_DATA = {
             }
           ],
           "score": {
-            "bar": 22,
-            "rehearsal": "m.22",
-            "label": "排练号 m.22 · 第 22–28 小节 (Haas)",
+            "bar": 21,
+            "rehearsal": "m.21",
+            "label": "排练号 m.21 · 第 21–28 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "第 24–25 小节铜管群发出庄严的强音礼赞后，光芒缓缓收敛，为排练号 B 瓦格纳大号的登场留出神圣的寂静。",
-            "observation_en": "After a solemn brass proclamation at mm. 24–25, the radiance gently recedes to prepare the sacred entry of the Wagner tubas at Letter B.",
+            "observation": "第 20 小节休止过后，第 21 小节弦乐再度从极弱升起，并于第 25–26 小节迎来铜管与竖琴庄严的强音礼赞，随后在第 28 小节完全休止，为排练号 B 瓦格纳大号的登场留出神圣空白。",
+            "observation_en": "After the m. 20 pause, strings rise anew from pianissimo at m. 21 to a solemn brass and harp proclamation at mm. 25–26, receding into the m. 28 pause before Letter B.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -21703,15 +21664,15 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 10207,
-            "localMeanCosine": 0.9061,
+            "scoreTick": 9727,
+            "localMeanCosine": 0.8811,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s05",
-          "start": 164.6,
+          "start": 165.4,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -21783,7 +21744,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 13567,
-            "localMeanCosine": 0.7361,
+            "localMeanCosine": 0.8438,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -21805,7 +21766,7 @@ window.BRUCKNER_DATA = {
                   "label_en": "Hear Tuba Chorale",
                   "movement": 3,
                   "stageId": "m3-s05",
-                  "time": 164.6
+                  "time": 165.4
                 }
               ]
             }
@@ -21866,11 +21827,50 @@ window.BRUCKNER_DATA = {
               "role_en": "Tacet or secondary here; follow the highlighted lead voices"
             }
           },
-          "cues": [],
+          "cues": [
+            {
+              "sec": 207.85,
+              "label": "第 36 小节 · 第 33 小节圣咏句尾的木管与弦乐叹息",
+              "label_en": "Bar 36 · Woodwind and string sigh at the m. 33 phrase end",
+              "scoreTick": 16927,
+              "choirs": {
+                "strings": {
+                  "active": true,
+                  "highlight": false,
+                  "role": "弦乐群维持内声部和声衬底与呼吸支撑",
+                  "role_en": "Strings sustain inner harmonic cushion and breathing pulse"
+                },
+                "winds": {
+                  "active": true,
+                  "highlight": true,
+                  "role": "木管声部在句尾轻声回响",
+                  "role_en": "Woodwinds echo softly at phrase endings"
+                },
+                "horns": {
+                  "active": true,
+                  "highlight": true,
+                  "role": "瓦格纳大号四重奏与圆号交织出庄严的修道院圣咏",
+                  "role_en": "Wagner tuba quartet and horns weave a solemn monastic chorale"
+                },
+                "brass": {
+                  "active": true,
+                  "highlight": false,
+                  "role": "重铜管蓄势待发，把控建筑高潮的承重柱",
+                  "role_en": "Heavy brass in reserve for structural climactic pillars"
+                },
+                "perc": {
+                  "active": false,
+                  "highlight": false,
+                  "role": "本段暂作休整，先追主线声部",
+                  "role_en": "Tacet or secondary here; follow the highlighted lead voices"
+                }
+              }
+            }
+          ],
           "score": {
             "bar": 33,
             "rehearsal": "B-2",
-            "label": "排练号 B-2 · 第 33–37 小节 (Haas)",
+            "label": "排练号 B-2 · 第 33–38 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
             "observation": "第 33–38 小节，瓦格纳大号的四部圣咏在木管与弦乐之间激起虔诚的回音，和声在静谧中向远关系调拓展，为大提琴主题铺垫神圣氛围。",
@@ -21885,14 +21885,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 15487,
-            "localMeanCosine": 0.8559,
+            "localMeanCosine": 0.8891,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s07",
-          "start": 220.8,
+          "start": 227.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -21903,12 +21903,12 @@ window.BRUCKNER_DATA = {
           "title_en": "Chorale Climax & Bridge Toward E Major",
           "focus": "圣咏加冕",
           "focus_en": "Chorale Crest",
-          "foreground": "重铜管在第 42–43 小节轰出威严强音，随后弦乐轻柔过渡",
-          "foreground_en": "Majestic brass outburst at mm. 42–43 yielding to a gentle string transition",
+          "foreground": "第 39 小节休止后重起，重铜管在第 42–43 小节轰出威严强音",
+          "foreground_en": "Restarting after the m. 38 pause, cresting in a majestic brass outburst at mm. 42–43",
           "background": "低音提琴拨弦引导调性转向 E 大调",
           "background_en": "Bass pizzicatos steering the harmony toward E major",
-          "desc": "第 38–46 小节，圣咏推向一次庄严的铜管高潮（第 42–43 小节），随后迅速化作温柔的弦乐过渡，引出排练号 C 的大提琴主题。",
-          "desc_en": "Across mm. 38–46 the chorale crests in a majestic brass outburst (mm. 42–43) before melting into a gentle transition toward Letter C.",
+          "desc": "第 38 小节休止过后，第 39–46 小节圣咏再度升起并推向庄严的铜管高潮（第 42–43 小节），随后化作温柔的弦乐与拨弦过渡，引出排练号 C 的大提琴主题。",
+          "desc_en": "Following the m. 38 pause, mm. 39–46 rise to a majestic brass crest (mm. 42–43) before melting into a gentle transition toward Letter C.",
           "blocks": [
             "m3-tuben-chorale",
             "m3-sehnsucht"
@@ -21936,8 +21936,8 @@ window.BRUCKNER_DATA = {
             "brass": {
               "active": true,
               "highlight": true,
-              "role": "第 42 小节重铜管庄严发声",
-              "role_en": "Heavy brass proclaim a solemn crest at m. 42"
+              "role": "第 42–43 小节重铜管庄严发声",
+              "role_en": "Heavy brass proclaim a solemn crest at mm. 42–43"
             },
             "perc": {
               "active": true,
@@ -21948,10 +21948,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 244.2,
-              "label": "第 42 小节 · 第 42 小节铜管庄严高潮瞬间",
-              "label_en": "Bar 42 · Majestic brass crest at m. 42",
-              "scoreTick": 19807,
+              "sec": 249.88,
+              "label": "第 43 小节 · 第 42 小节铜管庄严高潮瞬间",
+              "label_en": "Bar 43 · Majestic brass crest at m. 42",
+              "scoreTick": 20287,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -21974,8 +21974,8 @@ window.BRUCKNER_DATA = {
                 "brass": {
                   "active": true,
                   "highlight": true,
-                  "role": "第 42 小节重铜管庄严发声",
-                  "role_en": "Heavy brass proclaim a solemn crest at m. 42"
+                  "role": "第 42–43 小节重铜管庄严发声",
+                  "role_en": "Heavy brass proclaim a solemn crest at mm. 42–43"
                 },
                 "perc": {
                   "active": true,
@@ -21987,13 +21987,13 @@ window.BRUCKNER_DATA = {
             }
           ],
           "score": {
-            "bar": 38,
-            "rehearsal": "m.38",
-            "label": "排练号 m.38 · 第 38–46 小节 (Haas)",
+            "bar": 39,
+            "rehearsal": "m.39",
+            "label": "排练号 m.39 · 第 39–46 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "第 38–46 小节，圣咏推向一次庄严的铜管高潮（第 42–43 小节），随后迅速化作温柔的弦乐过渡，引出排练号 C 的大提琴主题。",
-            "observation_en": "Across mm. 38–46 the chorale crests in a majestic brass outburst (mm. 42–43) before melting into a gentle transition toward Letter C.",
+            "observation": "第 38 小节休止过后，第 39–46 小节圣咏再度升起并推向庄严的铜管高潮（第 42–43 小节），随后化作温柔的弦乐与拨弦过渡，引出排练号 C 的大提琴主题。",
+            "observation_en": "Following the m. 38 pause, mm. 39–46 rise to a majestic brass crest (mm. 42–43) before melting into a gentle transition toward Letter C.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -22003,8 +22003,8 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 17887,
-            "localMeanCosine": 0.8882,
+            "scoreTick": 18367,
+            "localMeanCosine": 0.8437,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -22083,14 +22083,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 22207,
-            "localMeanCosine": 0.9573,
+            "localMeanCosine": 0.8278,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s09",
-          "start": 297.6,
+          "start": 295.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -22162,14 +22162,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 24607,
-            "localMeanCosine": 0.7717,
+            "localMeanCosine": 0.8373,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s10",
-          "start": 324.0,
+          "start": 325.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -22224,7 +22224,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 345.8,
+              "sec": 346.29,
               "label": "第 62 小节 · 第 62 小节声部渐弱引向瓦格纳大号回归",
               "label_en": "Bar 62 · Gentle decrescendo at m. 62 leading back to the Wagner tubas",
               "scoreTick": 29407,
@@ -22280,14 +22280,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 27007,
-            "localMeanCosine": 0.9137,
+            "localMeanCosine": 0.8172,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s11",
-          "start": 371.8,
+          "start": 371.9,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -22342,7 +22342,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 402.6,
+              "sec": 403.2,
               "label": "第 71 小节 · 第 71 小节大号与圆号半音转调",
               "label_en": "Bar 71 · Chromatic modulation in tubas and horns at m. 71",
               "scoreTick": 33727,
@@ -22398,7 +22398,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 31807,
-            "localMeanCosine": 0.9051,
+            "localMeanCosine": 0.9544,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -22460,7 +22460,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 434.8,
+              "sec": 435.03,
               "label": "第 78 小节 · 第 78 小节进入排练号 E 前的呼吸",
               "label_en": "Bar 78 · Quiet breath at m. 78 before Letter E",
               "scoreTick": 37087,
@@ -22516,7 +22516,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 35647,
-            "localMeanCosine": 0.939,
+            "localMeanCosine": 0.9249,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -22578,7 +22578,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 464.4,
+              "sec": 464.24,
               "label": "第 84 小节 · 第 85 小节弦乐与木管声部高潮交织",
               "label_en": "Bar 84 · Strings and winds crest in rich counterpoint at m. 85",
               "scoreTick": 39607,
@@ -22634,14 +22634,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 38527,
-            "localMeanCosine": 0.9599,
+            "localMeanCosine": 0.954,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s14",
-          "start": 479.4,
+          "start": 479.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -22697,7 +22697,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 490.0,
+              "sec": 490.9,
               "label": "第 91 小节 · 第 92 小节属持续音等待第一主题归来",
               "label_en": "Bar 91 · Dominant pedal at m. 92 awaiting the main theme",
               "scoreTick": 42127,
@@ -22753,14 +22753,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 41047,
-            "localMeanCosine": 0.8429,
+            "localMeanCosine": 0.9423,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s15",
-          "start": 509.8,
+          "start": 512.5,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -22832,7 +22832,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 43567,
-            "localMeanCosine": 0.7815,
+            "localMeanCosine": 0.8601,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -22911,7 +22911,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 45487,
-            "localMeanCosine": 0.9182,
+            "localMeanCosine": 0.9385,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -22973,7 +22973,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 571.4,
+              "sec": 571.22,
               "label": "第 107 小节 · 第 107 小节排练号 G 全乐队音量大幅攀升",
               "label_en": "Bar 107 · Major dynamic surge at Letter G (m. 107)",
               "scoreTick": 49327,
@@ -23029,7 +23029,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 47407,
-            "localMeanCosine": 0.9264,
+            "localMeanCosine": 0.9636,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -23092,7 +23092,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 604.8,
+              "sec": 604.78,
               "label": "第 115 小节 · 第 115 小节定音鼓滚奏点燃高潮导火索",
               "label_en": "Bar 115 · Timpani roll ignites the climactic fuse at m. 115",
               "scoreTick": 53167,
@@ -23148,7 +23148,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 51247,
-            "localMeanCosine": 0.8991,
+            "localMeanCosine": 0.9216,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -23211,7 +23211,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 639.2,
+              "sec": 639.6,
               "label": "第 124 小节 · 第 125 小节铜管高潮尾声与静谧收拢",
               "label_en": "Bar 124 · Brass climax tail subsiding into quiet at m. 125",
               "scoreTick": 57487,
@@ -23267,14 +23267,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 55087,
-            "localMeanCosine": 0.7988,
+            "localMeanCosine": 0.8795,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s20",
-          "start": 660.8,
+          "start": 661.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -23329,7 +23329,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 670.2,
+              "sec": 670.0,
               "label": "第 132 小节 · 第 135 小节大提琴准备切入降 B 大调长歌",
               "label_en": "Bar 132 · Cellos prepare the B-flat major cantabile at m. 135",
               "scoreTick": 61327,
@@ -23385,14 +23385,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 59887,
-            "localMeanCosine": 0.761,
+            "localMeanCosine": 0.7699,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s21",
-          "start": 678.6,
+          "start": 677.6,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -23447,7 +23447,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 685.8,
+              "sec": 685.55,
               "label": "第 138 小节 · 第 135 小节大提琴准备切入降 B 大调长歌",
               "label_en": "Bar 138 · Cellos prepare the B-flat major cantabile at m. 135",
               "scoreTick": 64207,
@@ -23503,14 +23503,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 62767,
-            "localMeanCosine": 0.9449,
+            "localMeanCosine": 0.9331,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s22",
-          "start": 699.6,
+          "start": 700.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -23565,7 +23565,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 720.6,
+              "sec": 721.11,
               "label": "第 146 小节 · 第 146 小节弦乐复调织体全面盛开",
               "label_en": "Bar 146 · Full blossoming of the string polyphony at m. 146",
               "scoreTick": 68047,
@@ -23621,7 +23621,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 65647,
-            "localMeanCosine": 0.9175,
+            "localMeanCosine": 0.9685,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -23683,7 +23683,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 761.8,
+              "sec": 761.29,
               "label": "第 155 小节 · 第 155 小节瓦格纳大号弱音圣咏切入",
               "label_en": "Bar 155 · Wagner tubas enter in pianissimo at m. 155",
               "scoreTick": 72367,
@@ -23739,14 +23739,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 70447,
-            "localMeanCosine": 0.9219,
+            "localMeanCosine": 0.8734,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s24",
-          "start": 779.4,
+          "start": 777.6,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -23802,7 +23802,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 811.6,
+              "sec": 810.58,
               "label": "第 164 小节 · 第 164 小节弦乐低声唤醒渴望主题",
               "label_en": "Bar 164 · Strings softly awaken the yearning motif at m. 164",
               "scoreTick": 76687,
@@ -23858,14 +23858,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 74287,
-            "localMeanCosine": 0.971,
+            "localMeanCosine": 0.9624,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s25",
-          "start": 839.8,
+          "start": 839.7,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -23920,7 +23920,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 854.3,
+              "sec": 856.38,
               "label": "第 173 小节 · 第 173 小节声部密度与音量第一波抬升",
               "label_en": "Bar 173 · First rise in contrapuntal density and dynamic at m. 173",
               "scoreTick": 81007,
@@ -23976,14 +23976,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 79087,
-            "localMeanCosine": 0.6851,
+            "localMeanCosine": 0.8012,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s26",
-          "start": 870.0,
+          "start": 874.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -24038,7 +24038,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 884.2,
+              "sec": 887.09,
               "label": "第 181 小节 · 第 181 小节排练号 M 前的蓄力拉升",
               "label_en": "Bar 181 · Rising surge at m. 181 approaching Letter M",
               "scoreTick": 84847,
@@ -24094,14 +24094,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 82927,
-            "localMeanCosine": 0.7819,
+            "localMeanCosine": 0.7942,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s27",
-          "start": 907.2,
+          "start": 907.9,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -24157,7 +24157,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 922.8,
+              "sec": 923.34,
               "label": "第 188 小节 · 第 191 小节全乐队扑向排练号 N",
               "label_en": "Bar 188 · Orchestra surges toward Letter N at m. 191",
               "scoreTick": 88207,
@@ -24213,7 +24213,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 86767,
-            "localMeanCosine": 0.6806,
+            "localMeanCosine": 0.803,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -24276,7 +24276,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 949.0,
+              "sec": 949.85,
               "label": "第 194 小节 · 第 191 小节全乐队扑向排练号 N",
               "label_en": "Bar 194 · Orchestra surges toward Letter N at m. 191",
               "scoreTick": 91087,
@@ -24332,7 +24332,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 89647,
-            "localMeanCosine": 0.5437,
+            "localMeanCosine": 0.837,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -24395,7 +24395,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 976.0,
+              "sec": 976.26,
               "label": "第 200 小节 · 第 205 小节排练号 O 铜管最高音延展",
               "label_en": "Bar 200 · Peak brass extension at Letter O (m. 205)",
               "scoreTick": 93967,
@@ -24451,7 +24451,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 92527,
-            "localMeanCosine": 0.8257,
+            "localMeanCosine": 0.8883,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -24514,7 +24514,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1006.6,
+              "sec": 1006.31,
               "label": "第 207 小节 · 第 205 小节排练号 O 铜管最高音延展",
               "label_en": "Bar 207 · Peak brass extension at Letter O (m. 205)",
               "scoreTick": 97327,
@@ -24570,7 +24570,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 95887,
-            "localMeanCosine": 0.8244,
+            "localMeanCosine": 0.8755,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -24633,7 +24633,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1033.2,
+              "sec": 1034.81,
               "label": "第 214 小节 · 第 219 小节铜管全奏强力助推",
               "label_en": "Bar 214 · Powerful brass tutti boost at m. 219",
               "scoreTick": 100687,
@@ -24689,14 +24689,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 99247,
-            "localMeanCosine": 0.929,
+            "localMeanCosine": 0.8828,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s32",
-          "start": 1048.4,
+          "start": 1053.5,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -24752,7 +24752,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1063.8,
+              "sec": 1066.8,
               "label": "第 221 小节 · 第 219 小节铜管全奏强力助推",
               "label_en": "Bar 221 · Powerful brass tutti boost at m. 219",
               "scoreTick": 104047,
@@ -24808,7 +24808,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 102607,
-            "localMeanCosine": 0.8804,
+            "localMeanCosine": 0.8542,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -24871,7 +24871,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1092.0,
+              "sec": 1091.9,
               "label": "第 228 小节 · 第 232 小节哈斯恢复段的核心转调阶梯",
               "label_en": "Bar 228 · Core modulating step of the Haas restoration at m. 232",
               "scoreTick": 107407,
@@ -24927,7 +24927,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 105967,
-            "localMeanCosine": 0.9187,
+            "localMeanCosine": 0.928,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -24990,7 +24990,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1115.6,
+              "sec": 1115.97,
               "label": "第 235 小节 · 第 232 小节哈斯恢复段的核心转调阶梯",
               "label_en": "Bar 235 · Core modulating step of the Haas restoration at m. 232",
               "scoreTick": 110767,
@@ -25046,14 +25046,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 109327,
-            "localMeanCosine": 0.8225,
+            "localMeanCosine": 0.9509,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s35",
-          "start": 1135.2,
+          "start": 1135.7,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -25108,7 +25108,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1157.6,
+              "sec": 1157.9,
               "label": "第 244 小节 · 第 245 小节最后四小节极限渐强",
               "label_en": "Bar 244 · Final four bars of maximum crescendo at m. 245",
               "scoreTick": 115087,
@@ -25164,14 +25164,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 112687,
-            "localMeanCosine": 0.8982,
+            "localMeanCosine": 0.9446,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s36",
-          "start": 1179.9,
+          "start": 1180.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -25244,7 +25244,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 117487,
-            "localMeanCosine": 0.75,
+            "localMeanCosine": 0.6694,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -25266,7 +25266,7 @@ window.BRUCKNER_DATA = {
                   "label_en": "Jump to Cosmic Summit",
                   "movement": 3,
                   "stageId": "m3-s36",
-                  "time": 1179.9
+                  "time": 1180.0
                 }
               ]
             }
@@ -25274,7 +25274,7 @@ window.BRUCKNER_DATA = {
         },
         {
           "id": "m3-s37",
-          "start": 1210.7,
+          "start": 1210.4,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -25347,7 +25347,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 119887,
-            "localMeanCosine": 0.9238,
+            "localMeanCosine": 0.8874,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -25410,7 +25410,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1267.4,
+              "sec": 1267.2,
               "label": "第 264 小节 · 第 264 小节木管与弦乐温柔交接",
               "label_en": "Bar 264 · Gentle woodwind and string handover at m. 264",
               "scoreTick": 124687,
@@ -25466,14 +25466,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 122287,
-            "localMeanCosine": 0.9342,
+            "localMeanCosine": 0.9321,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s39",
-          "start": 1302.2,
+          "start": 1302.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -25529,7 +25529,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1328.0,
+              "sec": 1327.65,
               "label": "第 274 小节 · 第 274 小节大号挽歌的温柔转折",
               "label_en": "Bar 274 · Tender harmonic turn in the tuba elegy at m. 274",
               "scoreTick": 129487,
@@ -25585,7 +25585,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 127087,
-            "localMeanCosine": 0.7525,
+            "localMeanCosine": 0.933,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -25607,7 +25607,7 @@ window.BRUCKNER_DATA = {
                   "label_en": "Hear Wagner Elegy",
                   "movement": 3,
                   "stageId": "m3-s39",
-                  "time": 1302.2
+                  "time": 1302.8
                 }
               ]
             }
@@ -25670,7 +25670,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1374.2,
+              "sec": 1375.48,
               "label": "第 283 小节 · 第 283 小节小提琴盘旋音型进一步放缓",
               "label_en": "Bar 283 · Violin arpeggios broaden further at m. 283",
               "scoreTick": 133807,
@@ -25726,14 +25726,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 131887,
-            "localMeanCosine": 0.813,
+            "localMeanCosine": 0.9047,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s41",
-          "start": 1394.0,
+          "start": 1396.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -25788,7 +25788,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1412.4,
+              "sec": 1415.91,
               "label": "第 290 小节 · 第 291 小节瓦格纳大号再次切入极弱长音",
               "label_en": "Bar 290 · Wagner tubas re-enter in ppp at m. 291",
               "scoreTick": 137167,
@@ -25844,14 +25844,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 135727,
-            "localMeanCosine": 0.815,
+            "localMeanCosine": 0.9443,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m3-s42",
-          "start": 1436.0,
+          "start": 1441.3,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -25906,7 +25906,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1452.8,
+              "sec": 1455.98,
               "label": "第 297 小节 · 第 298 小节最后一个降 D 大调和弦渐隐",
               "label_en": "Bar 297 · Final D-flat major chord fading into eternity at m. 298",
               "scoreTick": 140527,
@@ -25962,7 +25962,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 139087,
-            "localMeanCosine": 0.9258,
+            "localMeanCosine": 0.9243,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -26579,8 +26579,8 @@ window.BRUCKNER_DATA = {
       "shortEn": "Finale: Feierlich, nicht schnell",
       "originalTitle": "IV. Finale: Feierlich, nicht schnell (747 Bars · Robert Haas Edition)",
       "duration": 1339,
-      "audio": "assets/movement-4.mp3",
-      "rms": "assets/movement-4-rms.json",
+      "audio": "assets/movement-4.mp3?v=boulez3",
+      "rms": "assets/movement-4-rms.json?v=boulez3",
       "timing": "inherited",
       "audioMatched": true,
       "codaStageId": "m4-s51",
@@ -26634,7 +26634,7 @@ window.BRUCKNER_DATA = {
           "earprint_en": "Warm A-flat major string chorale at Letter D (01:32) crowned at Letter E (02:03) by a sparkling, dancing solo flute counter-melody.",
           "color": "#f59e0b",
           "stageIndex": 5,
-          "audioStart": 91.8
+          "audioStart": 92.3
         },
         {
           "id": "m4-heroic-march",
@@ -26644,7 +26644,7 @@ window.BRUCKNER_DATA = {
           "earprint_en": "Resolute octave-leap march at Letter H (03:47) and the strict four-voice string fugato ignited at Letter T (08:54).",
           "color": "#3b82f6",
           "stageIndex": 10,
-          "audioStart": 227.2
+          "audioStart": 227.4
         },
         {
           "id": "m4-quadruple-coda",
@@ -28261,8 +28261,8 @@ window.BRUCKNER_DATA = {
         {
           "name": "管风琴圣咏与雀跃长笛：排练号 E 的巴洛克式双声部对位",
           "name_en": "Organ Chorale & Dancing Flute: Baroque Double Counterpoint at Letter E",
-          "coord": "总谱第 85–94 小节 · 参考位置 02:03",
-          "realJumpSec": 123.0,
+          "coord": "总谱第 85–94 小节 · 参考位置 02:02",
+          "realJumpSec": 122.8,
           "bpm": 72.0,
           "totalBeats": 40.0,
           "desc": "第 85–94 小节（排练号 E）：弦乐群与圆号在下方唱出虔诚温润的四部圣咏，独奏长笛与双簧管在上方跳起清脆灵动的跳跃对位舞步。",
@@ -30915,7 +30915,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 11.4,
+              "sec": 11.65,
               "label": "第 9 小节 · 第 11 小节铜管号角第二次拔高冲锋",
               "label_en": "Bar 9 · Second higher brass cavalry charge at m. 11",
               "scoreTick": 3967,
@@ -30971,7 +30971,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 127,
-            "localMeanCosine": 0.6834,
+            "localMeanCosine": 0.477,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -31001,7 +31001,7 @@ window.BRUCKNER_DATA = {
         },
         {
           "id": "m4-s02",
-          "start": 22.8,
+          "start": 23.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -31056,7 +31056,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 31.6,
+              "sec": 32.05,
               "label": "第 24 小节 · 第 25 小节冲顶前的铜管强力齐奏",
               "label_en": "Bar 24 · Powerful brass tutti surge at m. 25",
               "scoreTick": 11167,
@@ -31112,14 +31112,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 7807,
-            "localMeanCosine": 0.6531,
+            "localMeanCosine": 0.6618,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s03",
-          "start": 41.2,
+          "start": 41.4,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -31174,7 +31174,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 48.2,
+              "sec": 48.39,
               "label": "第 36 小节 · 第 39 小节第三记全奏雷霆顶峰",
               "label_en": "Bar 36 · Third thunderous tutti peak at m. 39",
               "scoreTick": 16927,
@@ -31230,7 +31230,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 14527,
-            "localMeanCosine": 0.5379,
+            "localMeanCosine": 0.5134,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -31292,7 +31292,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 61.2,
+              "sec": 59.03,
               "label": "第 46 小节 · 第 39 小节第三记全奏雷霆顶峰",
               "label_en": "Bar 46 · Third thunderous tutti peak at m. 39",
               "scoreTick": 21727,
@@ -31348,14 +31348,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 19327,
-            "localMeanCosine": 0.8462,
+            "localMeanCosine": 0.8779,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s05",
-          "start": 69.2,
+          "start": 65.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -31410,7 +31410,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 78.6,
+              "sec": 75.94,
               "label": "第 60 小节 · 第 61 小节低音拨弦渐弱走向大休止",
               "label_en": "Bar 60 · Bass pizzicatos fading toward the General Pause at m. 61",
               "scoreTick": 28447,
@@ -31466,14 +31466,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 24127,
-            "localMeanCosine": 0.6612,
+            "localMeanCosine": 0.7051,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s06",
-          "start": 91.8,
+          "start": 92.3,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -31528,7 +31528,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 106.8,
+              "sec": 106.71,
               "label": "第 77 小节 · 第 77 小节木管声部加入圣咏对位",
               "label_en": "Bar 77 · Woodwinds join the chorale counterpoint at m. 77",
               "scoreTick": 36607,
@@ -31584,7 +31584,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 32767,
-            "localMeanCosine": 0.9406,
+            "localMeanCosine": 0.9513,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -31606,7 +31606,7 @@ window.BRUCKNER_DATA = {
                   "label_en": "Hear Chorale & Flute",
                   "movement": 4,
                   "stageId": "m4-s06",
-                  "time": 91.8
+                  "time": 92.3
                 }
               ]
             }
@@ -31614,7 +31614,7 @@ window.BRUCKNER_DATA = {
         },
         {
           "id": "m4-s07",
-          "start": 123.0,
+          "start": 122.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -31669,7 +31669,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 135.8,
+              "sec": 135.85,
               "label": "第 92 小节 · 第 99 小节排练号 F 弦乐与木管高音区升华",
               "label_en": "Bar 92 · High-register elevation of strings and winds at Letter F (m. 99)",
               "scoreTick": 43807,
@@ -31725,14 +31725,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 40447,
-            "localMeanCosine": 0.8777,
+            "localMeanCosine": 0.8855,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s08",
-          "start": 150.8,
+          "start": 151.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -31787,7 +31787,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 160.8,
+              "sec": 158.5,
               "label": "第 103 小节 · 第 99 小节排练号 F 弦乐与木管高音区升华",
               "label_en": "Bar 103 · High-register elevation of strings and winds at Letter F (m. 99)",
               "scoreTick": 49087,
@@ -31843,14 +31843,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 47167,
-            "localMeanCosine": 0.9703,
+            "localMeanCosine": 0.9308,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s09",
-          "start": 171.9,
+          "start": 166.6,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -31905,7 +31905,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 188.0,
+              "sec": 185.52,
               "label": "第 114 小节 · 第 121 小节全乐队转入冷峻的小调氛围",
               "label_en": "Bar 114 · Transition into stern minor-key shadows at m. 121",
               "scoreTick": 54367,
@@ -31961,7 +31961,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 51007,
-            "localMeanCosine": 0.932,
+            "localMeanCosine": 0.9305,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -32079,14 +32079,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 57727,
-            "localMeanCosine": 0.9034,
+            "localMeanCosine": 0.885,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s11",
-          "start": 227.2,
+          "start": 227.4,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -32141,7 +32141,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 237.0,
+              "sec": 237.05,
               "label": "第 141 小节 · 第 147 小节排练号 I 倒影行军动机切入",
               "label_en": "Bar 141 · Inverted march motif enters at Letter I (m. 147)",
               "scoreTick": 67327,
@@ -32197,14 +32197,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 64447,
-            "localMeanCosine": 0.9163,
+            "localMeanCosine": 0.7985,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s12",
-          "start": 246.6,
+          "start": 246.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -32259,7 +32259,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 256.4,
+              "sec": 256.56,
               "label": "第 153 小节 · 第 147 小节排练号 I 倒影行军动机切入",
               "label_en": "Bar 153 · Inverted march motif enters at Letter I (m. 147)",
               "scoreTick": 73087,
@@ -32315,14 +32315,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 70207,
-            "localMeanCosine": 0.8681,
+            "localMeanCosine": 0.7648,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s13",
-          "start": 270.1,
+          "start": 269.9,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -32377,7 +32377,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 286.2,
+              "sec": 289.58,
               "label": "第 165 小节 · 第 171 小节排练号 L 铜管全面上膛",
               "label_en": "Bar 165 · Brass choir locks and loads at Letter L (m. 171)",
               "scoreTick": 78847,
@@ -32433,14 +32433,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 75967,
-            "localMeanCosine": 0.9296,
+            "localMeanCosine": 0.9033,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s14",
-          "start": 300.6,
+          "start": 306.5,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -32495,7 +32495,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 309.8,
+              "sec": 313.18,
               "label": "第 177 小节 · 第 171 小节排练号 L 铜管全面上膛",
               "label_en": "Bar 177 · Brass choir locks and loads at Letter L (m. 171)",
               "scoreTick": 84607,
@@ -32551,14 +32551,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 81727,
-            "localMeanCosine": 0.9349,
+            "localMeanCosine": 0.8978,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s15",
-          "start": 319.6,
+          "start": 320.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -32614,7 +32614,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 329.8,
+              "sec": 330.6,
               "label": "第 190 小节 · 第 197 小节排练号 N 全奏声浪二次冲顶",
               "label_en": "Bar 190 · Second climactic surge of the tutti at Letter N (m. 197)",
               "scoreTick": 90847,
@@ -32670,14 +32670,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 87487,
-            "localMeanCosine": 0.7837,
+            "localMeanCosine": 0.7863,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s16",
-          "start": 340.6,
+          "start": 340.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -32733,7 +32733,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 353.6,
+              "sec": 353.65,
               "label": "第 206 小节 · 第 197 小节排练号 N 全奏声浪二次冲顶",
               "label_en": "Bar 206 · Second climactic surge of the tutti at Letter N (m. 197)",
               "scoreTick": 98527,
@@ -32789,14 +32789,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 94207,
-            "localMeanCosine": 0.7988,
+            "localMeanCosine": 0.8167,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s17",
-          "start": 367.0,
+          "start": 367.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -32851,7 +32851,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 379.6,
+              "sec": 379.79,
               "label": "第 223 小节 · 第 223 小节瓦格纳大号柔声切入",
               "label_en": "Bar 223 · Wagner tubas enter softly at m. 223",
               "scoreTick": 106687,
@@ -32907,14 +32907,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 102847,
-            "localMeanCosine": 0.8369,
+            "localMeanCosine": 0.8377,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s18",
-          "start": 393.0,
+          "start": 393.5,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -32969,7 +32969,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 411.6,
+              "sec": 411.82,
               "label": "第 242 小节 · 第 243 小节圣咏渐慢溶入展开部",
               "label_en": "Bar 242 · Chorale broadens at m. 243, dissolving into the development",
               "scoreTick": 115807,
@@ -33025,7 +33025,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 110527,
-            "localMeanCosine": 0.8305,
+            "localMeanCosine": 0.8612,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -33087,7 +33087,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 448.6,
+              "sec": 449.04,
               "label": "第 259 小节 · 第 265 小节弦乐与木管展开复调模仿",
               "label_en": "Bar 259 · Contrapuntal imitation between strings and winds at m. 265",
               "scoreTick": 123967,
@@ -33143,7 +33143,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 121087,
-            "localMeanCosine": 0.6066,
+            "localMeanCosine": 0.6765,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -33205,7 +33205,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 467.8,
+              "sec": 470.58,
               "label": "第 270 小节 · 第 265 小节弦乐与木管展开复调模仿",
               "label_en": "Bar 270 · Contrapuntal imitation between strings and winds at m. 265",
               "scoreTick": 129247,
@@ -33261,14 +33261,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 126847,
-            "localMeanCosine": 0.933,
+            "localMeanCosine": 0.9213,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s21",
-          "start": 480.4,
+          "start": 488.4,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -33324,7 +33324,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 498.8,
+              "sec": 502.67,
               "label": "第 282 小节 · 第 289 小节排练号 S 赋格风暴前的低音潜伏",
               "label_en": "Bar 282 · Low strings coil at Letter S (m. 289) before the fugato",
               "scoreTick": 135007,
@@ -33380,7 +33380,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 131647,
-            "localMeanCosine": 0.9461,
+            "localMeanCosine": 0.932,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -33402,7 +33402,7 @@ window.BRUCKNER_DATA = {
                   "label_en": "Jump to Restored Oasis",
                   "movement": 4,
                   "stageId": "m4-s21",
-                  "time": 480.4
+                  "time": 488.4
                 }
               ]
             }
@@ -33466,7 +33466,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 523.8,
+              "sec": 524.05,
               "label": "第 295 小节 · 第 289 小节排练号 S 赋格风暴前的低音潜伏",
               "label_en": "Bar 295 · Low strings coil at Letter S (m. 289) before the fugato",
               "scoreTick": 141247,
@@ -33522,14 +33522,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 138367,
-            "localMeanCosine": 0.9384,
+            "localMeanCosine": 0.9346,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s23",
-          "start": 534.2,
+          "start": 534.6,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -33585,7 +33585,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 546.8,
+              "sec": 547.0,
               "label": "第 307 小节 · 第 313 小节全弦乐与木管四声部赋格咬合",
               "label_en": "Bar 307 · Full four-voice fugato lock between strings and winds at m. 313",
               "scoreTick": 147007,
@@ -33641,14 +33641,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 144127,
-            "localMeanCosine": 0.8524,
+            "localMeanCosine": 0.8513,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s24",
-          "start": 556.4,
+          "start": 556.6,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -33704,7 +33704,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 565.6,
+              "sec": 562.77,
               "label": "第 319 小节 · 第 313 小节全弦乐与木管四声部赋格咬合",
               "label_en": "Bar 319 · Full four-voice fugato lock between strings and winds at m. 313",
               "scoreTick": 152767,
@@ -33760,14 +33760,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 149887,
-            "localMeanCosine": 0.8631,
+            "localMeanCosine": 0.8716,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s25",
-          "start": 575.2,
+          "start": 569.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -33823,7 +33823,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 591.2,
+              "sec": 587.38,
               "label": "第 335 小节 · 第 335 小节铜管与弦乐正反双向冲撞",
               "label_en": "Bar 335 · Head-on clash of brass and strings at m. 335",
               "scoreTick": 160447,
@@ -33879,14 +33879,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 155647,
-            "localMeanCosine": 0.9487,
+            "localMeanCosine": 0.9124,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s26",
-          "start": 606.8,
+          "start": 605.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -33942,7 +33942,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 614.2,
+              "sec": 611.65,
               "label": "第 350 小节 · 第 355 小节排练号 W 全奏最强音爆发",
               "label_en": "Bar 350 · Maximum tutti eruption at Letter W (m. 355)",
               "scoreTick": 167647,
@@ -33998,14 +33998,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 165247,
-            "localMeanCosine": 0.8093,
+            "localMeanCosine": 0.772,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s27",
-          "start": 621.6,
+          "start": 618.3,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -34061,7 +34061,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 631.8,
+              "sec": 630.08,
               "label": "第 362 小节 · 第 355 小节排练号 W 全奏最强音爆发",
               "label_en": "Bar 362 · Maximum tutti eruption at Letter W (m. 355)",
               "scoreTick": 173407,
@@ -34117,7 +34117,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 170047,
-            "localMeanCosine": 0.8175,
+            "localMeanCosine": 0.7861,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -34179,7 +34179,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 655.8,
+              "sec": 655.85,
               "label": "第 378 小节 · 第 379 小节最后八小节白炽化冲刺",
               "label_en": "Bar 378 · Final eight-bar incandescent sprint at m. 379",
               "scoreTick": 181087,
@@ -34235,7 +34235,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 176767,
-            "localMeanCosine": 0.8392,
+            "localMeanCosine": 0.8819,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -34255,10 +34255,10 @@ window.BRUCKNER_DATA = {
           "focus_en": "Development Climax",
           "foreground": "全铜管与八支圆号：连续轰击第一主题核心动机",
           "foreground_en": "Full Brass & 8 Horns: hammering the main fanfare motif relentlessly",
-          "background": "定音鼓 G 音持续滚奏与弦乐激流",
-          "background_en": "Sustained G dominant timpani roll and string torrent",
-          "desc": "排练号 Y（第 387–410 小节），展开部抵达最高峰！全乐队在主调属音（G 音）上反复轰击骑兵主题，为再现部的全面爆发拉满弓弦。",
-          "desc_en": "At Letter Y (mm. 387–410), the development hits its apex, hammering the cavalry motif over a blazing G dominant pedal to prepare the recapitulation.",
+          "background": "定音鼓 G 音持续滚奏与第 406 小节断崖休止",
+          "background_en": "Sustained G dominant timpani roll and m. 406 cliff-edge pause",
+          "desc": "排练号 Y（第 387–406 小节），展开部抵达最高峰！全乐队在主调属音（G 音）上反复轰击骑兵主题，并在第 406 小节突然收束休止，为再现部的骑兵突袭拉满弓弦。",
+          "desc_en": "At Letter Y (mm. 387–406), the development hits its apex, hammering the cavalry motif over a blazing G dominant pedal before halting abruptly at m. 406.",
           "blocks": [
             "m4-cossack"
           ],
@@ -34297,7 +34297,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 677.0,
+              "sec": 677.05,
               "label": "第 393 小节 · 第 399 小节属持续音上的最后加压",
               "label_en": "Bar 393 · Final compression over the dominant pedal at m. 399",
               "scoreTick": 188287,
@@ -34341,8 +34341,8 @@ window.BRUCKNER_DATA = {
             "label": "排练号 Y · 第 387–398 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "排练号 Y（第 387–410 小节），展开部抵达最高峰！全乐队在主调属音（G 音）上反复轰击骑兵主题，为再现部的全面爆发拉满弓弦。",
-            "observation_en": "At Letter Y (mm. 387–410), the development hits its apex, hammering the cavalry motif over a blazing G dominant pedal to prepare the recapitulation.",
+            "observation": "排练号 Y（第 387–406 小节），展开部抵达最高峰！全乐队在主调属音（G 音）上反复轰击骑兵主题，并在第 406 小节突然收束休止，为再现部的骑兵突袭拉满弓弦。",
+            "observation_en": "At Letter Y (mm. 387–406), the development hits its apex, hammering the cavalry motif over a blazing G dominant pedal before halting abruptly at m. 406.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -34353,7 +34353,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 185407,
-            "localMeanCosine": 0.9572,
+            "localMeanCosine": 0.8664,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -34367,16 +34367,16 @@ window.BRUCKNER_DATA = {
           "act": 2,
           "actName": "第二幕 · 展开部：圣咏冥想、哈斯版恢复段与全奏赋格风暴",
           "actName_en": "Act II · Development: Chorale Meditation, Haas Oasis & Fugato Storm",
-          "title": "排练号 Y 后半：属音持续音上的白热化锤击",
-          "title_en": "Letter Y Second Half: Incandescent Hammering on the Dominant Pedal",
+          "title": "排练号 Y 后半：属音持续音上的白热化锤击与断崖休止",
+          "title_en": "Letter Y Second Half: Incandescent Hammering & Bar 406 Cutoff",
           "focus": "属音锤击",
           "focus_en": "Dominant Hammering",
-          "foreground": "重铜管与高音弦乐：在漫长的属音持续音上反复锤击核心节奏",
-          "foreground_en": "Heavy Brass & High Strings: hammering the core rhythm over a dominant pedal",
-          "background": "定音鼓 G 音持续滚奏与弦乐激流",
-          "background_en": "Sustained G dominant timpani roll and string torrent",
-          "desc": "第 399–410 小节，全乐队锁死在属音持续音上反复锤击，紧接骤然跌入极弱的断崖，为再现部的骑兵突袭蓄满势能。",
-          "desc_en": "Across mm. 399–410, the orchestra hammers relentlessly on a dominant pedal before dropping over a cliff into the whispered countdown to the recapitulation.",
+          "foreground": "重铜管与高音弦乐：在漫长的属音持续音上反复锤击核心节奏，于第 406 小节骤停",
+          "foreground_en": "Heavy Brass & High Strings: hammering the core rhythm over a dominant pedal before the m. 406 cutoff",
+          "background": "定音鼓 G 音持续滚奏与第 406 小节断崖休止",
+          "background_en": "Sustained G dominant timpani roll and m. 406 cliff-edge pause",
+          "desc": "第 399–406 小节，全乐队锁死在属音持续音上反复锤击，紧接着在第 406 小节骤然斩断，跌入暴风眼的极弱悬置。",
+          "desc_en": "Across mm. 399–406, the orchestra hammers relentlessly on a dominant pedal before cutting off abruptly at m. 406 into the whispered eye of the storm.",
           "blocks": [
             "m4-cossack"
           ],
@@ -34415,10 +34415,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 693.0,
-              "label": "第 405 小节 · 第 399 小节属持续音上的最后加压",
-              "label_en": "Bar 405 · Final compression over the dominant pedal at m. 399",
-              "scoreTick": 194047,
+              "sec": 690.3,
+              "label": "第 403 小节 · 第 399 小节属持续音上的最后加压",
+              "label_en": "Bar 403 · Final compression over the dominant pedal at m. 399",
+              "scoreTick": 193087,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -34456,11 +34456,11 @@ window.BRUCKNER_DATA = {
           "score": {
             "bar": 399,
             "rehearsal": "Y-2",
-            "label": "排练号 Y-2 · 第 399–410 小节 (Haas)",
+            "label": "排练号 Y-2 · 第 399–406 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "第 399–410 小节，全乐队锁死在属音持续音上反复锤击，紧接骤然跌入极弱的断崖，为再现部的骑兵突袭蓄满势能。",
-            "observation_en": "Across mm. 399–410, the orchestra hammers relentlessly on a dominant pedal before dropping over a cliff into the whispered countdown to the recapitulation.",
+            "observation": "第 399–406 小节，全乐队锁死在属音持续音上反复锤击，紧接着在第 406 小节骤然斩断，跌入暴风眼的极弱悬置。",
+            "observation_en": "Across mm. 399–406, the orchestra hammers relentlessly on a dominant pedal before cutting off abruptly at m. 406 into the whispered eye of the storm.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -34471,14 +34471,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 191167,
-            "localMeanCosine": 0.8875,
+            "localMeanCosine": 0.8889,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s31",
-          "start": 702.7,
+          "start": 696.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -34493,8 +34493,8 @@ window.BRUCKNER_DATA = {
           "foreground_en": "String eighth-note pulse and chromatic wind/horn glides",
           "background": "从极弱重新积聚的战马铁蹄声",
           "background_en": "Galloping hoofbeats gathering anew from pianissimo",
-          "desc": "第 411–436 小节，喧嚣忽然退入暴风眼般的宁静，但弦乐手下的八分音符铁蹄声从未停止，并从第 425 小节起迅速渐强，直扑排练号 Z 的再现部！",
-          "desc_en": "Across mm. 411–436, the tumult drops into the eye of the storm while the string gallop continues unabated, crescendoing from m. 425 into the recapitulation at Letter Z.",
+          "desc": "第 406 小节休止过后，第 407–436 小节喧嚣忽然退入暴风眼般的宁静（pp），但弦乐手下的八分音符铁蹄声从未停止，并从第 425 小节起迅速渐强，直扑排练号 Z 的再现部！",
+          "desc_en": "Following the m. 406 pause, mm. 407–436 drop into the eye of the storm (pp) while the string gallop continues unabated, crescendoing from m. 425 into the recapitulation at Letter Z.",
           "blocks": [
             "m4-cossack"
           ],
@@ -34533,10 +34533,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 713.0,
-              "label": "第 418 小节 · 第 427 小节铁蹄渐强直扑排练号 Z",
-              "label_en": "Bar 418 · Galloping crescendo hurtling into Letter Z at m. 427",
-              "scoreTick": 200287,
+              "sec": 710.1,
+              "label": "第 416 小节 · 第 427 小节铁蹄渐强直扑排练号 Z",
+              "label_en": "Bar 416 · Galloping crescendo hurtling into Letter Z at m. 427",
+              "scoreTick": 199327,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -34572,13 +34572,13 @@ window.BRUCKNER_DATA = {
             }
           ],
           "score": {
-            "bar": 411,
-            "rehearsal": "m.411",
-            "label": "排练号 m.411 · 第 411–424 小节 (Haas)",
+            "bar": 407,
+            "rehearsal": "m.407",
+            "label": "排练号 m.407 · 第 407–424 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "第 411–436 小节，喧嚣忽然退入暴风眼般的宁静，但弦乐手下的八分音符铁蹄声从未停止，并从第 425 小节起迅速渐强，直扑排练号 Z 的再现部！",
-            "observation_en": "Across mm. 411–436, the tumult drops into the eye of the storm while the string gallop continues unabated, crescendoing from m. 425 into the recapitulation at Letter Z.",
+            "observation": "第 406 小节休止过后，第 407–436 小节喧嚣忽然退入暴风眼般的宁静（pp），但弦乐手下的八分音符铁蹄声从未停止，并从第 425 小节起迅速渐强，直扑排练号 Z 的再现部！",
+            "observation_en": "Following the m. 406 pause, mm. 407–436 drop into the eye of the storm (pp) while the string gallop continues unabated, crescendoing from m. 425 into the recapitulation at Letter Z.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -34588,8 +34588,8 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 196927,
-            "localMeanCosine": 0.9851,
+            "scoreTick": 195007,
+            "localMeanCosine": 0.986,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -34651,7 +34651,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 731.8,
+              "sec": 731.75,
               "label": "第 431 小节 · 第 427 小节铁蹄渐强直扑排练号 Z",
               "label_en": "Bar 431 · Galloping crescendo hurtling into Letter Z at m. 427",
               "scoreTick": 206527,
@@ -34707,7 +34707,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 203647,
-            "localMeanCosine": 0.9655,
+            "localMeanCosine": 0.9452,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -34721,16 +34721,16 @@ window.BRUCKNER_DATA = {
           "act": 3,
           "actName": "第三幕 · 再现部与终极尾声：四大乐章主题「四重对位」神迹",
           "actName_en": "Act III · Recapitulation & Coda: The Quadruple Counterpoint Miracle",
-          "title": "排练号 Z–Aa：再现部爆发 · 哥萨克铁骑全面反攻（ff）",
-          "title_en": "Letters Z–Aa: Recapitulation Erupts · Full Cavalry Counter-Attack (ff)",
+          "title": "排练号 Z：再现部启动 · 哥萨克铁骑从暗处逼近",
+          "title_en": "Letter Z: Recapitulation Ignites · Cossack Cavalry Approaching",
           "focus": "铁骑再现",
           "focus_en": "Cavalry Recapitulation",
-          "foreground": "全体铜管与圆号：比呈示部更加凶猛的骑兵冲锋号角",
-          "foreground_en": "Full Brass & Horns: an even fiercer restatement of the cavalry fanfare",
-          "background": "全弦乐满弓断奏铁蹄与定音鼓轰鸣",
-          "background_en": "Full-bowed staccato string gallop and thundering timpani",
-          "desc": "排练号 Z（第 437 小节），再现部以排山倒海之势全面爆发！铜管铁骑再次从升 F 小调杀出，一路劈波斩浪推向排练号 Bb。",
-          "desc_en": "At Letter Z (m. 437), the recapitulation erupts in full fury as the brass cavalry charges anew from F-sharp minor toward Letter Bb.",
+          "foreground": "弦乐急促的八分音符断奏铁蹄与圆号、铜管逐层逼近的号角",
+          "foreground_en": "Galloping staccato string eighth notes with approaching horn and brass fanfares",
+          "background": "定音鼓暗流滚奏与步步攀升的半音阶张力",
+          "background_en": "Subterranean timpani rolls and rising chromatic tension",
+          "desc": "排练号 Z（第 437–458 小节），再现部在紧绷的哥萨克铁蹄声中启动！弦乐与圆号层层加码，经过 22 小节令人窒息的逼近，在第 459 小节（排练号 Aa）全面引爆铜管全奏！",
+          "desc_en": "At Letter Z (mm. 437–458), the recapitulation ignites with taut galloping strings and approaching fanfares, building across 22 bars into the full brass eruption at m. 459 (Letter Aa)!",
           "blocks": [
             "m4-cossack"
           ],
@@ -34739,8 +34739,8 @@ window.BRUCKNER_DATA = {
             "strings": {
               "active": true,
               "highlight": true,
-              "role": "全弦乐以最凌厉的断奏全速奔袭",
-              "role_en": "Full strings gallop at maximum intensity"
+              "role": "全弦乐以凌厉的断奏全速奔袭",
+              "role_en": "Full strings gallop with relentless drive"
             },
             "winds": {
               "active": true,
@@ -34757,8 +34757,8 @@ window.BRUCKNER_DATA = {
             "brass": {
               "active": true,
               "highlight": true,
-              "role": "小号、长号与大号再度吹响雷霆万钧的骑兵号角",
-              "role_en": "Trumpets, trombones, and tuba blast the cavalry fanfare anew"
+              "role": "圆号与铜管号角由远及近，步步加压",
+              "role_en": "Horns and brass fanfares press closer bar by bar"
             },
             "perc": {
               "active": true,
@@ -34769,16 +34769,16 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 754.2,
-              "label": "第 446 小节 · 第 455 小节排练号 Aa 铜管拔高冲顶",
-              "label_en": "Bar 446 · Brass ratchet higher at Letter Aa (m. 455)",
-              "scoreTick": 213727,
+              "sec": 757.47,
+              "label": "第 448 小节 · 第 449 小节重铜管上膛扑向排练号 Aa",
+              "label_en": "Bar 448 · Heavy brass lock in at m. 449 approaching Letter Aa",
+              "scoreTick": 214687,
               "choirs": {
                 "strings": {
                   "active": true,
                   "highlight": true,
-                  "role": "全弦乐以最凌厉的断奏全速奔袭",
-                  "role_en": "Full strings gallop at maximum intensity"
+                  "role": "全弦乐以凌厉的断奏全速奔袭",
+                  "role_en": "Full strings gallop with relentless drive"
                 },
                 "winds": {
                   "active": true,
@@ -34795,8 +34795,8 @@ window.BRUCKNER_DATA = {
                 "brass": {
                   "active": true,
                   "highlight": true,
-                  "role": "小号、长号与大号再度吹响雷霆万钧的骑兵号角",
-                  "role_en": "Trumpets, trombones, and tuba blast the cavalry fanfare anew"
+                  "role": "圆号与铜管号角由远及近，步步加压",
+                  "role_en": "Horns and brass fanfares press closer bar by bar"
                 },
                 "perc": {
                   "active": true,
@@ -34810,11 +34810,11 @@ window.BRUCKNER_DATA = {
           "score": {
             "bar": 437,
             "rehearsal": "Z–Aa",
-            "label": "排练号 Z–Aa · 第 437–454 小节 (Haas)",
+            "label": "排练号 Z–Aa · 第 437–458 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "排练号 Z（第 437 小节），再现部以排山倒海之势全面爆发！铜管铁骑再次从升 F 小调杀出，一路劈波斩浪推向排练号 Bb。",
-            "observation_en": "At Letter Z (m. 437), the recapitulation erupts in full fury as the brass cavalry charges anew from F-sharp minor toward Letter Bb.",
+            "observation": "排练号 Z（第 437–458 小节），再现部在紧绷的哥萨克铁蹄声中启动！弦乐与圆号层层加码，经过 22 小节令人窒息的逼近，在第 459 小节（排练号 Aa）全面引爆铜管全奏！",
+            "observation_en": "At Letter Z (mm. 437–458), the recapitulation ignites with taut galloping strings and approaching fanfares, building across 22 bars into the full brass eruption at m. 459 (Letter Aa)!",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -34825,30 +34825,30 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 209407,
-            "localMeanCosine": 0.9541,
+            "localMeanCosine": 0.9319,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s34",
-          "start": 767.8,
+          "start": 771.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
           "act": 3,
           "actName": "第三幕 · 再现部与终极尾声：四大乐章主题「四重对位」神迹",
           "actName_en": "Act III · Recapitulation & Coda: The Quadruple Counterpoint Miracle",
-          "title": "排练号 Aa：再现部骑兵号角拔高冲顶",
-          "title_en": "Letter Aa: Recapitulated Cavalry Fanfare Ratcheting Higher",
-          "focus": "号角拔高",
-          "focus_en": "Fanfare Ratchet",
-          "foreground": "小号与长号：将骑兵冲锋号角向上模进拔高，火力全开",
-          "foreground_en": "Trumpets & Trombones: ratcheting the cavalry fanfare upward at full firepower",
-          "background": "全弦乐满弓断奏铁蹄与定音鼓轰鸣",
-          "background_en": "Full-bowed staccato string gallop and thundering timpani",
-          "desc": "排练号 Aa（第 455–464 小节），再现部的哥萨克骑兵号角比呈示部更加狂暴，小号与长号每四小节向上拔高一层，气势如虹。",
-          "desc_en": "At Letter Aa (mm. 455–464), the recapitulated cavalry fanfare blazes even more fiercely than in the exposition, ratcheting higher every four bars.",
+          "title": "排练号 Aa：再现部骑兵号角全奏爆发（fff）",
+          "title_en": "Letter Aa: Recapitulated Cavalry Fanfare Tutti Eruption (fff)",
+          "focus": "全奏爆发",
+          "focus_en": "Tutti Eruption (fff)",
+          "foreground": "全体重铜管、圆号与定音鼓：将哥萨克骑兵冲锋号角引爆为震天动地的全奏（fff）",
+          "foreground_en": "Full Heavy Brass, Horns & Timpani: detonating the cavalry fanfare in a shattering fff tutti",
+          "background": "定音鼓暗流滚奏与步步攀升的半音阶张力",
+          "background_en": "Subterranean timpani rolls and rising chromatic tension",
+          "desc": "排练号 Aa（第 459–474 小节），经过 22 小节的铁蹄逼近，再现部的哥萨克骑兵号角终于全面引爆为三重强音全奏（fff），小号与长号每四小节向上拔高一层！",
+          "desc_en": "At Letter Aa (mm. 459–474), after 22 bars of approaching hoofbeats, the recapitulated cavalry fanfare detonates in a blazing fff tutti, ratcheting higher every four bars!",
           "blocks": [
             "m4-cossack"
           ],
@@ -34857,8 +34857,8 @@ window.BRUCKNER_DATA = {
             "strings": {
               "active": true,
               "highlight": true,
-              "role": "全弦乐以最凌厉的断奏全速奔袭",
-              "role_en": "Full strings gallop at maximum intensity"
+              "role": "全弦乐以凌厉的断奏全速奔袭",
+              "role_en": "Full strings gallop with relentless drive"
             },
             "winds": {
               "active": true,
@@ -34875,8 +34875,8 @@ window.BRUCKNER_DATA = {
             "brass": {
               "active": true,
               "highlight": true,
-              "role": "小号、长号与大号再度吹响雷霆万钧的骑兵号角",
-              "role_en": "Trumpets, trombones, and tuba blast the cavalry fanfare anew"
+              "role": "圆号与铜管号角由远及近，步步加压",
+              "role_en": "Horns and brass fanfares press closer bar by bar"
             },
             "perc": {
               "active": true,
@@ -34887,16 +34887,16 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 772.8,
-              "label": "第 460 小节 · 第 455 小节排练号 Aa 铜管拔高冲顶",
-              "label_en": "Bar 460 · Brass ratchet higher at Letter Aa (m. 455)",
-              "scoreTick": 220447,
+              "sec": 782.55,
+              "label": "第 467 小节 · 第 449 小节重铜管上膛扑向排练号 Aa",
+              "label_en": "Bar 467 · Heavy brass lock in at m. 449 approaching Letter Aa",
+              "scoreTick": 223807,
               "choirs": {
                 "strings": {
                   "active": true,
                   "highlight": true,
-                  "role": "全弦乐以最凌厉的断奏全速奔袭",
-                  "role_en": "Full strings gallop at maximum intensity"
+                  "role": "全弦乐以凌厉的断奏全速奔袭",
+                  "role_en": "Full strings gallop with relentless drive"
                 },
                 "winds": {
                   "active": true,
@@ -34913,8 +34913,8 @@ window.BRUCKNER_DATA = {
                 "brass": {
                   "active": true,
                   "highlight": true,
-                  "role": "小号、长号与大号再度吹响雷霆万钧的骑兵号角",
-                  "role_en": "Trumpets, trombones, and tuba blast the cavalry fanfare anew"
+                  "role": "圆号与铜管号角由远及近，步步加压",
+                  "role_en": "Horns and brass fanfares press closer bar by bar"
                 },
                 "perc": {
                   "active": true,
@@ -34926,13 +34926,13 @@ window.BRUCKNER_DATA = {
             }
           ],
           "score": {
-            "bar": 455,
+            "bar": 459,
             "rehearsal": "Aa",
-            "label": "排练号 Aa · 第 455–464 小节 (Haas)",
+            "label": "排练号 Aa · 第 459–474 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "排练号 Aa（第 455–464 小节），再现部的哥萨克骑兵号角比呈示部更加狂暴，小号与长号每四小节向上拔高一层，气势如虹。",
-            "observation_en": "At Letter Aa (mm. 455–464), the recapitulated cavalry fanfare blazes even more fiercely than in the exposition, ratcheting higher every four bars.",
+            "observation": "排练号 Aa（第 459–474 小节），经过 22 小节的铁蹄逼近，再现部的哥萨克骑兵号角终于全面引爆为三重强音全奏（fff），小号与长号每四小节向上拔高一层！",
+            "observation_en": "At Letter Aa (mm. 459–474), after 22 bars of approaching hoofbeats, the recapitulated cavalry fanfare detonates in a blazing fff tutti, ratcheting higher every four bars!",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -34942,31 +34942,31 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 218047,
-            "localMeanCosine": 0.8035,
+            "scoreTick": 219967,
+            "localMeanCosine": 0.712,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s35",
-          "start": 780.4,
+          "start": 792.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
           "act": 3,
           "actName": "第三幕 · 再现部与终极尾声：四大乐章主题「四重对位」神迹",
           "actName_en": "Act III · Recapitulation & Coda: The Quadruple Counterpoint Miracle",
-          "title": "排练号 Bb：再现部主部巅峰 · 连续 30 小节的铜管怒涛（fff）",
-          "title_en": "Letter Bb: Main Theme Recapitulation Peak · 30-Bar Brass Tempest (fff)",
+          "title": "排练号 Bb：再现部主部巅峰 · 铜管怒涛第一波冲击（fff）",
+          "title_en": "Letter Bb: Main Theme Recapitulation Peak · First Brass Tempest Wave (fff)",
           "focus": "雷霆怒涛",
           "focus_en": "Brass Tempest (fff)",
-          "foreground": "全体重铜管、圆号与定音鼓：在第 473–500 小节掀起震天动地的全奏巨浪",
-          "foreground_en": "Full Heavy Brass, Horns & Timpani: unleashing a seismic tutti wave (mm. 473–500)",
+          "foreground": "全体重铜管、圆号与定音鼓：在第 475–484 小节掀起震天动地的全奏巨浪",
+          "foreground_en": "Full Heavy Brass, Horns & Timpani: unleashing a seismic tutti wave (mm. 475–484)",
           "background": "全弦乐与木管狂飙的八分音符火海",
           "background_en": "Blazing eighth-note firestorm in strings and winds",
-          "desc": "排练号 Bb（第 465–494 小节），再现部第一主题不甘于早早收束，而是演化为一场长达 30 余小节的铜管风暴！",
-          "desc_en": "From Letter Bb (mm. 465–494), instead of subsiding early, the recapitulated first theme expands into a seismic 30-bar brass tempest.",
+          "desc": "排练号 Bb（第 475–484 小节），再现部第一主题演化为排山倒海的铜管风暴，全体重铜管与定音鼓在极高音区轰鸣不息！",
+          "desc_en": "From Letter Bb (mm. 475–484), the recapitulated first theme expands into a seismic brass tempest with blazing brass and thunderous timpani.",
           "blocks": [
             "m4-cossack"
           ],
@@ -34993,8 +34993,8 @@ window.BRUCKNER_DATA = {
             "brass": {
               "active": true,
               "highlight": true,
-              "role": "重铜管群在第 473–500 小节连续轰鸣",
-              "role_en": "Heavy brass roar continuously across mm. 473–500"
+              "role": "重铜管群在第 475–484 小节连续轰鸣",
+              "role_en": "Heavy brass roar continuously across mm. 475–484"
             },
             "perc": {
               "active": true,
@@ -35005,10 +35005,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 789.2,
-              "label": "第 472 小节 · 第 485 小节全乐队二次强音风暴",
-              "label_en": "Bar 472 · Second fortissimo storm wave at m. 485",
-              "scoreTick": 226207,
+              "sec": 797.15,
+              "label": "第 480 小节 · 第 480 小节重铜管强音推顶",
+              "label_en": "Bar 480 · Heavy brass crest at m. 480",
+              "scoreTick": 230047,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -35031,8 +35031,8 @@ window.BRUCKNER_DATA = {
                 "brass": {
                   "active": true,
                   "highlight": true,
-                  "role": "重铜管群在第 473–500 小节连续轰鸣",
-                  "role_en": "Heavy brass roar continuously across mm. 473–500"
+                  "role": "重铜管群在第 475–484 小节连续轰鸣",
+                  "role_en": "Heavy brass roar continuously across mm. 475–484"
                 },
                 "perc": {
                   "active": true,
@@ -35044,13 +35044,13 @@ window.BRUCKNER_DATA = {
             }
           ],
           "score": {
-            "bar": 465,
+            "bar": 475,
             "rehearsal": "Bb",
-            "label": "排练号 Bb · 第 465–479 小节 (Haas)",
+            "label": "排练号 Bb · 第 475–484 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "排练号 Bb（第 465–494 小节），再现部第一主题不甘于早早收束，而是演化为一场长达 30 余小节的铜管风暴！",
-            "observation_en": "From Letter Bb (mm. 465–494), instead of subsiding early, the recapitulated first theme expands into a seismic 30-bar brass tempest.",
+            "observation": "排练号 Bb（第 475–484 小节），再现部第一主题演化为排山倒海的铜管风暴，全体重铜管与定音鼓在极高音区轰鸣不息！",
+            "observation_en": "From Letter Bb (mm. 475–484), the recapitulated first theme expands into a seismic brass tempest with blazing brass and thunderous timpani.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -35060,31 +35060,31 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 222847,
-            "localMeanCosine": 0.7552,
+            "scoreTick": 227647,
+            "localMeanCosine": 0.6545,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s36",
-          "start": 800.0,
+          "start": 805.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
           "act": 3,
           "actName": "第三幕 · 再现部与终极尾声：四大乐章主题「四重对位」神迹",
           "actName_en": "Act III · Recapitulation & Coda: The Quadruple Counterpoint Miracle",
-          "title": "排练号 Bb 后半：铜管怒涛第二波全奏冲击",
-          "title_en": "Letter Bb Second Half: Second Wave of the Brass Tempest",
+          "title": "排练号 Bb 后半：铜管怒涛第二波极限冲击（fff）",
+          "title_en": "Letter Bb Second Half: Second Wave of the Brass Tempest (fff)",
           "focus": "怒涛二波",
           "focus_en": "Second Brass Surge",
-          "foreground": "八支圆号与重铜管：在极高音区掀起再现部主部第二波怒涛",
-          "foreground_en": "8 Horns & Heavy Brass: hurling a second main-theme tempest in the high register",
+          "foreground": "八支圆号、重铜管与定音鼓：在极高音区掀起再现部主部第二波全奏怒涛（fff）",
+          "foreground_en": "8 Horns, Heavy Brass & Timpani: hurling a second fff main-theme tempest in the high register",
           "background": "全弦乐与木管狂飙的八分音符火海",
           "background_en": "Blazing eighth-note firestorm in strings and winds",
-          "desc": "第 480–494 小节，再现部主部掀起第二波全奏怒涛，八支圆号与重铜管在狂暴的弦乐音阶上横冲直撞。",
-          "desc_en": "Across mm. 480–494, the recapitulated main group unleashes a second brass tempest over furious string scales.",
+          "desc": "第 485–494 小节，再现部主部掀起第二波更高亢的全奏怒涛（fff），八支圆号与重铜管在狂暴的弦乐音阶上横冲直撞。",
+          "desc_en": "Across mm. 485–494, the recapitulated main group unleashes a second, even mightier fff brass tempest over furious string scales.",
           "blocks": [
             "m4-cossack"
           ],
@@ -35111,8 +35111,8 @@ window.BRUCKNER_DATA = {
             "brass": {
               "active": true,
               "highlight": true,
-              "role": "重铜管群在第 473–500 小节连续轰鸣",
-              "role_en": "Heavy brass roar continuously across mm. 473–500"
+              "role": "重铜管群在第 475–484 小节连续轰鸣",
+              "role_en": "Heavy brass roar continuously across mm. 475–484"
             },
             "perc": {
               "active": true,
@@ -35123,10 +35123,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 813.0,
-              "label": "第 487 小节 · 第 485 小节全乐队二次强音风暴",
-              "label_en": "Bar 487 · Second fortissimo storm wave at m. 485",
-              "scoreTick": 233407,
+              "sec": 814.45,
+              "label": "第 490 小节 · 第 480 小节重铜管强音推顶",
+              "label_en": "Bar 490 · Heavy brass crest at m. 480",
+              "scoreTick": 234847,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -35149,8 +35149,8 @@ window.BRUCKNER_DATA = {
                 "brass": {
                   "active": true,
                   "highlight": true,
-                  "role": "重铜管群在第 473–500 小节连续轰鸣",
-                  "role_en": "Heavy brass roar continuously across mm. 473–500"
+                  "role": "重铜管群在第 475–484 小节连续轰鸣",
+                  "role_en": "Heavy brass roar continuously across mm. 475–484"
                 },
                 "perc": {
                   "active": true,
@@ -35162,13 +35162,13 @@ window.BRUCKNER_DATA = {
             }
           ],
           "score": {
-            "bar": 480,
+            "bar": 485,
             "rehearsal": "Bb-2",
-            "label": "排练号 Bb-2 · 第 480–494 小节 (Haas)",
+            "label": "排练号 Bb-2 · 第 485–494 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "第 480–494 小节，再现部主部掀起第二波全奏怒涛，八支圆号与重铜管在狂暴的弦乐音阶上横冲直撞。",
-            "observation_en": "Across mm. 480–494, the recapitulated main group unleashes a second brass tempest over furious string scales.",
+            "observation": "第 485–494 小节，再现部主部掀起第二波更高亢的全奏怒涛（fff），八支圆号与重铜管在狂暴的弦乐音阶上横冲直撞。",
+            "observation_en": "Across mm. 485–494, the recapitulated main group unleashes a second, even mightier fff brass tempest over furious string scales.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -35178,15 +35178,15 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 230047,
-            "localMeanCosine": 0.6758,
+            "scoreTick": 232447,
+            "localMeanCosine": 0.4364,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s37",
-          "start": 823.8,
+          "start": 824.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -35241,7 +35241,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 839.8,
+              "sec": 840.05,
               "label": "第 505 小节 · 第 516 小节排练号 Dd 极限强音冲刺",
               "label_en": "Bar 505 · Maximum fortissimo sprint at Letter Dd (m. 516)",
               "scoreTick": 242047,
@@ -35297,7 +35297,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 237247,
-            "localMeanCosine": 0.6571,
+            "localMeanCosine": 0.6073,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -35359,7 +35359,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 864.8,
+              "sec": 865.09,
               "label": "第 523 小节 · 第 516 小节排练号 Dd 极限强音冲刺",
               "label_en": "Bar 523 · Maximum fortissimo sprint at Letter Dd (m. 516)",
               "scoreTick": 250687,
@@ -35415,14 +35415,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 247327,
-            "localMeanCosine": 0.8286,
+            "localMeanCosine": 0.8015,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s39",
-          "start": 876.6,
+          "start": 876.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -35477,7 +35477,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 888.2,
+              "sec": 888.3,
               "label": "第 539 小节 · 第 547 小节排练号 Ff 长笛与弦乐高音区升华",
               "label_en": "Bar 539 · High-register elevation at Letter Ff (m. 547)",
               "scoreTick": 258367,
@@ -35533,7 +35533,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 254527,
-            "localMeanCosine": 0.8665,
+            "localMeanCosine": 0.7966,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -35595,7 +35595,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 909.6,
+              "sec": 909.75,
               "label": "第 555 小节 · 第 547 小节排练号 Ff 长笛与弦乐高音区升华",
               "label_en": "Bar 555 · High-register elevation at Letter Ff (m. 547)",
               "scoreTick": 266047,
@@ -35651,7 +35651,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 262207,
-            "localMeanCosine": 0.8528,
+            "localMeanCosine": 0.8271,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -35714,7 +35714,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 943.0,
+              "sec": 943.04,
               "label": "第 573 小节 · 第 573 小节全乐队蓄势扑向排练号 Hh",
               "label_en": "Bar 573 · Orchestra coils at m. 573 to spring into Letter Hh",
               "scoreTick": 274687,
@@ -35770,7 +35770,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 269887,
-            "localMeanCosine": 0.9423,
+            "localMeanCosine": 0.9356,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -35784,16 +35784,16 @@ window.BRUCKNER_DATA = {
           "act": 3,
           "actName": "第三幕 · 再现部与终极尾声：四大乐章主题「四重对位」神迹",
           "actName_en": "Act III · Recapitulation & Coda: The Quadruple Counterpoint Miracle",
-          "title": "排练号 Hh–Ii：第三主题再现 · 雷霆行军与圣咏合流",
-          "title_en": "Letters Hh–Ii: Third Theme Recapitulation · Thunderous March & Chorale Fusion",
+          "title": "排练号 Hh：第三主题再现 · 雷霆行军与第 598 小节大休止",
+          "title_en": "Letter Hh: Third Theme Recapitulation · Thunderous March & Bar 598 Pause",
           "focus": "行军总攻",
           "focus_en": "Final March Offensive",
-          "foreground": "重铜管、圆号与全弦乐：在 C 小调上发起排山倒海的第三主题总攻",
-          "foreground_en": "Heavy Brass, Horns & Full Strings: launching the C-minor third-theme offensive",
-          "background": "定音鼓重击与木管密集对位",
-          "background_en": "Pounding timpani and dense woodwind counterpoint",
-          "desc": "排练号 Hh（第 583 小节），第三主题在主调 C 小调上发起总攻！重铜管在第 583、595 小节连续轰鸣，把行军节奏推向白热化。",
-          "desc_en": "At Letter Hh (m. 583), the third theme launches its final offensive in C minor, punctuated by blazing brass bursts at mm. 583 and 595.",
+          "foreground": "重铜管、圆号与全弦乐：在 C 小调上发起排山倒海的第三主题强音总攻（ff）",
+          "foreground_en": "Heavy Brass, Horns & Full Strings: launching the C-minor third-theme ff offensive",
+          "background": "定音鼓重击与第 598 小节斩钉截铁的全场大休止",
+          "background_en": "Pounding timpani halting at the m. 598 General Pause",
+          "desc": "排练号 Hh（第 583–598 小节），第三主题在主调 C 小调上发起强音总攻（ff）！重铜管与弦乐铿锵并进，随后在第 598 小节突然斩断进入全场大休止。",
+          "desc_en": "At Letter Hh (mm. 583–598), the third theme launches a blazing ff offensive in C minor before halting abruptly at the m. 598 General Pause.",
           "blocks": [
             "m4-heroic-march"
           ],
@@ -35832,10 +35832,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 976.6,
-              "label": "第 589 小节 · 第 595 小节排练号 Ii 重铜管全奏爆发",
-              "label_en": "Bar 589 · Heavy brass tutti outburst at Letter Ii (m. 595)",
-              "scoreTick": 282367,
+              "sec": 980.26,
+              "label": "第 591 小节 · 第 591 小节重铜管行军强音推进",
+              "label_en": "Bar 591 · Heavy brass march surge at m. 591",
+              "scoreTick": 283327,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -35873,11 +35873,11 @@ window.BRUCKNER_DATA = {
           "score": {
             "bar": 583,
             "rehearsal": "Hh–Ii",
-            "label": "排练号 Hh–Ii · 第 583–594 小节 (Haas)",
+            "label": "排练号 Hh–Ii · 第 583–598 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "排练号 Hh（第 583 小节），第三主题在主调 C 小调上发起总攻！重铜管在第 583、595 小节连续轰鸣，把行军节奏推向白热化。",
-            "observation_en": "At Letter Hh (m. 583), the third theme launches its final offensive in C minor, punctuated by blazing brass bursts at mm. 583 and 595.",
+            "observation": "排练号 Hh（第 583–598 小节），第三主题在主调 C 小调上发起强音总攻（ff）！重铜管与弦乐铿锵并进，随后在第 598 小节突然斩断进入全场大休止。",
+            "observation_en": "At Letter Hh (mm. 583–598), the third theme launches a blazing ff offensive in C minor before halting abruptly at the m. 598 General Pause.",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -35888,30 +35888,30 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 279487,
-            "localMeanCosine": 0.8966,
+            "localMeanCosine": 0.8726,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s43",
-          "start": 988.6,
+          "start": 1003.7,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
           "act": 3,
           "actName": "第三幕 · 再现部与终极尾声：四大乐章主题「四重对位」神迹",
           "actName_en": "Act III · Recapitulation & Coda: The Quadruple Counterpoint Miracle",
-          "title": "排练号 Ii：第三主题再现全奏爆发（fff）",
-          "title_en": "Letter Ii: Tutti Eruption of the Recapitulated Third Theme (fff)",
-          "focus": "行军爆发",
-          "focus_en": "March Eruption",
-          "foreground": "全体铜管与定音鼓：将第三主题行军推上雷霆万钧的 fff 全奏",
-          "foreground_en": "Full Brass & Timpani: driving the third-theme march into a thunderous fff tutti",
-          "background": "定音鼓重击与木管密集对位",
-          "background_en": "Pounding timpani and dense woodwind counterpoint",
-          "desc": "排练号 Ii（第 595–614 小节），再现部第三主题彻底卸下伪装，化作全体铜管与定音鼓雷霆万钧的 fff 全奏风暴，直接引出第一乐章主题的惊天回归！",
-          "desc_en": "At Letter Ii (mm. 595–614), the recapitulated third theme erupts into a thunderous fff brass and timpani storm, paving the way for Movement I's return!",
+          "title": "排练号 Ii：大休止后的庄严弱音圣咏与赋格沉思",
+          "title_en": "Letter Ii: Solemn Hushed Chorale & Fugal Reflection After the Pause",
+          "focus": "静谧圣咏",
+          "focus_en": "Hushed Chorale",
+          "foreground": "圆号、木管与弦乐：在第 598 小节大休止后吹出庄严静谧的弱音圣咏（pp）与复调交织",
+          "foreground_en": "Horns, Winds & Strings: intoning a solemn hushed chorale (pp) and fugal web after the m. 598 pause",
+          "background": "定音鼓重击与第 598 小节斩钉截铁的全场大休止",
+          "background_en": "Pounding timpani halting at the m. 598 General Pause",
+          "desc": "第 598 小节全场大休止过后，排练号 Ii（第 599–616 小节）陡然沉入庄严静谧的弱音圣咏与赋格交织（pp），并在第 614–616 小节再次进入屏息大休止，为第一乐章主题的跨乐章回归腾出神圣空间！",
+          "desc_en": "After the m. 598 General Pause, Letter Ii (mm. 599–616) drops into a solemn, hushed chorale and fugal web (pp), halting again at the mm. 614–616 General Pause to clear the stage for Movement I's return!",
           "blocks": [
             "m4-heroic-march"
           ],
@@ -35950,10 +35950,10 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1019.8,
-              "label": "第 605 小节 · 第 595 小节排练号 Ii 重铜管全奏爆发",
-              "label_en": "Bar 605 · Heavy brass tutti outburst at Letter Ii (m. 595)",
-              "scoreTick": 290047,
+              "sec": 1026.71,
+              "label": "第 608 小节 · 第 591 小节重铜管行军强音推进",
+              "label_en": "Bar 608 · Heavy brass march surge at m. 591",
+              "scoreTick": 291487,
               "choirs": {
                 "strings": {
                   "active": true,
@@ -35989,13 +35989,13 @@ window.BRUCKNER_DATA = {
             }
           ],
           "score": {
-            "bar": 595,
+            "bar": 599,
             "rehearsal": "Ii",
-            "label": "排练号 Ii · 第 595–614 小节 (Haas)",
+            "label": "排练号 Ii · 第 599–616 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "排练号 Ii（第 595–614 小节），再现部第三主题彻底卸下伪装，化作全体铜管与定音鼓雷霆万钧的 fff 全奏风暴，直接引出第一乐章主题的惊天回归！",
-            "observation_en": "At Letter Ii (mm. 595–614), the recapitulated third theme erupts into a thunderous fff brass and timpani storm, paving the way for Movement I's return!",
+            "observation": "第 598 小节全场大休止过后，排练号 Ii（第 599–616 小节）陡然沉入庄严静谧的弱音圣咏与赋格交织（pp），并在第 614–616 小节再次进入屏息大休止，为第一乐章主题的跨乐章回归腾出神圣空间！",
+            "observation_en": "After the m. 598 General Pause, Letter Ii (mm. 599–616) drops into a solemn, hushed chorale and fugal web (pp), halting again at the mm. 614–616 General Pause to clear the stage for Movement I's return!",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -36005,31 +36005,31 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 285247,
-            "localMeanCosine": 0.9326,
+            "scoreTick": 287167,
+            "localMeanCosine": 0.9063,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s44",
-          "start": 1042.4,
+          "start": 1048.4,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
           "act": 3,
           "actName": "第三幕 · 再现部与终极尾声：四大乐章主题「四重对位」神迹",
           "actName_en": "Act III · Recapitulation & Coda: The Quadruple Counterpoint Miracle",
-          "title": "排练号 Kk：第一乐章主主题跨乐章惊天回归！",
-          "title_en": "Letter Kk: Monumental Cyclic Return of Movement I's Main Theme!",
-          "focus": "首章主题归来",
-          "focus_en": "Mvt I Theme Returns",
-          "foreground": "圆号、长号与低音弦乐：轰出第一乐章 C 小调主主题的完整原型",
-          "foreground_en": "Horns, Trombones & Low Strings: proclaiming Movement I's C-minor main theme intact",
-          "background": "高音弦乐与木管狂风骤雨般的震音与音阶",
-          "background_en": "Tempestuous tremolos and scales in upper strings and winds",
-          "desc": "排练号 Kk（第 615–646 小节），全曲的戏剧性环形结构合拢：第一乐章开篇那个在黑暗中挣扎的命运主题，在此由铜管群以顶天立地的巨人姿态完整吹响！",
-          "desc_en": "Across Letter Kk (mm. 615–646), the symphony's cyclic arch locks together: Movement I's fate theme returns in full brass majesty!",
+          "title": "排练号 Kk：第一乐章主主题在暗处苏醒与梯级暴涨",
+          "title_en": "Letter Kk: Movement I's Main Theme Awakens in Mystery & Surges",
+          "focus": "首章主题苏醒",
+          "focus_en": "Mvt I Theme Awakens",
+          "foreground": "低音弦乐、木管与圆号：从大休止后的极弱（pp）唤醒第一乐章命运附点节奏并层层暴涨",
+          "foreground_en": "Low Strings, Winds & Horns: awakening Movement I's fate rhythm from pp into a giant surge",
+          "background": "高音弦乐震音与逐步上膛的重铜管",
+          "background_en": "Upper-string tremolos and heavy brass locking in step by step",
+          "desc": "第 614–616 小节全场大休止过后，排练号 Kk（第 617–638 小节）在幽暗的极弱（pp）中悄然唤醒第一乐章的核心附点节奏，并在 22 小节内掀起排山倒海的梯级暴涨，直扑第 639 小节的铜管怒吼！",
+          "desc_en": "Following the mm. 614–616 General Pause, Letter Kk (mm. 617–638) quietly awakens Movement I's fate rhythm in hushed pp, launching a 22-bar Steigerung into the m. 639 brass roar!",
           "blocks": [
             "m4-heroic-march",
             "m4-cossack"
@@ -36039,127 +36039,8 @@ window.BRUCKNER_DATA = {
             "strings": {
               "active": true,
               "highlight": true,
-              "role": "全弦乐掀起排山倒海的伴奏音浪",
-              "role_en": "Full strings unleash towering waves of figuration"
-            },
-            "winds": {
-              "active": false,
-              "highlight": false,
-              "role": "本段暂作休整，先追主线声部",
-              "role_en": "Tacet or secondary here; follow the highlighted lead voices"
-            },
-            "horns": {
-              "active": true,
-              "highlight": true,
-              "role": "八支圆号与长号威严吹出第一乐章主主题",
-              "role_en": "Eight horns and trombones proclaim Movement I's main theme"
-            },
-            "brass": {
-              "active": true,
-              "highlight": true,
-              "role": "重铜管蓄势待发，把控建筑高潮的承重柱",
-              "role_en": "Heavy brass in reserve for structural climactic pillars"
-            },
-            "perc": {
-              "active": true,
-              "highlight": false,
-              "role": "定音鼓与竖琴静候关键结构节点",
-              "role_en": "Timpani and harps poised for structural articulatory points"
-            }
-          },
-          "cues": [
-            {
-              "sec": 1059.8,
-              "label": "第 623 小节 · 第 631 小节全乐队扑向第 647 小节巅峰",
-              "label_en": "Bar 623 · Full orchestra hurtles toward the m. 647 peak at m. 631",
-              "scoreTick": 298687,
-              "choirs": {
-                "strings": {
-                  "active": true,
-                  "highlight": true,
-                  "role": "全弦乐掀起排山倒海的伴奏音浪",
-                  "role_en": "Full strings unleash towering waves of figuration"
-                },
-                "winds": {
-                  "active": false,
-                  "highlight": false,
-                  "role": "本段暂作休整，先追主线声部",
-                  "role_en": "Tacet or secondary here; follow the highlighted lead voices"
-                },
-                "horns": {
-                  "active": true,
-                  "highlight": true,
-                  "role": "八支圆号与长号威严吹出第一乐章主主题",
-                  "role_en": "Eight horns and trombones proclaim Movement I's main theme"
-                },
-                "brass": {
-                  "active": true,
-                  "highlight": true,
-                  "role": "重铜管蓄势待发，把控建筑高潮的承重柱",
-                  "role_en": "Heavy brass in reserve for structural climactic pillars"
-                },
-                "perc": {
-                  "active": true,
-                  "highlight": false,
-                  "role": "定音鼓与竖琴静候关键结构节点",
-                  "role_en": "Timpani and harps poised for structural articulatory points"
-                }
-              }
-            }
-          ],
-          "score": {
-            "bar": 615,
-            "rehearsal": "Kk",
-            "label": "排练号 Kk · 第 615–630 小节 (Haas)",
-            "page": "",
-            "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "排练号 Kk（第 615–646 小节），全曲的戏剧性环形结构合拢：第一乐章开篇那个在黑暗中挣扎的命运主题，在此由铜管群以顶天立地的巨人姿态完整吹响！",
-            "observation_en": "Across Letter Kk (mm. 615–646), the symphony's cyclic arch locks together: Movement I's fate theme returns in full brass majesty!",
-            "references": [
-              {
-                "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
-                "url": "https://imslp.org/wiki/Symphony_No.8,_WAB_108_(Bruckner,_Anton)"
-              }
-            ]
-          },
-          "timingEvidence": {
-            "kind": "score-midi-audio-alignment",
-            "scoreTick": 294847,
-            "localMeanCosine": 0.8532,
-            "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
-            "scoreAnchorConfidence": "score-checked"
-          }
-        },
-        {
-          "id": "m4-s45",
-          "start": 1074.6,
-          "timing": "reference",
-          "timeStatus": "score-aligned",
-          "kind": "score-event",
-          "act": 3,
-          "actName": "第三幕 · 再现部与终极尾声：四大乐章主题「四重对位」神迹",
-          "actName_en": "Act III · Recapitulation & Coda: The Quadruple Counterpoint Miracle",
-          "title": "排练号 Kk 后半：第一乐章主题驱动全乐队冲向极顶",
-          "title_en": "Letter Kk Second Half: Movement I Theme Drives Toward the Apex",
-          "focus": "首章驱动",
-          "focus_en": "Mvt I Overdrive",
-          "foreground": "长号、圆号与全弦乐：咬住第一乐章附点节奏向高潮猛扑",
-          "foreground_en": "Trombones, Horns & Strings: locking onto the Mvt I dotted rhythm toward the peak",
-          "background": "高音弦乐与木管狂风骤雨般的震音与音阶",
-          "background_en": "Tempestuous tremolos and scales in upper strings and winds",
-          "desc": "第 631–646 小节，第一乐章的命运附点节奏全面接管乐队，在铜管与弦乐的交替轰鸣中把音乐推向第 647 小节的极顶宣判！",
-          "desc_en": "Across mm. 631–646, Movement I's fate rhythm takes full command of the orchestra, driving brass and strings straight into the m. 647 climax!",
-          "blocks": [
-            "m4-heroic-march",
-            "m4-cossack"
-          ],
-          "color": "#2563eb",
-          "choirs": {
-            "strings": {
-              "active": true,
-              "highlight": true,
-              "role": "全弦乐掀起排山倒海的伴奏音浪",
-              "role_en": "Full strings unleash towering waves of figuration"
+              "role": "全弦乐从神秘潜行加速至狂暴音浪",
+              "role_en": "Strings accelerate from hushed prowling to towering waves"
             },
             "winds": {
               "active": true,
@@ -36170,8 +36051,8 @@ window.BRUCKNER_DATA = {
             "horns": {
               "active": true,
               "highlight": true,
-              "role": "八支圆号与长号威严吹出第一乐章主主题",
-              "role_en": "Eight horns and trombones proclaim Movement I's main theme"
+              "role": "圆号与木管从极弱起步，逐层吹响第一乐章节奏",
+              "role_en": "Horns and winds build Movement I's rhythm from pp upward"
             },
             "brass": {
               "active": true,
@@ -36188,16 +36069,16 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1088.8,
-              "label": "第 639 小节 · 第 631 小节全乐队扑向第 647 小节巅峰",
-              "label_en": "Bar 639 · Full orchestra hurtles toward the m. 647 peak at m. 631",
-              "scoreTick": 306367,
+              "sec": 1068.85,
+              "label": "第 628 小节 · 第 629 小节全乐队音量陡升扑向铜管爆发",
+              "label_en": "Bar 628 · Orchestral surge at m. 629 hurtling toward the brass eruption",
+              "scoreTick": 301087,
               "choirs": {
                 "strings": {
                   "active": true,
                   "highlight": true,
-                  "role": "全弦乐掀起排山倒海的伴奏音浪",
-                  "role_en": "Full strings unleash towering waves of figuration"
+                  "role": "全弦乐从神秘潜行加速至狂暴音浪",
+                  "role_en": "Strings accelerate from hushed prowling to towering waves"
                 },
                 "winds": {
                   "active": true,
@@ -36208,8 +36089,8 @@ window.BRUCKNER_DATA = {
                 "horns": {
                   "active": true,
                   "highlight": true,
-                  "role": "八支圆号与长号威严吹出第一乐章主主题",
-                  "role_en": "Eight horns and trombones proclaim Movement I's main theme"
+                  "role": "圆号与木管从极弱起步，逐层吹响第一乐章节奏",
+                  "role_en": "Horns and winds build Movement I's rhythm from pp upward"
                 },
                 "brass": {
                   "active": true,
@@ -36227,13 +36108,13 @@ window.BRUCKNER_DATA = {
             }
           ],
           "score": {
-            "bar": 631,
-            "rehearsal": "Kk-2",
-            "label": "排练号 Kk-2 · 第 631–646 小节 (Haas)",
+            "bar": 617,
+            "rehearsal": "Kk",
+            "label": "排练号 Kk · 第 617–638 小节 (Haas)",
             "page": "",
             "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
-            "observation": "第 631–646 小节，第一乐章的命运附点节奏全面接管乐队，在铜管与弦乐的交替轰鸣中把音乐推向第 647 小节的极顶宣判！",
-            "observation_en": "Across mm. 631–646, Movement I's fate rhythm takes full command of the orchestra, driving brass and strings straight into the m. 647 climax!",
+            "observation": "第 614–616 小节全场大休止过后，排练号 Kk（第 617–638 小节）在幽暗的极弱（pp）中悄然唤醒第一乐章的核心附点节奏，并在 22 小节内掀起排山倒海的梯级暴涨，直扑第 639 小节的铜管怒吼！",
+            "observation_en": "Following the mm. 614–616 General Pause, Letter Kk (mm. 617–638) quietly awakens Movement I's fate rhythm in hushed pp, launching a 22-bar Steigerung into the m. 639 brass roar!",
             "references": [
               {
                 "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
@@ -36243,15 +36124,134 @@ window.BRUCKNER_DATA = {
           },
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
-            "scoreTick": 302527,
-            "localMeanCosine": 0.8675,
+            "scoreTick": 295807,
+            "localMeanCosine": 0.8485,
+            "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
+            "scoreAnchorConfidence": "score-checked"
+          }
+        },
+        {
+          "id": "m4-s45",
+          "start": 1088.6,
+          "timing": "reference",
+          "timeStatus": "score-aligned",
+          "kind": "score-event",
+          "act": 3,
+          "actName": "第三幕 · 再现部与终极尾声：四大乐章主题「四重对位」神迹",
+          "actName_en": "Act III · Recapitulation & Coda: The Quadruple Counterpoint Miracle",
+          "title": "第 639–646 小节：第一乐章主主题重铜管全奏怒吼（ff/fff）！",
+          "title_en": "Bars 639–646: Heavy Brass Roar Movement I's Main Theme in Full Force!",
+          "focus": "首章主题怒吼",
+          "focus_en": "Mvt I Theme Roar",
+          "foreground": "长号、八支圆号、小号与全弦乐：以雷霆万钧的全奏完整轰出第一乐章 C 小调命运主主题（ff/fff）",
+          "foreground_en": "Trombones, 8 Horns, Trumpets & Strings: roaring Movement I's C-minor fate theme in blazing tutti",
+          "background": "高音弦乐震音与逐步上膛的重铜管",
+          "background_en": "Upper-string tremolos and heavy brass locking in step by step",
+          "desc": "第 639–646 小节，全曲环形结构在此引爆：第一乐章开篇在暗影中挣扎的命运主题，由全体重铜管与八支圆号以排山倒海的强音（ff/fff）完整轰出，直接冲上第 647 小节的终极顶峰！",
+          "desc_en": "Across mm. 639–646, Movement I's fate theme erupts in full heavy brass and eight-horn majesty (ff/fff), hurtling straight into the supreme m. 647 climax!",
+          "blocks": [
+            "m4-heroic-march",
+            "m4-cossack"
+          ],
+          "color": "#2563eb",
+          "choirs": {
+            "strings": {
+              "active": true,
+              "highlight": true,
+              "role": "全弦乐从神秘潜行加速至狂暴音浪",
+              "role_en": "Strings accelerate from hushed prowling to towering waves"
+            },
+            "winds": {
+              "active": true,
+              "highlight": false,
+              "role": "木管声部提供长音色彩与局部对位衔接",
+              "role_en": "Woodwinds provide sustained color and contrapuntal links"
+            },
+            "horns": {
+              "active": true,
+              "highlight": true,
+              "role": "圆号与木管从极弱起步，逐层吹响第一乐章节奏",
+              "role_en": "Horns and winds build Movement I's rhythm from pp upward"
+            },
+            "brass": {
+              "active": true,
+              "highlight": true,
+              "role": "重铜管蓄势待发，把控建筑高潮的承重柱",
+              "role_en": "Heavy brass in reserve for structural climactic pillars"
+            },
+            "perc": {
+              "active": false,
+              "highlight": false,
+              "role": "本段暂作休整，先追主线声部",
+              "role_en": "Tacet or secondary here; follow the highlighted lead voices"
+            }
+          },
+          "cues": [
+            {
+              "sec": 1098.72,
+              "label": "第 643 小节 · 第 629 小节全乐队音量陡升扑向铜管爆发",
+              "label_en": "Bar 643 · Orchestral surge at m. 629 hurtling toward the brass eruption",
+              "scoreTick": 308287,
+              "choirs": {
+                "strings": {
+                  "active": true,
+                  "highlight": true,
+                  "role": "全弦乐从神秘潜行加速至狂暴音浪",
+                  "role_en": "Strings accelerate from hushed prowling to towering waves"
+                },
+                "winds": {
+                  "active": true,
+                  "highlight": false,
+                  "role": "木管声部提供长音色彩与局部对位衔接",
+                  "role_en": "Woodwinds provide sustained color and contrapuntal links"
+                },
+                "horns": {
+                  "active": true,
+                  "highlight": true,
+                  "role": "圆号与木管从极弱起步，逐层吹响第一乐章节奏",
+                  "role_en": "Horns and winds build Movement I's rhythm from pp upward"
+                },
+                "brass": {
+                  "active": true,
+                  "highlight": true,
+                  "role": "重铜管蓄势待发，把控建筑高潮的承重柱",
+                  "role_en": "Heavy brass in reserve for structural climactic pillars"
+                },
+                "perc": {
+                  "active": false,
+                  "highlight": false,
+                  "role": "本段暂作休整，先追主线声部",
+                  "role_en": "Tacet or secondary here; follow the highlighted lead voices"
+                }
+              }
+            }
+          ],
+          "score": {
+            "bar": 639,
+            "rehearsal": "m.639",
+            "label": "排练号 m.639 · 第 639–646 小节 (Haas)",
+            "page": "",
+            "edition": "Robert Haas Critical Edition (1890/1939) · Aligned via Full-Score MIDI & Chroma DTW",
+            "observation": "第 639–646 小节，全曲环形结构在此引爆：第一乐章开篇在暗影中挣扎的命运主题，由全体重铜管与八支圆号以排山倒海的强音（ff/fff）完整轰出，直接冲上第 647 小节的终极顶峰！",
+            "observation_en": "Across mm. 639–646, Movement I's fate theme erupts in full heavy brass and eight-horn majesty (ff/fff), hurtling straight into the supreme m. 647 climax!",
+            "references": [
+              {
+                "title": "Bruckner, Symphony No. 8 in C minor (WAB 108) · Robert Haas Critical Score (IMSLP)",
+                "url": "https://imslp.org/wiki/Symphony_No.8,_WAB_108_(Bruckner,_Anton)"
+              }
+            ]
+          },
+          "timingEvidence": {
+            "kind": "score-midi-audio-alignment",
+            "scoreTick": 306367,
+            "localMeanCosine": 0.8599,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s46",
-          "start": 1102.2,
+          "start": 1108.1,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -36307,7 +36307,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1116.0,
+              "sec": 1119.21,
               "label": "第 655 小节 · 第 652 小节重铜管最强音极顶",
               "label_en": "Bar 655 · Maximum heavy brass peak at m. 652",
               "scoreTick": 314047,
@@ -36363,7 +36363,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 310207,
-            "localMeanCosine": 0.9448,
+            "localMeanCosine": 0.9157,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -36425,7 +36425,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1144.4,
+              "sec": 1144.67,
               "label": "第 669 小节 · 第 682 小节定音鼓极弱孤响与第 684 小节大休止",
               "label_en": "Bar 669 · Whispered timpani roll (m. 682) & General Pause (m. 684)",
               "scoreTick": 320767,
@@ -36481,14 +36481,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 317887,
-            "localMeanCosine": 0.7457,
+            "localMeanCosine": 0.8767,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s48",
-          "start": 1157.8,
+          "start": 1158.2,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -36543,7 +36543,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1169.4,
+              "sec": 1170.25,
               "label": "第 680 小节 · 第 682 小节定音鼓极弱孤响与第 684 小节大休止",
               "label_en": "Bar 680 · Whispered timpani roll (m. 682) & General Pause (m. 684)",
               "scoreTick": 326047,
@@ -36599,7 +36599,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 323647,
-            "localMeanCosine": 0.9383,
+            "localMeanCosine": 0.9161,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -36662,7 +36662,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1204.4,
+              "sec": 1204.05,
               "label": "第 693 小节 · 第 693 小节大号与木管切入加速渐强",
               "label_en": "Bar 693 · Tuba and woodwinds enter at m. 693 to accelerate the crescendo",
               "scoreTick": 332287,
@@ -36718,7 +36718,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 328447,
-            "localMeanCosine": 0.8728,
+            "localMeanCosine": 0.9231,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -36781,7 +36781,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1243.8,
+              "sec": 1244.04,
               "label": "第 709 小节 · 第 709 小节木管与小号吹响破晓先导号角",
               "label_en": "Bar 709 · Woodwinds and trumpets sound the dawn herald at m. 709",
               "scoreTick": 339967,
@@ -36837,7 +36837,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 336127,
-            "localMeanCosine": 0.8168,
+            "localMeanCosine": 0.7761,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -36900,7 +36900,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1269.0,
+              "sec": 1268.65,
               "label": "第 721 小节 · 第 721 小节四重对位第二次叠合冲向 C 大调",
               "label_en": "Bar 721 · Second statement of the quadruple counterpoint surging toward C major at m. 721",
               "scoreTick": 345727,
@@ -36956,7 +36956,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 343807,
-            "localMeanCosine": 0.7707,
+            "localMeanCosine": 0.8032,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           },
@@ -36986,7 +36986,7 @@ window.BRUCKNER_DATA = {
         },
         {
           "id": "m4-s52",
-          "start": 1278.3,
+          "start": 1278.0,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -37041,7 +37041,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1290.0,
+              "sec": 1292.5,
               "label": "第 730 小节 · 第 730 小节圆号与小号在 C 大调光海中接力",
               "label_en": "Bar 730 · Horns and trumpets relay in a sea of C-major light at m. 730",
               "scoreTick": 350047,
@@ -37097,14 +37097,14 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 347647,
-            "localMeanCosine": 0.7501,
+            "localMeanCosine": 0.6703,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
         },
         {
           "id": "m4-s53",
-          "start": 1301.0,
+          "start": 1300.8,
           "timing": "reference",
           "timeStatus": "score-aligned",
           "kind": "score-event",
@@ -37160,7 +37160,7 @@ window.BRUCKNER_DATA = {
           },
           "cues": [
             {
-              "sec": 1314.8,
+              "sec": 1314.69,
               "label": "第 741 小节 · 第 743 小节全乐队最后五小节齐奏封顶",
               "label_en": "Bar 741 · Final five bars of full-orchestra crowning unison at m. 743",
               "scoreTick": 355327,
@@ -37216,7 +37216,7 @@ window.BRUCKNER_DATA = {
           "timingEvidence": {
             "kind": "score-midi-audio-alignment",
             "scoreTick": 352447,
-            "localMeanCosine": 0.802,
+            "localMeanCosine": 0.7767,
             "method": "Robert Haas full-score MIDI chroma + log-energy envelope to CQT recording chroma, monotonic banded DTW.",
             "scoreAnchorConfidence": "score-checked"
           }
@@ -39430,8 +39430,8 @@ window.BRUCKNER_DATA = {
     {
       "name": "管风琴圣咏与雀跃长笛：排练号 E 的巴洛克式双声部对位",
       "name_en": "Organ Chorale & Dancing Flute: Baroque Double Counterpoint at Letter E",
-      "coord": "总谱第 85–94 小节 · 参考位置 02:03",
-      "realJumpSec": 123.0,
+      "coord": "总谱第 85–94 小节 · 参考位置 02:02",
+      "realJumpSec": 122.8,
       "bpm": 72.0,
       "totalBeats": 40.0,
       "desc": "第 85–94 小节（排练号 E）：弦乐群与圆号在下方唱出虔诚温润的四部圣咏，独奏长笛与双簧管在上方跳起清脆灵动的跳跃对位舞步。",
