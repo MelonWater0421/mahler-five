@@ -12,7 +12,9 @@ window.MAHLER_DATA = {
           2
         ],
         "label": "葬礼与风暴",
-        "listenFor": "两个乐章共享主题；第一乐章埋下的激烈材料在第二乐章扩张。"
+        "listenFor": "两个乐章共享主题；第一乐章埋下的激烈材料在第二乐章扩张。",
+        "label_en": "Funeral & Storm",
+        "listenFor_en": "The two movements share thematic material; turbulent motifs planted in Movement 1 expand with furious intensity in Movement 2."
       },
       {
         "part": "II",
@@ -20,7 +22,9 @@ window.MAHLER_DATA = {
           3
         ],
         "label": "舞蹈的巨大中轴",
-        "listenFor": "第三乐章独占一大部分；圆号、乡村舞与圆舞曲交织。"
+        "listenFor": "第三乐章独占一大部分；圆号、乡村舞与圆舞曲交织。",
+        "label_en": "The Colossal Dance Pivot",
+        "listenFor_en": "The Scherzo stands alone as Part II; solo horn, Austrian Ländler, and Viennese waltz intertwine in a dizzying symphonic labyrinth."
       },
       {
         "part": "III",
@@ -29,7 +33,9 @@ window.MAHLER_DATA = {
           5
         ],
         "label": "歌唱与完成",
-        "listenFor": "小柔板与终曲相连，抒情旋律改变速度和性格后继续生活。"
+        "listenFor": "小柔板与终曲相连，抒情旋律改变速度和性格后继续生活。",
+        "label_en": "Song & Consummation",
+        "listenFor_en": "The Adagietto flows into the Rondo-Finale, where intimate lyricism changes tempo and character to embrace radiant vitality."
       }
     ],
     "firstListenMission": "第一次只抓三件事：开头小号的节奏、第二乐章一闪而过的铜管圣咏、终曲圣咏真正回来。第二次再追第三乐章的圆号和第四至第五乐章的旋律变身。",
@@ -43,6 +49,13 @@ window.MAHLER_DATA = {
       "lap-work",
       "dm-work",
       "mf-intro"
+    ],
+    "oneSentence_en": "Hear it first as an evolving drama of sound relationships: the same impulses, travelling from a funeral march, wild revolt, rustic dance, and intimate song, finally enter a finale where multiple melodies live together in joyous counterpoint.",
+    "firstListenMission_en": "On your first listen, catch just three landmarks: the opening trumpet rhythm, the fleeting brass chorale in Movement 2, and the crowning return of that chorale in the Finale. On your second listen, follow the horn calls in the Scherzo and the metamorphosis of the Adagietto song in the Finale.",
+    "facts_en": [
+      "Composed primarily in 1901–1902; premiered in 1904 conducted by Mahler, who continued revising the orchestration throughout his life.",
+      "The entire work is purely orchestral without voices; 'polyphony / choir guide' refers to instrumental layers such as trumpets, horns, woodwinds, and strings.",
+      "This guide uses Leonard Bernstein's 1987/1988 live recording with the Vienna Philharmonic (Deutsche Grammophon) as the default reference."
     ]
   },
   "movements": [
@@ -221,7 +234,13 @@ window.MAHLER_DATA = {
               "synthMode": 0,
               "shortTitle": "贝多芬第五的节奏亲缘"
             }
-          ]
+          ],
+          "title_en": "Engrave the Trumpet's 'Short-Short-Short—Long' in Your Ears",
+          "desc_en": "Begins with solitary first trumpet. Three short notes push toward an accented arrival, followed by an ascending arc that folds back on dotted rhythms. Tap this rhythm with your fingers; don't rush to memorize a long tune—even the timpani will inherit this exact pattern later.",
+          "foreground_en": "Solo Trumpet: unaccompanied military signal; track the rhythm and the upward contour.",
+          "background_en": "Silence / expectant breathing in the hall.",
+          "focus_en": "Rhythmic Imprint",
+          "actName_en": "Act I · Fanfare & Lament: Recognizing Voice Relationships"
         },
         {
           "id": "i-deep-02",
@@ -294,7 +313,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Trumpet Lands: The Orchestra Expands the Space",
+          "desc_en": "As the trumpet reaches its summit, heavy brass, bassoons, and low strings crash down together. Listen in two layers: above, the trumpet continues its independent fanfare; below, the orchestra delivers staggered triplet answering blows.",
+          "foreground_en": "First Trumpet: sustained high cry over orchestral impacts.",
+          "background_en": "Trombones, Tuba, Low Strings & Percussion: massive triplet responses.",
+          "focus_en": "Tonal Contrast",
+          "actName_en": "Act I · Fanfare & Lament: Recognizing Voice Relationships"
         },
         {
           "id": "i-deep-03",
@@ -408,7 +433,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Clatter Recedes: Distinguishing Footsteps from Downward Sighs",
+          "desc_en": "The blazing triplets cease. In the depths, tremulous descending lines appear; horns hand down dotted figures. Then the trombone's 'long-short' funeral step emerges.",
+          "foreground_en": "Horns & Trombones: descending funeral footsteps.",
+          "background_en": "Cellos & Basses: shuddering chromatic descent.",
+          "focus_en": "Rhythmic Deceleration",
+          "actName_en": "Act I · Fanfare & Lament: Recognizing Voice Relationships"
         },
         {
           "id": "i-deep-04",
@@ -539,7 +570,13 @@ window.MAHLER_DATA = {
               "links": [],
               "shortTitle": "《小鼓手》的告别"
             }
-          ]
+          ],
+          "title_en": "The Lament Speaks: Violins and Cellos Entwined",
+          "desc_en": "The formal funeral march begins in C-sharp minor. First violins and cellos weave a long, sorrowful song in close dialogue, accompanied by quiet pizzicato steps.",
+          "foreground_en": "Violins & Cellos: elegiac main theme in mournful unison.",
+          "background_en": "Pizzicato strings and muted timpani: steady marching pulse.",
+          "focus_en": "Cantabile Lament",
+          "actName_en": "Act I · Fanfare & Lament: Recognizing Voice Relationships"
         },
         {
           "id": "i-deep-05",
@@ -612,7 +649,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Familiar Signal Returns, Accompanied This Time",
+          "desc_en": "The opening trumpet call re-enters, but no longer alone: woodwinds and pizzicato strings quietly murmur beneath it, softening its solitary chill.",
+          "foreground_en": "Solo Trumpet: return of the opening signal.",
+          "background_en": "Woodwinds & Pizzicato: quiet accompaniment cushions.",
+          "focus_en": "Thematic Return",
+          "actName_en": "Act I · Fanfare & Lament: Recognizing Voice Relationships"
         },
         {
           "id": "i-deep-06",
@@ -726,7 +769,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Same Fanfare, Suddenly Sprouting Rapid Scales Beneath",
+          "desc_en": "While the trumpet sustains its signal, low strings and bassoons suddenly erupt into frantic, upward-surging scale runs, signaling rising restlessness.",
+          "foreground_en": "Trumpet: regal fanfare above.",
+          "background_en": "Cellos & Basses: violent ascending scale surges.",
+          "focus_en": "Subterranean Surge",
+          "actName_en": "Act I · Fanfare & Lament: Recognizing Voice Relationships"
         },
         {
           "id": "i-deep-07",
@@ -799,7 +848,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Lament Resumes with Denser Inner Voices",
+          "desc_en": "The funeral song returns, but now enriched with contrapuntal counter-melodies in the violas and English horn, deepening the grief.",
+          "foreground_en": "First Violins: expressive lament.",
+          "background_en": "Violas & Woodwinds: intertwining counter-melodies.",
+          "focus_en": "Polyphonic Density",
+          "actName_en": "Act I · Fanfare & Lament: Recognizing Voice Relationships"
         },
         {
           "id": "i-deep-08",
@@ -872,7 +927,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Shift Your Ear from Strings to Woodwinds",
+          "desc_en": "The string sorrow subsides into woodwind colors: oboes, clarinets, and flutes carry the funeral melody like a distant village band.",
+          "foreground_en": "Woodwind Choir: pastoral yet mourning timbre.",
+          "background_en": "Quiet pizzicato and gentle horn murmurs.",
+          "focus_en": "Timbral Shift",
+          "actName_en": "Act I · Fanfare & Lament: Recognizing Voice Relationships"
         },
         {
           "id": "i-deep-09",
@@ -945,7 +1006,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Color Brightens: Woodwinds in Dialogue with Low Strings",
+          "desc_en": "A transient ray of major-key warmth flickers as flutes and oboes engage in an intimate dialogue with cellos, offering brief solace.",
+          "foreground_en": "High Flutes & Oboes in warm counterpoint with Cellos.",
+          "background_en": "Sustained gentle horns.",
+          "focus_en": "Transient Consolation",
+          "actName_en": "Act I · Fanfare & Lament: Recognizing Voice Relationships"
         },
         {
           "id": "i-deep-10",
@@ -1018,7 +1085,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Violins Reconnect the Thread over Relentless Footsteps",
+          "desc_en": "First violins reclaim the long melody with heightened expressive intensity, while double basses maintain the inexorable funeral pace.",
+          "foreground_en": "Violins: soaring, impassioned grief.",
+          "background_en": "Basses & Timpani: somber marching footfalls.",
+          "focus_en": "Melodic Heightening",
+          "actName_en": "Act I · Fanfare & Lament: Recognizing Voice Relationships"
         },
         {
           "id": "i-deep-11",
@@ -1133,7 +1206,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "A Long Dissolve Harboring the Next Explosion",
+          "desc_en": "The music thins to near-silence. Solo trumpet fragments whisper like fading memories, secretly coiling tension for the impending storm.",
+          "foreground_en": "Fading trumpet fragments and muted string chords.",
+          "background_en": "Creeping stillness.",
+          "focus_en": "Suspenseful Stillness",
+          "actName_en": "Act I · Fanfare & Lament: Recognizing Voice Relationships"
         },
         {
           "id": "i-deep-12",
@@ -1206,7 +1285,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Sudden Acceleration: Shrieking Trumpets, Churning Strings",
+          "desc_en": "Violent rupture! Tempo triples into B-flat minor as trumpets screech a manic battle cry over violently churning, tempestuous violin runs.",
+          "foreground_en": "Trumpets: frantic shrieks of rebellion.",
+          "background_en": "Violins & Violas: tempestuous, swirling chromatic waves.",
+          "focus_en": "Violent Outburst",
+          "actName_en": "Act II · Wild Revolt: Breaking the Funeral Order"
         },
         {
           "id": "i-deep-13",
@@ -1321,7 +1406,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Woodwinds Take the Lead as Triplets Infiltrate the Cracks",
+          "desc_en": "The frantic tempest is passed to shrill woodwinds, while triplet fanfares incessantly stab through the seams of the texture.",
+          "foreground_en": "Oboes and Clarinets: breathless, frantic descending runs.",
+          "background_en": "Brass: stabbing triplet accents.",
+          "focus_en": "Texture Agitation",
+          "actName_en": "Act II · Wild Revolt: Breaking the Funeral Order"
         },
         {
           "id": "i-deep-14",
@@ -1394,7 +1485,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Horns Strive Upward While Violins Churn Below",
+          "desc_en": "Horns belt out an heroic ascending motif, struggling against the downward whirlpool of swirling violin figures.",
+          "foreground_en": "Horns: heroic, desperate upward reach.",
+          "background_en": "Violins: churning torrent.",
+          "focus_en": "Contrapuntal Clash",
+          "actName_en": "Act II · Wild Revolt: Breaking the Funeral Order"
         },
         {
           "id": "i-deep-15",
@@ -1508,7 +1605,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "First Trumpet Takes the Vanguard Once More",
+          "desc_en": "The principal trumpet commands the storm with piercing high cries, driving the ensemble toward the catastrophic precipice.",
+          "foreground_en": "Solo Trumpet: blazing high calls.",
+          "background_en": "Full orchestra in turbulent unison.",
+          "focus_en": "Solo Brass Leadership",
+          "actName_en": "Act II · Wild Revolt: Breaking the Funeral Order"
         },
         {
           "id": "i-deep-16",
@@ -1622,7 +1725,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Multiple Voice Lines Crowding Toward the Summit",
+          "desc_en": "Woodwinds, strings, and brass simultaneously push into extreme high registers, creating terrifying acoustic friction.",
+          "foreground_en": "All melodic choirs straining toward extreme registers.",
+          "background_en": "Heavy brass and thunderous timpani rolls.",
+          "focus_en": "Dynamic Climax",
+          "actName_en": "Act II · Wild Revolt: Breaking the Funeral Order"
         },
         {
           "id": "i-deep-17",
@@ -1695,7 +1804,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Trumpet Signal Gradually Pulls the Tempo Back",
+          "desc_en": "Exhausted by the fury, the trumpet sounds the original funeral rhythm, gradually putting the brakes on the wild tempo.",
+          "foreground_en": "Trumpet: decelerating funeral signal.",
+          "background_en": "Subsiding orchestral waves.",
+          "focus_en": "Tempo Retardation",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-18",
@@ -1768,7 +1883,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Heavy Blow Re-emerges with Lower Footsteps",
+          "desc_en": "The crashing orchestral impact returns, but now heavier, darker, and anchored deeper in the subterranean registers.",
+          "foreground_en": "Trombones & Tuba: heavy dark impacts.",
+          "background_en": "Strings: trembling bass steps.",
+          "focus_en": "Dark Weight",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-19",
@@ -1841,7 +1962,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Lament Returns: Keep Your Eyes on the Woodwinds",
+          "desc_en": "The elegiac march melody resumes in full, but this time listen to how woodwinds enrich the string mourning with plaintive colors.",
+          "foreground_en": "Violins & Woodwinds: deepened funeral song.",
+          "background_en": "Cellos, Basses & Timpani: marching ground bass.",
+          "focus_en": "Elegiac Return",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-20",
@@ -1915,7 +2042,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Song Above, Trumpet Interjecting from Below",
+          "desc_en": "While violins mourn on top, a muted trumpet injects a ghostly recollection of the fanfare from beneath the texture.",
+          "foreground_en": "Violins: singing lament above.",
+          "background_en": "Muted Trumpet: shadowy fanfare echoes.",
+          "focus_en": "Spatial Counterpoint",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-21",
@@ -2066,7 +2199,13 @@ window.MAHLER_DATA = {
               ],
               "shortTitle": "《亡儿之歌》里的光"
             }
-          ]
+          ],
+          "title_en": "A Whispered Reply in B-flat Minor",
+          "desc_en": "A somber, hushed response in B-flat minor, where solo clarinet and bassoon share mournful secrets.",
+          "foreground_en": "Clarinet & Bassoon: intimate whispered duet.",
+          "background_en": "Pizzicato strings.",
+          "focus_en": "Chamber Solace",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-22",
@@ -2139,7 +2278,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Melody Fades: Only Timpani Remembers the Opening",
+          "desc_en": "The melody evaporates entirely. Only the solo timpani taps out the opening 'three-shorts-and-a-long' rhythm in dead silence.",
+          "foreground_en": "Solo Timpani: tapping the Fate rhythm in pianissimo.",
+          "background_en": "Sustained ghostly string chords.",
+          "focus_en": "Rhythmic Ghost",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-23",
@@ -2290,7 +2435,13 @@ window.MAHLER_DATA = {
               ],
               "shortTitle": "呼喊怎样变成哀歌"
             }
-          ]
+          ],
+          "title_en": "Strings Sing the Outburst as an Elegy",
+          "desc_en": "The former violent outburst theme is now transformed by full strings into an agonizing, slow song of farewell.",
+          "foreground_en": "Violins: transfigured sorrow.",
+          "background_en": "Gentle low horn chords.",
+          "focus_en": "Thematic Transfiguration",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-24",
@@ -2364,7 +2515,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Horns Enter Without Breaking the String Fabric",
+          "desc_en": "Solemn horns merge into the rich string texture, adding golden depth without disrupting the delicate melancholia.",
+          "foreground_en": "Horns: noble, warm harmony.",
+          "background_en": "Violins and Violas: lyrical polyphony.",
+          "focus_en": "Warm Blending",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-25",
@@ -2478,7 +2635,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Suppressed Fast Notes Yield to a Trombone Line",
+          "desc_en": "A fleeting surge of speed is firmly subdued, opening up space for a majestic, tragic trombone solo.",
+          "foreground_en": "Solo Trombone: noble and sorrowful descent.",
+          "background_en": "Restless low string murmurs.",
+          "focus_en": "Solo Trombone",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-26",
@@ -2551,7 +2714,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Movement's Heavy Summit: Sound Collapses Downward",
+          "desc_en": "The final crushing climax of grief. The entire orchestral mass cries out, then plummets into the abyss like a falling colossus.",
+          "foreground_en": "Full Orchestra: catastrophic downward fall.",
+          "background_en": "Tam-tam stroke and bass drum thunder.",
+          "focus_en": "Catastrophic Collapse",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-27",
@@ -2624,7 +2793,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Signal Heard Again, Footsteps Sliding Chromatically",
+          "desc_en": "The trumpet signal flickers weakly, while the harmonic ground beneath slides downward in slipping chromatic steps.",
+          "foreground_en": "Faint trumpet fanfare fragments.",
+          "background_en": "Chromatic descending sliding strings.",
+          "focus_en": "Fading Energy",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-28",
@@ -2739,7 +2914,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Procession Slows: Low Strings Bear the Final Weight",
+          "desc_en": "The cortege grinds to a near-halt. Heavy cellos and double basses carry the crushing weight of mortality.",
+          "foreground_en": "Cellos & Double Basses: slow, dragging footsteps.",
+          "background_en": "Silence between heartbeats.",
+          "focus_en": "Final Footsteps",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-29",
@@ -2853,7 +3034,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Trumpet Recedes into Distance, Flute Takes the Final Breath",
+          "desc_en": "The trumpet sounds its signal from afar like a ghost. A single flute takes the final high sigh.",
+          "foreground_en": "Distant solo trumpet answered by lonely flute sigh.",
+          "background_en": "Fading string pedal point.",
+          "focus_en": "Spatial Distance",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         },
         {
           "id": "i-deep-30",
@@ -2926,7 +3113,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Final Pizzicato Period",
+          "desc_en": "A solitary, bone-dry pizzicato stroke in the low strings stabs through the darkness, extinguishing the movement.",
+          "foreground_en": "Tutti Strings: dry, sudden pizzicato stroke.",
+          "background_en": "Instant silence.",
+          "focus_en": "Final Full Stop",
+          "actName_en": "Act III · Returning Cortege & Dissolution"
         }
       ],
       "motifs": [
@@ -2944,7 +3137,12 @@ window.MAHLER_DATA = {
           ],
           "color": "#f59e0b",
           "audioStart": 0.0,
-          "timeStatus": "structural-reference"
+          "timeStatus": "structural-reference",
+          "name_en": "Trumpet Call: Rhythmic Stamp",
+          "earprint_en": "Three triplets leading to an accented long note, then a dotted fanfare.",
+          "firstCarrier_en": "Solo First Trumpet",
+          "role_en": "The guiding compass of the movement. Even as texture thins and distance grows, recognize it by the three-shorts-and-a-long pattern.",
+          "warning_en": "Do not treat it as a long melody to memorize; listen primarily for its rhythmic skeleton."
         },
         {
           "id": "m1-march",
@@ -2959,7 +3157,12 @@ window.MAHLER_DATA = {
           ],
           "color": "#ec4899",
           "audioStart": 77.04,
-          "timeStatus": "matched"
+          "timeStatus": "matched",
+          "name_en": "Funeral Cortege: Walking Song",
+          "earprint_en": "Solemn step-wise march in C-sharp minor over heavy walking bass.",
+          "firstCarrier_en": "First Violins & Cellos in unison",
+          "role_en": "Practice dual listening: hum the melancholic song while lightly tapping the heavy footsteps in low strings.",
+          "warning_en": "No matter how passionate the strings become, the subterranean marching pulse never wavers."
         },
         {
           "id": "m1-outcry",
@@ -2974,7 +3177,11 @@ window.MAHLER_DATA = {
           ],
           "color": "#ef4444",
           "audioStart": 375.46,
-          "timeStatus": "matched"
+          "timeStatus": "matched",
+          "name_en": "Shattering Cry: Trumpet Charge",
+          "earprint_en": "A searing trumpet charge tears through the tempestuous section while lower strings churn frantically below; track the wide leaps before following the brief echoing rejoinders.",
+          "firstCarrier_en": "Passionate Trumpets & Churning Strings",
+          "role_en": "The rupture of the funeral cortege. Internalizing this fierce urgency unlocks its thematic kinship with the stormy opening of Movement 2."
         }
       ],
       "misconceptions": [
@@ -5080,7 +5287,11 @@ window.MAHLER_DATA = {
           "🥁",
           "打击 / 竖琴"
         ]
-      ]
+      ],
+      "title_en": "I. Trauermarsch (Funeral March)",
+      "introduction_en": "In measured step, severe, like a funeral procession. The opening solo trumpet summons the fateful cortege, leading through grief, manic outbursts, and ultimate desolation.",
+      "mission_en": "First listen: memorize the opening trumpet rhythm (three shorts and a long); hear how the full orchestra answers, and how grief transforms into passionate rebellion.",
+      "form_en": "Funeral March with contrasting passionate trios and episodic returns."
     },
     {
       "id": 2,
@@ -5268,7 +5479,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Bass Rushes Upward, Stabbing Chords Intercept It",
+          "desc_en": "Listen first to the short arched line in the depths: two steps up, then falling back. Bassoons, cellos, and double basses surge forward, instantly severed by biting orchestral stabs.",
+          "foreground_en": "Cellos & Basses: fierce ascending motor motif.",
+          "background_en": "Tutti Orchestra: violent offbeat chordal chops.",
+          "focus_en": "Kinetic Interception",
+          "actName_en": "Act I · Tempest & Tragic Reminiscence"
         },
         {
           "id": "ii-deep-03",
@@ -5345,7 +5562,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Violins Seize the Outcry in Running Torrent",
+          "desc_en": "The high cry passes to the violins, unfolding into a continuous torrent of rapid semiquavers. What were previously separated collisions now become an unbroken stream.",
+          "foreground_en": "Violins: swirling storm stream.",
+          "background_en": "Bassoons & Trombones: climbing brass interjections.",
+          "focus_en": "Linear Torrent",
+          "actName_en": "Act I · Tempest & Tragic Reminiscence"
         },
         {
           "id": "ii-deep-04",
@@ -5422,7 +5645,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Melody Strives to Sing While the Ground Shudders",
+          "desc_en": "The violent descent is broken. Cellos launch arpeggiated waves while violas oscillate tensely. Violins probe with ascending figures in their lower register.",
+          "foreground_en": "First Violins: tentative expressive search.",
+          "background_en": "Violas & Cellos: uneasy murmuring waves.",
+          "focus_en": "Melodic Struggle",
+          "actName_en": "Act I · Tempest & Tragic Reminiscence"
         },
         {
           "id": "ii-deep-05",
@@ -5499,7 +5728,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Trumpet Fanfare Infiltrates the Song",
+          "desc_en": "The familiar military triplet fanfare from Movement 1 stabs into the unfolding violin melody, reminding us of the funeral cortege.",
+          "foreground_en": "Violins striving to sing.",
+          "background_en": "Trumpets: sharp triplet recollections.",
+          "focus_en": "Motive Intrusion",
+          "actName_en": "Act I · Tempest & Tragic Reminiscence"
         },
         {
           "id": "ii-deep-06",
@@ -5576,7 +5811,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Torrent Runs Out: Voices Withdraw Layer by Layer",
+          "desc_en": "The raging engine suddenly runs out of steam. Instruments fall away one by one, leaving only quiet, hollow pedal notes.",
+          "foreground_en": "Exhausted orchestral decrescendo.",
+          "background_en": "Fading low string pulses.",
+          "focus_en": "Dynamic Collapse",
+          "actName_en": "Act I · Tempest & Tragic Reminiscence"
         },
         {
           "id": "ii-deep-07",
@@ -5694,7 +5935,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Funeral March Tempo Returns, Outcries Unbroken",
+          "desc_en": "The pacing suddenly brakes: marked 'In the tempo of the first movement Funeral March'. The somber walking steps resume.",
+          "foreground_en": "Heavy funeral march steps.",
+          "background_en": "Muted brass sighing above.",
+          "focus_en": "Pacing Reversal",
+          "actName_en": "Act II · Elegiac Solace & Building Pressure"
         },
         {
           "id": "ii-deep-08",
@@ -5812,7 +6059,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Cello Lament Emerges from the Background",
+          "desc_en": "Solo and section cellos pour their hearts into a poignant, extended lament in A minor, direct heir to the first movement's grief.",
+          "foreground_en": "Cellos: deeply expressive elegiac cantabile.",
+          "background_en": "Pizzicato basses and quiet timpani taps.",
+          "focus_en": "Cello Soliloquy",
+          "actName_en": "Act II · Elegiac Solace & Building Pressure"
         },
         {
           "id": "ii-deep-09",
@@ -5889,7 +6142,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Violins Join: Adding a Voice Rather Than Replacing It",
+          "desc_en": "First violins enter above the cellos. This is not a change of soloist, but true two-part string polyphony.",
+          "foreground_en": "First Violins & Cellos: soaring two-part counterpoint.",
+          "background_en": "Violas: rhythmic harmonic weave.",
+          "focus_en": "Polyphonic Weaving",
+          "actName_en": "Act II · Elegiac Solace & Building Pressure"
         },
         {
           "id": "ii-deep-10",
@@ -5966,7 +6225,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Ascending Long Lines Appear, Short Notes Cling Beneath",
+          "desc_en": "The strings push into a broad, noble ascending melody in F major, yet short nervous figures constantly flutter beneath the calm.",
+          "foreground_en": "Violins: broad, noble melody in F major.",
+          "background_en": "Woodwinds: nervous, fluttering counter-figures.",
+          "focus_en": "Lyrical Breadth",
+          "actName_en": "Act II · Elegiac Solace & Building Pressure"
         },
         {
           "id": "ii-deep-11",
@@ -6084,7 +6349,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Storm Erupts Again: A New Handover of Themes",
+          "desc_en": "The tempest shatters the peace without warning! The opening kinetic motor crashes back, passed furiously between woodwinds and brass.",
+          "foreground_en": "Full Orchestra: violent tempestuous return.",
+          "background_en": "Percussion crashes and low brass roar.",
+          "focus_en": "Tempestuous Rupture",
+          "actName_en": "Act II · Elegiac Solace & Building Pressure"
         },
         {
           "id": "ii-deep-12",
@@ -6203,7 +6474,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Stripped Down to Cellos and Timpani",
+          "desc_en": "Another sudden emptying of the acoustic landscape. Only whispering cellos and quiet timpani strokes remain in the darkness.",
+          "foreground_en": "Cellos and Timpani in stark isolation.",
+          "background_en": "Deep silence.",
+          "focus_en": "Chamber Reduction",
+          "actName_en": "Act II · Elegiac Solace & Building Pressure"
         },
         {
           "id": "ii-deep-13",
@@ -6321,7 +6598,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Horn Sings the Lament, Solo Violin Answers Above",
+          "desc_en": "A solo horn takes up the funeral lament with rustic nobility, answered by the bittersweet, floating counter-melody of the solo violin.",
+          "foreground_en": "Solo Horn & Solo Violin: tender dialogue.",
+          "background_en": "Muted string accompaniment.",
+          "focus_en": "Solo Timbral Dialogue",
+          "actName_en": "Act II · Elegiac Solace & Building Pressure"
         },
         {
           "id": "ii-deep-14",
@@ -6399,7 +6682,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Low Strings Stir, Creeping into the Silence",
+          "desc_en": "Cellos and double basses begin a dark, stealthy chromatic climb, slowly destabilizing the fragile peace.",
+          "foreground_en": "Low Strings: subterranean chromatic stirrings.",
+          "background_en": "Nervous woodwind sighs.",
+          "focus_en": "Subterranean Threat",
+          "actName_en": "Act II · Elegiac Solace & Building Pressure"
         },
         {
           "id": "ii-deep-15",
@@ -6476,7 +6765,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Mid-Phrase, the Music Suddenly Brakes",
+          "desc_en": "Right in the middle of a rising phrase, the orchestra abruptly decelerates, hanging suspended in space on an unresolved harmony.",
+          "foreground_en": "Abrupt tempo braking.",
+          "background_en": "Suspended harmonic tension.",
+          "focus_en": "Expressive Caesura",
+          "actName_en": "Act II · Elegiac Solace & Building Pressure"
         },
         {
           "id": "ii-deep-16",
@@ -6553,7 +6848,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Lament Strides Forward with Steely Resolve",
+          "desc_en": "The sorrowful theme returns with iron-clad resolve, transformed into a determined, marching hymn.",
+          "foreground_en": "Violins and Violas: resolute marching hymn.",
+          "background_en": "Horns and heavy brass sustaining the harmonic pillars.",
+          "focus_en": "Steely Resolve",
+          "actName_en": "Act II · Elegiac Solace & Building Pressure"
         },
         {
           "id": "ii-deep-17",
@@ -6631,7 +6932,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Almost Reaching the Goal, Yet Missing Solid Ground",
+          "desc_en": "The music strives toward a breakthrough cadence in C major, but slips off the edge into a shocking diminished chord.",
+          "foreground_en": "Orchestral strain toward breakthrough.",
+          "background_en": "Harmonic deception and collapse.",
+          "focus_en": "Deceptive Cadence",
+          "actName_en": "Act II · Elegiac Solace & Building Pressure"
         },
         {
           "id": "ii-deep-18",
@@ -6708,7 +7015,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Newly Opened Space Shattered by Fast Outbursts",
+          "desc_en": "The brief vista of light is smashed apart by furious brass triplets and shrieking woodwinds.",
+          "foreground_en": "Fast brass triplets and shrill flutes.",
+          "background_en": "Violent string cascades.",
+          "focus_en": "Violent Rupture",
+          "actName_en": "Act III · Visionary Chorale & Epilogue"
         },
         {
           "id": "ii-deep-19",
@@ -6827,7 +7140,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Lament Returns over Tempestuous Waves",
+          "desc_en": "The funeral lament struggles to reassert itself, but beneath it the low strings surge like heavy ocean swells.",
+          "foreground_en": "Violins: singing the lament amidst turbulence.",
+          "background_en": "Cellos & Basses: churning stormy swells.",
+          "focus_en": "Thematic Contention",
+          "actName_en": "Act III · Visionary Chorale & Epilogue"
         },
         {
           "id": "ii-deep-20",
@@ -6904,7 +7223,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Octave Leaps Magnified, Texture Stretched Tight",
+          "desc_en": "Extreme dramatic tension: violins leap wildly across double octaves, pushed to the physical limit of the instruments.",
+          "foreground_en": "Violins: wide, wrenching octave leaps.",
+          "background_en": "Thunderous brass chords.",
+          "focus_en": "Expressive Extremity",
+          "actName_en": "Act III · Visionary Chorale & Epilogue"
         },
         {
           "id": "ii-deep-21",
@@ -6982,7 +7307,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Looking Up Again: Broad Strings Reach for the Heavens",
+          "desc_en": "A magnificent ascending staircase of sound: strings ascend step by step toward radiant daylight.",
+          "foreground_en": "Full Strings: sweeping, majestic upward climb.",
+          "background_en": "Organ-like sustained horns.",
+          "focus_en": "Ascending Staircase",
+          "actName_en": "Act III · Visionary Chorale & Epilogue"
         },
         {
           "id": "ii-deep-22",
@@ -7059,7 +7390,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Heavy Fall: Trombones and Low Brass Dominate",
+          "desc_en": "Another crushing downward plunge: trombones and bass tuba take the foreground with overwhelming acoustic gravity.",
+          "foreground_en": "Trombones & Tuba: heavy, doom-laden descent.",
+          "background_en": "Crashing cymbals and timpani.",
+          "focus_en": "Heavy Brass Gravity",
+          "actName_en": "Act III · Visionary Chorale & Epilogue"
         },
         {
           "id": "ii-deep-23",
@@ -7137,7 +7474,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Opening Kinetic Impulses Assist the Final Climb",
+          "desc_en": "The wild kinetic energy from the opening is harnessed for good, propelling the orchestra up an immense ramp of sound.",
+          "foreground_en": "Accelerating orchestral ascent.",
+          "background_en": "Driving brass fanfares.",
+          "focus_en": "Monumental Ramp",
+          "actName_en": "Act III · Visionary Chorale & Epilogue"
         },
         {
           "id": "ii-deep-24",
@@ -7289,7 +7632,13 @@ window.MAHLER_DATA = {
               "synthMode": 2,
               "shortTitle": "尚未完成的圣咏"
             }
-          ]
+          ],
+          "title_en": "The D Major Brass Chorale: A Vision of Paradise",
+          "desc_en": "The skies open! Blazing in radiant D major, the brass choir proclaims a celestial chorale of breathtaking splendor. This is the prophecy of the symphony's ultimate goal.",
+          "foreground_en": "Full Brass Choir: glorious, majestic D major chorale.",
+          "background_en": "Tutti Strings & Woodwinds: ecstatic rushing scales.",
+          "focus_en": "Visionary Chorale",
+          "actName_en": "Act III · Visionary Chorale & Epilogue"
         },
         {
           "id": "ii-deep-25",
@@ -7407,7 +7756,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Chorale Pushes Forward, Pulse Suddenly Tightens",
+          "desc_en": "The chorale tries to sustain its ecstasy, but the harmonic foundation begins to crumble under rapid chromatic modulation.",
+          "foreground_en": "Trumpets: straining to hold the hymn.",
+          "background_en": "Strings: trembling with harmonic instability.",
+          "focus_en": "Failing Ecstasy",
+          "actName_en": "Act III · Visionary Chorale & Epilogue"
         },
         {
           "id": "ii-deep-26",
@@ -7525,7 +7880,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Marked Climax, Instantly Fading into Ash",
+          "desc_en": "Marked in the score as 'Höchster Höhepunkt' (Supreme Climax). But instead of triumph, it evaporates into hollow woodwind sighs.",
+          "foreground_en": "The blinding climax shatters.",
+          "background_en": "Hollow descending flute sighs.",
+          "focus_en": "Tragic Disillusionment",
+          "actName_en": "Act III · Visionary Chorale & Epilogue"
         },
         {
           "id": "ii-deep-27",
@@ -7683,7 +8044,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Old Storm Flickers, Sentences Shattering into Dust",
+          "desc_en": "The storm returns, but broken and exhausted. Melodic lines disintegrate into jagged, breathless gasps.",
+          "foreground_en": "Fragmented, gasping brass and string motifs.",
+          "background_en": "Deep, fading pedal point.",
+          "focus_en": "Fragmentary Collapse",
+          "actName_en": "Act III · Visionary Chorale & Epilogue"
         },
         {
           "id": "ii-deep-28",
@@ -7841,7 +8208,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Epilogue: Flute Harmonics, Isolated Sparks, Fading Drum",
+          "desc_en": "Eerie desolation. Ethereal string pizzicati, a high flute harmonic, and a single final blow on the bass drum seal the movement.",
+          "foreground_en": "Pizzicato violin droplets and solo flute harmonic.",
+          "background_en": "Fading low string murmur and solitary drum tap.",
+          "focus_en": "Extinction",
+          "actName_en": "Act III · Visionary Chorale & Epilogue"
         }
       ],
       "motifs": [
@@ -7860,7 +8233,11 @@ window.MAHLER_DATA = {
           ],
           "color": "#3b82f6",
           "audioStart": 0.0,
-          "timeStatus": "structural-reference"
+          "timeStatus": "structural-reference",
+          "name_en": "Low-String Engine: Surges & Slashes",
+          "earprint_en": "Frantic running figures in the lower strings surge upward, abruptly severed by slashing orchestral chords before trumpets fling the outcry aloft.",
+          "firstCarrier_en": "Lower Strings, Stabbing Chords & Trumpets",
+          "role_en": "The recurring catalytic engine of the movement. Hear how rapid passage-work interlocks with percussive thrusts before breaching the slower lyrical islands."
         },
         {
           "id": "m2-lament",
@@ -7875,7 +8252,11 @@ window.MAHLER_DATA = {
           ],
           "color": "#ec4899",
           "audioStart": 93.11,
-          "timeStatus": "matched"
+          "timeStatus": "matched",
+          "name_en": "Funeral Echo: The Cello Elegy",
+          "earprint_en": "In tempo-moderated spaces, cellos sing an elegy linked directly to the opening funeral march, answered tenderly by clarinets and upper strings.",
+          "firstCarrier_en": "Cellos, Clarinet & Strings",
+          "role_en": "The mnemonic bridge uniting the first two movements. Follow the expansive cello line while tracking how many short nervous gestures murmur around it."
         },
         {
           "id": "m2-chorale",
@@ -7887,7 +8268,11 @@ window.MAHLER_DATA = {
           "returnStageIndices": [],
           "color": "#8b5cf6",
           "audioStart": 717.77,
-          "timeStatus": "matched"
+          "timeStatus": "matched",
+          "name_en": "Brass Chorale: Premonition of Triumph",
+          "earprint_en": "Massed brass unfurl a broad, majestic hymn in solemn homophony, while strings maintain rapid running counter-currents beneath.",
+          "firstCarrier_en": "Full Brass Choir & Rapid Strings",
+          "role_en": "The symphony's most critical musical premonition. The Finale will crown its summit by reclaiming this exact chorale; store it in your ear to recognize its homecoming."
         }
       ],
       "misconceptions": [
@@ -11301,7 +11686,11 @@ window.MAHLER_DATA = {
           "打击 / 竖琴"
         ]
       ],
-      "choraleStageId": "ii-deep-24"
+      "choraleStageId": "ii-deep-24",
+      "title_en": "II. Stürmisch bewegt, mit größter Vehemenz",
+      "introduction_en": "Stormy and vehement, with greatest fury. The raw, violent continuation of Part I's tragedy, where a premature vision of paradise collapses back into tempestuous gloom.",
+      "mission_en": "First listen: feel the violent kinetic engine in low strings, catch the memory of the funeral march, and spot the premature brass chorale at 11:50.",
+      "form_en": "Sonata form with alternating catastrophic storms, elegiac memories, and visionary chorale."
     },
     {
       "id": 3,
@@ -11434,7 +11823,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Distinguish First: The Horn Command vs The Solo Singer",
+          "desc_en": "Begins with four horn fanfares like military signals; immediately, the solo Corno Obligato steps forward with an expansive melody.",
+          "foreground_en": "Solo Horn: aristocratic yet rustic song.",
+          "background_en": "Answering horn calls and woodwind trills.",
+          "focus_en": "Solo Horn Character",
+          "actName_en": "Act I · The Ballroom Awakes: Horns & Rustic Ländler"
         },
         {
           "id": "iii-deep-02",
@@ -11538,7 +11933,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Before Rehearsal 1: Violins Enter Sideways",
+          "desc_en": "While the solo horn still holds the air, first violins glide in with an ascending upbeat waltz melody.",
+          "foreground_en": "First Violins: lilting Viennese waltz entry.",
+          "background_en": "Solo Horn in gentle counterpoint.",
+          "focus_en": "Melodic Entrance",
+          "actName_en": "Act I · The Ballroom Awakes: Horns & Rustic Ländler"
         },
         {
           "id": "iii-deep-03",
@@ -11642,7 +12043,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Rehearsal 2: The Motor Moves to Low Strings",
+          "desc_en": "Continuous short notes in violas and cellos set the dance running at double speed, answered by crisp clarinet staccato.",
+          "foreground_en": "Violas & Cellos: driving staccato engine.",
+          "background_en": "Clarinets: playful answering clicks.",
+          "focus_en": "Rhythmic Motor",
+          "actName_en": "Act I · The Ballroom Awakes: Horns & Rustic Ländler"
         },
         {
           "id": "iii-deep-04",
@@ -11746,7 +12153,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "medium"
-          }
+          },
+          "title_en": "Woodwinds Disassemble the Dance into Fragments",
+          "desc_en": "Oboes and flutes juggle fragments of the dance theme, tossing them back and forth with sparkling humor.",
+          "foreground_en": "Woodwind Choir: fragmented thematic banter.",
+          "background_en": "Pizzicato string bass line.",
+          "focus_en": "Playful Fragmentation",
+          "actName_en": "Act I · The Ballroom Awakes: Horns & Rustic Ländler"
         },
         {
           "id": "iii-deep-05",
@@ -11850,7 +12263,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "medium"
-          }
+          },
+          "title_en": "Bass Sings the Theme, Treble Keeps Spinning",
+          "desc_en": "Cellos and bassoons belt out the main theme in the depths, while violins spin shimmering waltz swirls above.",
+          "foreground_en": "Cellos & Bassoons: rustic theme in the deep register.",
+          "background_en": "Violins: swirling waltz accompaniment.",
+          "focus_en": "Inverted Layering",
+          "actName_en": "Act I · The Ballroom Awakes: Horns & Rustic Ländler"
         },
         {
           "id": "iii-deep-06",
@@ -11986,7 +12405,13 @@ window.MAHLER_DATA = {
               ],
               "shortTitle": "兰德勒与圆舞曲"
             }
-          ]
+          ],
+          "title_en": "Rehearsal 6: The Ballroom Suddenly Lightens",
+          "desc_en": "The heavy stomping ceases abruptly. The waltz shifts to B-flat major, delicate and gliding like dancers floating on ice.",
+          "foreground_en": "First Violins: floating, suave waltz melody.",
+          "background_en": "Gentle plucked accompaniment.",
+          "focus_en": "Viennese Lilt",
+          "actName_en": "Act I · The Ballroom Awakes: Horns & Rustic Ländler"
         },
         {
           "id": "iii-deep-07",
@@ -12090,7 +12515,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "medium"
-          }
+          },
+          "title_en": "The Same Waltz, Sprouting a Second Song",
+          "desc_en": "A graceful counter-melody blooms in the second violins and violas beneath the first violins' soaring line.",
+          "foreground_en": "First Violins & Violas: rich two-part string waltz.",
+          "background_en": "Soft bass pizzicato.",
+          "focus_en": "Counter-Melody",
+          "actName_en": "Act I · The Ballroom Awakes: Horns & Rustic Ländler"
         },
         {
           "id": "iii-deep-08",
@@ -12194,7 +12625,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Rehearsal 7: Trumpet Calls the Opening Back",
+          "desc_en": "First trumpet suddenly blares the opening fanfare, abruptly shaking the dancers out of their romantic daydream.",
+          "foreground_en": "Trumpet: sharp wake-up fanfare.",
+          "background_en": "Tutti Orchestra: rhythmic snap.",
+          "focus_en": "Sudden Awaking",
+          "actName_en": "Act I · The Ballroom Awakes: Horns & Rustic Ländler"
         },
         {
           "id": "iii-deep-09",
@@ -12311,7 +12748,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Before Rehearsal 8: The Running Chase Begins",
+          "desc_en": "First violins launch a breathless fugato subject, chased by second violins, violas, and cellos in rapid succession.",
+          "foreground_en": "Strings: high-speed fugato pursuit.",
+          "background_en": "Woodwind staccato bursts.",
+          "focus_en": "Contrapuntal Chase",
+          "actName_en": "Act II · Contrapuntal Labyrinth & Pizzicato Dream"
         },
         {
           "id": "iii-deep-10",
@@ -12415,7 +12858,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "English Horn and Trumpet Floating Above the Chase",
+          "desc_en": "Above the bustling string race, the English horn and muted trumpet float a long, nostalgic cantilena.",
+          "foreground_en": "English Horn & Trumpet: broad nostalgic melody.",
+          "background_en": "Strings: bustling staccato counterpoint.",
+          "focus_en": "Layered Temporal Play",
+          "actName_en": "Act II · Contrapuntal Labyrinth & Pizzicato Dream"
         },
         {
           "id": "iii-deep-11",
@@ -12519,7 +12968,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "medium"
-          }
+          },
+          "title_en": "Breathing Expands, Awakening Velocity",
+          "desc_en": "The tempo breathes outward into broad rubato, then snaps forward into a sparkling crescendo.",
+          "foreground_en": "Expansive orchestral crescendo.",
+          "background_en": "Rolling timpani undercurrent.",
+          "focus_en": "Dynamic Surge",
+          "actName_en": "Act II · Contrapuntal Labyrinth & Pizzicato Dream"
         },
         {
           "id": "iii-deep-12",
@@ -12623,7 +13078,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Rehearsal 10: Panorama First, Then a Single Note",
+          "desc_en": "A massive full-orchestra tutti in D major crowns the scene, then evaporates down to a single solitary horn tone.",
+          "foreground_en": "Tutti explosion thinning to a single sustained horn note.",
+          "background_en": "Complete hall silence.",
+          "focus_en": "Acoustic Evaporation",
+          "actName_en": "Act II · Contrapuntal Labyrinth & Pizzicato Dream"
         },
         {
           "id": "iii-deep-13",
@@ -12759,7 +13220,13 @@ window.MAHLER_DATA = {
               ],
               "shortTitle": "圆号的两种距离"
             }
-          ]
+          ],
+          "title_en": "The Solo Horn Takes its Own Long Breather",
+          "desc_en": "One of the most poetic moments in Mahler: the solo horn muses in vast, quiet loneliness, echoing across alpine valleys.",
+          "foreground_en": "Solo Horn: unaccompanied alpine meditation.",
+          "background_en": "Silent expectant hall.",
+          "focus_en": "Poetic Soliloquy",
+          "actName_en": "Act II · Contrapuntal Labyrinth & Pizzicato Dream"
         },
         {
           "id": "iii-deep-14",
@@ -12876,7 +13343,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Rehearsal 11: Bows Put Aside, Dance Plucked by Hand",
+          "desc_en": "Full strings put down their bows. The entire dance is reimagined as an enormous, rustling pizzicato tapestry.",
+          "foreground_en": "Entire String Section: sparkling pizzicato dance.",
+          "background_en": "Playful bassoon leaps.",
+          "focus_en": "Pizzicato Tapestry",
+          "actName_en": "Act II · Contrapuntal Labyrinth & Pizzicato Dream"
         },
         {
           "id": "iii-deep-15",
@@ -12980,7 +13453,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "First Violins Take up Bows, Horn Sings Beside",
+          "desc_en": "First violins draw their bows in a warm, silky melody, while the solo horn croons a tender Austrian song alongside.",
+          "foreground_en": "First Violins & Solo Horn: warm pastoral duet.",
+          "background_en": "Pizzicato cushion.",
+          "focus_en": "Pastoral Duet",
+          "actName_en": "Act II · Contrapuntal Labyrinth & Pizzicato Dream"
         },
         {
           "id": "iii-deep-16",
@@ -13084,7 +13563,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Rehearsal 12: Clarinet Circling Beneath the Song",
+          "desc_en": "Solo clarinet weaves playful figure-eights beneath the broad violin song like a swallow in flight.",
+          "foreground_en": "Clarinet: looping, playful arabesques.",
+          "background_en": "Sustained warm string chords.",
+          "focus_en": "Woodwind Arabesque",
+          "actName_en": "Act II · Contrapuntal Labyrinth & Pizzicato Dream"
         },
         {
           "id": "iii-deep-17",
@@ -13188,7 +13673,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Rehearsal 13: Even the Trumpet Can Sing Softly",
+          "desc_en": "First trumpet plays a rare, tender dolce cantilena with muted elegance, proving brass can be as delicate as strings.",
+          "foreground_en": "Muted Trumpet: soft, singing lyricism.",
+          "background_en": "Whispering flutes and violas.",
+          "focus_en": "Muted Brass Lyricism",
+          "actName_en": "Act II · Contrapuntal Labyrinth & Pizzicato Dream"
         },
         {
           "id": "iii-deep-18",
@@ -13292,7 +13783,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "medium"
-          }
+          },
+          "title_en": "The Horn Holds Time Suspended Once More",
+          "desc_en": "The Corno Obligato again halts the clock with a long, floating call, drawing the ensemble into a dreamlike hush.",
+          "foreground_en": "Solo Horn: suspended call.",
+          "background_en": "Mysterious string trills.",
+          "focus_en": "Time Suspension",
+          "actName_en": "Act II · Contrapuntal Labyrinth & Pizzicato Dream"
         },
         {
           "id": "iii-deep-19",
@@ -13396,7 +13893,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Pizzicato Returns in Darker Shrouds",
+          "desc_en": "The plucking texture returns, but now in D minor, mysterious and shadowed like nocturnal forest murmurs.",
+          "foreground_en": "Pizzicato strings in darker minor hues.",
+          "background_en": "Muffled bass drum roll.",
+          "focus_en": "Nocturnal Shadow",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         },
         {
           "id": "iii-deep-20",
@@ -13500,7 +14003,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "medium"
-          }
+          },
+          "title_en": "Lines Stack Higher, Return Forming on the Horizon",
+          "desc_en": "Contrapuntal lines stack on top of each other layer by layer, building an immense gathering of orchestral forces.",
+          "foreground_en": "Layered string and woodwind accumulation.",
+          "background_en": "Crescendo brass pedal.",
+          "focus_en": "Polyphonic Gathering",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         },
         {
           "id": "iii-deep-21",
@@ -13604,7 +14113,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Rehearsal 17: Opening Returns, Surrounding World Transformed",
+          "desc_en": "The original D major Ländler returns with thunderous joy! But now the counterpoint beneath is richer and far more intricate.",
+          "foreground_en": "Solo Horn & Tutti Horns: triumphant theme.",
+          "background_en": "Tutti Strings: intricate swirling counterpoint.",
+          "focus_en": "Triumphant Recapitulation",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         },
         {
           "id": "iii-deep-22",
@@ -13708,7 +14223,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Rehearsal 19: Small Motifs Light Up in Succession",
+          "desc_en": "Short thematic sparks ignite across the orchestra: flutes, oboes, violins, and horns illuminate the ballroom like fireworks.",
+          "foreground_en": "Rapid antiphonal fireworks across sections.",
+          "background_en": "Driving dance tempo.",
+          "focus_en": "Antiphonal Sparkle",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         },
         {
           "id": "iii-deep-23",
@@ -13812,7 +14333,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Rehearsal 21: The Spin Turns Razor Sharp",
+          "desc_en": "The waltz turns manic and feverish: shrieking woodwinds and stabbing brass give the dance an intoxicating, dizzying edge.",
+          "foreground_en": "Shrill woodwinds and biting brass accents.",
+          "background_en": "Whirlwind string tremolos.",
+          "focus_en": "Feverish Waltz",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         },
         {
           "id": "iii-deep-24",
@@ -13916,7 +14443,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Rehearsal 22: The Pursuit Resumes",
+          "desc_en": "Another high-speed contrapuntal chase breaks loose, even faster and more frantic than before.",
+          "foreground_en": "High-velocity string fugato.",
+          "background_en": "Hammering timpani accents.",
+          "focus_en": "High-Speed Chase",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         },
         {
           "id": "iii-deep-25",
@@ -14020,7 +14553,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "medium"
-          }
+          },
+          "title_en": "Gathering Again: Broad Lines Swept into the Stampede",
+          "desc_en": "Broad melodic phrases are swept into the unstoppable vortex of galloping triple meter.",
+          "foreground_en": "Orchestral vortex pulling all themes together.",
+          "background_en": "Massive percussion momentum.",
+          "focus_en": "Unstoppable Vortex",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         },
         {
           "id": "iii-deep-26",
@@ -14124,7 +14663,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Sudden Shrink: Listening to the Gears Within Strings",
+          "desc_en": "Without warning, the roar drops to a whisper: listen to the precision clockwork gears ticking inside the string sections.",
+          "foreground_en": "Whispering string clockwork.",
+          "background_en": "Quiet pizzicato bass notes.",
+          "focus_en": "Microscopic Clockwork",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         },
         {
           "id": "iii-deep-27",
@@ -14241,7 +14786,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "The Horn Halts on the Same Note One Last Time",
+          "desc_en": "The solo horn hangs suspended on a single long note, delivering a quiet, mysterious farewell to its beloved landscape.",
+          "foreground_en": "Solo Horn: final serene pedal note.",
+          "background_en": "Fading woodwind trills.",
+          "focus_en": "Final Horn Farewell",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         },
         {
           "id": "iii-deep-28",
@@ -14345,7 +14896,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Final Pizzicato Flashback: Clarinet Spirals",
+          "desc_en": "A delicate, momentary flashback to the pizzicato waltz, while the clarinet spins its final playful spiral.",
+          "foreground_en": "Clarinet solo over delicate pizzicato.",
+          "background_en": "Fading shadows.",
+          "focus_en": "Delicate Flashback",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         },
         {
           "id": "iii-deep-29",
@@ -14462,7 +15019,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "Only the Bass Drum Remains: Coda Steals Up from Below",
+          "desc_en": "Dead silence except for the quiet, subterranean thud of the bass drum. The wild coda gathers its strength in secret.",
+          "foreground_en": "Soft bass drum thuds in the dark.",
+          "background_en": "Expectant stillness.",
+          "focus_en": "Subterranean Ignition",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         },
         {
           "id": "iii-deep-30",
@@ -14579,7 +15142,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "high"
-          }
+          },
+          "title_en": "From Rehearsal 31 to the End: The Horn Call Becomes the Whole World",
+          "desc_en": "Explosive Presto! All horns blare in unison, drums hammer, and the full orchestra hurtles over the finish line in a blaze of D major glory.",
+          "foreground_en": "Tutti Horns & Full Orchestra in wild sprint.",
+          "background_en": "Thunderous timpani and crash cymbals.",
+          "focus_en": "Frenetic Triumph",
+          "actName_en": "Act III · Grand Recapitulation & Frenetic Coda"
         }
       ],
       "motifs": [
@@ -14598,7 +15167,12 @@ window.MAHLER_DATA = {
           ],
           "color": "#f59e0b",
           "audioStart": 0.0,
-          "timeStatus": "structural-reference"
+          "timeStatus": "structural-reference",
+          "name_en": "Corno Obligato: Master of Ceremonies",
+          "earprint_en": "Bold, rustic horn fanfare in D major stepping into brilliant spotlight.",
+          "firstCarrier_en": "Solo Horn (Corno Obligato)",
+          "role_en": "When lost in the 800-bar dance maze, look for the solo horn. It decides when to command and when to dream.",
+          "warning_en": "Do not confuse the solo horn with the general 4-horn section: the soloist stands out as a living character."
         },
         {
           "id": "m3-dances",
@@ -14614,7 +15188,11 @@ window.MAHLER_DATA = {
           ],
           "color": "#10b981",
           "audioStart": 36.5,
-          "timeStatus": "matched"
+          "timeStatus": "matched",
+          "name_en": "Two-Faced Triple Meter: Earthy Ländler & Whirling Waltz",
+          "earprint_en": "The Austrian Ländler lands with rustic foot-stomping weight, while the Viennese waltz glides and spins with airborne elegance; watch them borrow steps from each other.",
+          "firstCarrier_en": "Strings & Horns Dance Fabric",
+          "role_en": "The bass anchors the 1-2-3 pulse while melodic syncopations shift your physical center of gravity. Grasp the rhythmic weight, and the dance genres decode themselves."
         },
         {
           "id": "m3-running",
@@ -14630,7 +15208,11 @@ window.MAHLER_DATA = {
           ],
           "color": "#3b82f6",
           "audioStart": 261.56,
-          "timeStatus": "matched"
+          "timeStatus": "matched",
+          "name_en": "String Chase: Contrapuntal Relay",
+          "earprint_en": "Violin I, viola, cello, and violin II enter in swift succession; track how a single agile figure darts and echoes across stratified pitch registers.",
+          "firstCarrier_en": "Imitative Rapid Strings",
+          "role_en": "Your gateway to orchestral polyphony. Anchor on one thread for a stretch, then spot the next handoff; when multiple independent lines converge, the entire ballroom takes flight."
         }
       ],
       "misconceptions": [
@@ -19004,7 +19586,11 @@ window.MAHLER_DATA = {
           "🥁",
           "打击 / 竖琴"
         ]
-      ]
+      ],
+      "title_en": "III. Scherzo",
+      "introduction_en": "Vigorous, not too fast. A colossal 800-measure dance labyrinth dominated by the Corno Obligato, rustic Austrian Ländler, and Viennese waltzes.",
+      "mission_en": "First listen: follow the solo horn calls, differentiate between rustic stomping and smooth spinning waltzes, and trace the string fugato chases.",
+      "form_en": "Colossal tripartite dance development: Scherzo – Trio I – Scherzo – Trio II – Development – Coda."
     },
     {
       "id": 4,
@@ -19141,7 +19727,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Very First Sound is Not the Melody",
+          "desc_en": "Notice the violas first: a soft, sustained pedal note holds the room suspended, before the harp enters with descending arpeggios.",
+          "foreground_en": "Violas & Harp: quiet, weightless foundation.",
+          "background_en": "Expectant silence.",
+          "focus_en": "Weightless Suspension",
+          "actName_en": "Act I · The Pure Confession: First Wave of Yearning"
         },
         {
           "id": "iv-deep-02",
@@ -19250,7 +19842,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Three Upbeat Sighs Cradle the Song into Life",
+          "desc_en": "First violins enter with three upward sighs, blooming into the famous suspended love song. Listen to the violin breathing as one single breath.",
+          "foreground_en": "First Violins: the iconic Adagietto love song.",
+          "background_en": "Harp and muted cellos in gentle pulse.",
+          "focus_en": "Iconic Love Song",
+          "actName_en": "Act I · The Pure Confession: First Wave of Yearning"
         },
         {
           "id": "iv-deep-03",
@@ -19346,7 +19944,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Song Above, Harmonic Colors Shifting Below",
+          "desc_en": "While the melody soars, the inner voices and basses continuously modulate. The emotional security of the song shifts with every step.",
+          "foreground_en": "First Violins: soaring lyricism.",
+          "background_en": "Violas & Cellos: subtle harmonic shifts.",
+          "focus_en": "Harmonic Shading",
+          "actName_en": "Act I · The Pure Confession: First Wave of Yearning"
         },
         {
           "id": "iv-deep-04",
@@ -19455,7 +20059,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Song Sinks Down: Follow the Cellos This Time",
+          "desc_en": "The melody descends into the warm, resonant register of the cellos, gaining intimacy and vocal richness.",
+          "foreground_en": "Cellos: rich, sonorous continuation of the melody.",
+          "background_en": "Violins: quiet, shimmering halo above.",
+          "focus_en": "Cello Resonance",
+          "actName_en": "Act I · The Pure Confession: First Wave of Yearning"
         },
         {
           "id": "iv-deep-05",
@@ -19551,7 +20161,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Rehearsal 1: Handing Voices over Smoothly",
+          "desc_en": "At Rehearsal 1, the melody passes seamlessly from cellos to first violins like a continuous ribbon of silk.",
+          "foreground_en": "Violins reclaiming the melodic lead.",
+          "background_en": "Harp arpeggios flowing steadily.",
+          "focus_en": "Seamless Handover",
+          "actName_en": "Act I · The Pure Confession: First Wave of Yearning"
         },
         {
           "id": "iv-deep-06",
@@ -19647,7 +20263,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Slowing Down to Welcome the First Violins Back",
+          "desc_en": "The tempo gently relaxes, making room for first violins to enter with heightened tenderness.",
+          "foreground_en": "First Violins: delicate, expressive entrance.",
+          "background_en": "Muted lower strings.",
+          "focus_en": "Gentle Ritardando",
+          "actName_en": "Act I · The Pure Confession: First Wave of Yearning"
         },
         {
           "id": "iv-deep-07",
@@ -19743,7 +20365,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Reaching Upward, and Upward Again",
+          "desc_en": "The string lines stretch higher and higher into luminous registers, building inexorable emotional longing.",
+          "foreground_en": "Violins: straining toward the heavens.",
+          "background_en": "Pulsing harp and resonant cellos.",
+          "focus_en": "Emotional Ascent",
+          "actName_en": "Act I · The Pure Confession: First Wave of Yearning"
         },
         {
           "id": "iv-deep-08",
@@ -19839,7 +20467,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "First Wave Crest: Strings Plunge as the Harp Soars",
+          "desc_en": "The first dynamic climax arrives! Violins pour their hearts out in passionate downward portamento while the harp sweeps upward.",
+          "foreground_en": "Tutti Strings: impassioned forte crest.",
+          "background_en": "Harp: sweeping upward arpeggio.",
+          "focus_en": "First Climactic Crest",
+          "actName_en": "Act I · The Pure Confession: First Wave of Yearning"
         },
         {
           "id": "iv-deep-09",
@@ -19935,7 +20569,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "After the Wave Breaks: Second Violins Complete the Thought",
+          "desc_en": "The wave recedes. Second violins gently finish the melodic sentence with quiet tenderness.",
+          "foreground_en": "Second Violins: soft, tender cadential phrase.",
+          "background_en": "Fading harp resonance.",
+          "focus_en": "Tender Cadence",
+          "actName_en": "Act I · The Pure Confession: First Wave of Yearning"
         },
         {
           "id": "iv-deep-10",
@@ -20031,7 +20671,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Before Rehearsal 2: Bows Press Deeper into the String",
+          "desc_en": "The middle section begins. The violin tone becomes firmer, more urgent, marked 'Fließender' (more flowing).",
+          "foreground_en": "First Violins: ardent, flowing middle section theme.",
+          "background_en": "Violas & Cellos: urgent counterpoint.",
+          "focus_en": "Ardent Urgency",
+          "actName_en": "Act II · The Ardent Middle Section: Tristan Motifs"
         },
         {
           "id": "iv-deep-11",
@@ -20127,7 +20773,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Middle Section's Second Great Push",
+          "desc_en": "Tension surges again. Notice the chromatic upward steps echoing Wagner's Tristan 'Gaze' motif (Blick-Motiv).",
+          "foreground_en": "Violins: passionate chromatic striving.",
+          "background_en": "Syncopated inner string sighs.",
+          "focus_en": "Tristan Echoes",
+          "actName_en": "Act II · The Ardent Middle Section: Tristan Motifs"
         },
         {
           "id": "iv-deep-12",
@@ -20266,7 +20918,13 @@ window.MAHLER_DATA = {
               "shortTitle": "Tristan：凝视与渴望",
               "synthMode": 4
             }
-          ]
+          ],
+          "title_en": "Color Lightens: Softness Without Loss of Tension",
+          "desc_en": "The dynamic drops to pianissimo, but the emotional tension remains coiled like a spring.",
+          "foreground_en": "High Violins: gossamer, ethereal pianissimo.",
+          "background_en": "Sustained bass note.",
+          "focus_en": "Quiet Intensity",
+          "actName_en": "Act II · The Ardent Middle Section: Tristan Motifs"
         },
         {
           "id": "iv-deep-13",
@@ -20399,7 +21057,13 @@ window.MAHLER_DATA = {
               "shortTitle": "听见下行七度",
               "synthMode": 3
             }
-          ]
+          ],
+          "title_en": "Both Violin Sections Reaching for the Stars",
+          "desc_en": "First and second violins intertwine in high octaves, climbing together into celestial light.",
+          "foreground_en": "Violin Sections in luminous double octaves.",
+          "background_en": "Warm cello harmonies.",
+          "focus_en": "Double Octave Ascent",
+          "actName_en": "Act II · The Ardent Middle Section: Tristan Motifs"
         },
         {
           "id": "iv-deep-14",
@@ -20528,7 +21192,13 @@ window.MAHLER_DATA = {
               ],
               "shortTitle": "为什么总不落地？"
             }
-          ]
+          ],
+          "title_en": "Still Climbing, Yet Bidding Farewell to the Middle Section",
+          "desc_en": "Reaching the summit of the middle section, the melody prepares to return home to the opening F major.",
+          "foreground_en": "High violin culmination.",
+          "background_en": "Modulating bass line.",
+          "focus_en": "Transitional Summit",
+          "actName_en": "Act II · The Ardent Middle Section: Tristan Motifs"
         },
         {
           "id": "iv-deep-15",
@@ -20637,7 +21307,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Rehearsal 3: The Opening Song Returns with a New Singer",
+          "desc_en": "The opening love song returns, but now shared with exquisite delicacy between cellos and violas.",
+          "foreground_en": "Cellos & Violas singing the opening theme.",
+          "background_en": "Harp ripples and soft violin halo.",
+          "focus_en": "Recapitulation Handover",
+          "actName_en": "Act III · Transfigured Return & Eternal Dissolve"
         },
         {
           "id": "iv-deep-16",
@@ -20733,7 +21409,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "Another Handover: Cellos Carry the Tail of the Phrase",
+          "desc_en": "Cellos extend the melody downwards into rich, dark mahogany depths.",
+          "foreground_en": "Cellos: deep, resonant lyrical descent.",
+          "background_en": "Gentle viola counter-melodies.",
+          "focus_en": "Deep Melodic Warmth",
+          "actName_en": "Act III · Transfigured Return & Eternal Dissolve"
         },
         {
           "id": "iv-deep-17",
@@ -20842,7 +21524,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "After Rehearsal 4: Sustained Notes Build a Bridge",
+          "desc_en": "Long, suspended string chords create a bridge of sound, leading toward the final, greatest emotional outpouring.",
+          "foreground_en": "Intertwining sustained string lines.",
+          "background_en": "Harp gently rolling chords.",
+          "focus_en": "Harmonic Bridge",
+          "actName_en": "Act III · Transfigured Return & Eternal Dissolve"
         },
         {
           "id": "iv-deep-18",
@@ -20938,7 +21626,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Final Preparation: Bows Digging Deep",
+          "desc_en": "All strings dig their bows deep into the strings with passionate vibrato, launching the supreme crescendo.",
+          "foreground_en": "Tutti Strings: swelling, unified crescendo.",
+          "background_en": "Harp glissandi.",
+          "focus_en": "Supreme Crescendo",
+          "actName_en": "Act III · Transfigured Return & Eternal Dissolve"
         },
         {
           "id": "iv-deep-19",
@@ -21047,7 +21741,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Supreme Wave: An Octave Higher Than the First",
+          "desc_en": "The monumental emotional apex of the entire movement: soaring a full octave higher than the first climax, bathed in radiant light.",
+          "foreground_en": "Tutti Violins: ecstatic fortissimo summit.",
+          "background_en": "Full string section in overwhelming harmonic embrace.",
+          "focus_en": "Supreme Climax",
+          "actName_en": "Act III · Transfigured Return & Eternal Dissolve"
         },
         {
           "id": "iv-deep-20",
@@ -21156,7 +21856,13 @@ window.MAHLER_DATA = {
             "method": "MIDI note chroma to whitened recording chroma, monotonic DTW at 0.5 s; ±20 s band about prior 1 Hz global path; source padding and trailing dummy notes excluded.",
             "status": "Computational reference positions, not independently heard verification. Local cosine is a similarity diagnostic, not a probability of correctness.",
             "scoreAnchorConfidence": "score-checked"
-          }
+          },
+          "title_en": "The Belated Resolution: Do Not Leave the Long Note Too Soon",
+          "desc_en": "The music dissolves into timeless peace. The final cadence is delayed again and again, dying away in ppp into eternal love.",
+          "foreground_en": "Violins: fading into the ether (morendo).",
+          "background_en": "The final quiet harp plucked chord.",
+          "focus_en": "Eternal Dissolve",
+          "actName_en": "Act III · Transfigured Return & Eternal Dissolve"
         }
       ],
       "motifs": [
@@ -21175,7 +21881,11 @@ window.MAHLER_DATA = {
           ],
           "color": "#ec4899",
           "audioStart": 12.89,
-          "timeStatus": "matched"
+          "timeStatus": "matched",
+          "name_en": "The Violin's Love Letter: Soaring Cantilena",
+          "earprint_en": "First violins begin on an upbeat, ascending gently and sustaining long expressive arches; trace its breath and contour as it expands and recedes.",
+          "firstCarrier_en": "First Violins",
+          "role_en": "A masterclass in tracking long melodic arcs. Movement 5 will metamorphose motives from this intimate Adagietto into playful dance counterpoint."
         },
         {
           "id": "m4-harp",
@@ -21192,7 +21902,12 @@ window.MAHLER_DATA = {
           ],
           "color": "#06b6d4",
           "audioStart": 5.5,
-          "timeStatus": "structural-reference"
+          "timeStatus": "structural-reference",
+          "name_en": "Harp Undercurrent: Floating the Long Lines",
+          "earprint_en": "Gentle, arpeggiated water-like ripples flowing beneath muted strings.",
+          "firstCarrier_en": "Harp (Harfe)",
+          "role_en": "Divert part of your ear away from the violin melody to hear how the harp shapes time.",
+          "warning_en": "The harp is not merely keeping time; it creates the weightless atmosphere in which the strings float."
         },
         {
           "id": "m4-suspension",
@@ -21208,7 +21923,11 @@ window.MAHLER_DATA = {
           ],
           "color": "#8b5cf6",
           "audioStart": 642.39,
-          "timeStatus": "matched"
+          "timeStatus": "matched",
+          "name_en": "Delayed Resolution: The Unspoken Period",
+          "earprint_en": "Melodic tones suspend unresolved across shifting harmonic sands, finally finding repose only as the lower voices shift beneath them.",
+          "firstCarrier_en": "String Suspensions & Resolutions",
+          "role_en": "The core engine of Mahlerian harmonic tension. Clinging to the suspended note as it craves resolution explains why slow, quiet music can hold an audience breathless."
         }
       ],
       "misconceptions": [
@@ -23685,7 +24404,11 @@ window.MAHLER_DATA = {
           "🪕",
           "竖琴"
         ]
-      ]
+      ],
+      "title_en": "IV. Adagietto",
+      "introduction_en": "Very slow. Scored for strings and harp alone, Mahler's wordless confession of love to Alma, suspended in timeless floating lyricism.",
+      "mission_en": "First listen: let the harp and muted violins float; do not anticipate a destination—feel the suspension of time and the gentle ache of yearning.",
+      "form_en": "Three-part song form (A – B – A') with soaring dynamic waves and ethereal coda."
     },
     {
       "id": 5,
@@ -23839,7 +24562,13 @@ window.MAHLER_DATA = {
               ],
               "shortTitle": "巴松与《少年魔角》"
             }
-          ]
+          ],
+          "title_en": "Introduction: The Horn Calls, Woodwinds Answer in Turn",
+          "desc_en": "Horn holds a long pedal tone before opening the 4th interval. Bassoon answers playfully, followed by oboe and clarinet. At 00:34, horns tease the first hint of Chorale C.",
+          "foreground_en": "Horn call answered by Bassoon, Oboe, and Clarinet.",
+          "background_en": "00:34 Horns tease Chorale C.",
+          "focus_en": "Thematic Embryos",
+          "actName_en": "Act I · Assembly of Blocks: Horn, Fugue & First Synthesis"
         },
         {
           "id": 2,
@@ -23924,7 +24653,13 @@ window.MAHLER_DATA = {
             "kind": "score-midi-audio-alignment",
             "method": "0.5-second chroma DTW, global ±130 s band, onset padding excluded",
             "status": "Computed positions, not independently heard verification; remaining finale coordinates retain original guide."
-          }
+          },
+          "title_en": "First Rondo Statement: Horn Links Fragments into a Continuous Line",
+          "desc_en": "At bar 24 (00:40), horn leads the main Rondo theme A. Strings and woodwinds unfold it into radiant sunshine. At bar 38, bassoon and low strings drop down in playful descending steps.",
+          "foreground_en": "Solo Horn & Tutti Strings: Block A formal entrance.",
+          "background_en": "Bassoon playful descending counter-motifs.",
+          "focus_en": "Block A Refrain",
+          "actName_en": "Act I · Assembly of Blocks: Horn, Fugue & First Synthesis"
         },
         {
           "id": 3,
@@ -24014,7 +24749,13 @@ window.MAHLER_DATA = {
             "kind": "score-midi-audio-alignment",
             "method": "0.5-second chroma DTW, global ±130 s band, onset padding excluded",
             "status": "Computed positions, not independently heard verification; remaining finale coordinates retain original guide."
-          }
+          },
+          "title_en": "Block B: Track 4 Subject Entries in 100% Pure Strings",
+          "desc_en": "01:21: The 4-voice fugue erupts! 100% pure strings, zero winds. Track the relay: 01:21 Cellos -> 01:27 2nd Violins -> 01:31 Violas -> 01:35 1st Violins.",
+          "foreground_en": "Pure String 4-voice fugue race.",
+          "background_en": "Absolute clarity without winds or brass.",
+          "focus_en": "Block B Fugato",
+          "actName_en": "Act I · Assembly of Blocks: Horn, Fugue & First Synthesis"
         },
         {
           "id": 4,
@@ -24095,7 +24836,13 @@ window.MAHLER_DATA = {
             "kind": "score-midi-audio-alignment",
             "method": "0.5-second chroma DTW, global ±130 s band, onset padding excluded",
             "status": "Computed positions, not independently heard verification; remaining finale coordinates retain original guide."
-          }
+          },
+          "title_en": "Rehearsal 3: Broad Woodwinds & Horns over Running Fugue",
+          "desc_en": "01:41: First synthesis of Chorale C and Fugue B! Above, woodwinds and horns sing broad chorale lines; below, strings race relentlessly in four-part fugue.",
+          "foreground_en": "Woodwinds & Horns: Chorale C melody.",
+          "background_en": "Strings: relentless 4-part fugue motor.",
+          "focus_en": "Block C + B Synthesis",
+          "actName_en": "Act I · Assembly of Blocks: Horn, Fugue & First Synthesis"
         },
         {
           "id": 5,
@@ -24176,7 +24923,13 @@ window.MAHLER_DATA = {
             "kind": "score-midi-audio-alignment",
             "method": "0.5-second chroma DTW, global ±130 s band, onset padding excluded",
             "status": "Computed positions, not independently heard verification; remaining finale coordinates retain original guide."
-          }
+          },
+          "title_en": "Trombones & Tuba Enter, Followed by Chamber-like Solitude",
+          "desc_en": "02:18: Heavy brass roars in full force for the first time. At 02:39, the tempest abruptly collapses into intimate solo violin and woodwind sighs, ending in a breathless pause (02:50).",
+          "foreground_en": "02:18 Heavy brass roar -> 02:39 solo violin chamber sigh.",
+          "background_en": "Breathless silence at 02:50-02:51.",
+          "focus_en": "Dynamic Contrast",
+          "actName_en": "Act I · Assembly of Blocks: Horn, Fugue & First Synthesis"
         },
         {
           "id": 6,
@@ -24232,7 +24985,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "03:22 节奏重音"
             }
-          }
+          },
+          "title_en": "Refrain Return 1: Block A Triumphs over Driving Fugue B",
+          "desc_en": "02:52: Main theme A returns home in triumph. Beneath it, accompaniments weave fragments of fugue B. At 03:22, brass delivers syncopated accented cadences.",
+          "foreground_en": "Block A triumphant return in horns and strings.",
+          "background_en": "Underlying fugue accompaniment.",
+          "focus_en": "Refrain Return",
+          "actName_en": "Act I · Assembly of Blocks: Horn, Fugue & First Synthesis"
         },
         {
           "id": 7,
@@ -24283,7 +25042,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "本段先听其他线条"
             }
-          }
+          },
+          "title_en": "Subterranean Bass Stealth: Block B Staccato Creeps Below",
+          "desc_en": "03:29: Low strings (cellos, basses, violas) creep in nocturnal staccato. No high woodwinds or brass—a stealthy subterranean transition.",
+          "foreground_en": "Low strings: dark staccato crawling.",
+          "background_en": "Scattered horn murmurs.",
+          "focus_en": "Nocturnal Stealth",
+          "actName_en": "Act II · The Dance of Love: Adagietto Transformed"
         },
         {
           "id": 8,
@@ -24377,7 +25142,13 @@ window.MAHLER_DATA = {
               "synthMode": 2,
               "shortTitle": "认出小柔板的中段"
             }
-          ]
+          ],
+          "title_en": "Block D: The Adagietto Enters in 100% Pure Strings (Grazioso)",
+          "desc_en": "03:52: Block D debuts (Grazioso)! Scored for 100% pure strings for 50 uninterrupted seconds. The intimate Adagietto love song is accelerated threefold into an airy dance, cresting at 04:30.",
+          "foreground_en": "100% Pure Strings: dancing Adagietto song.",
+          "background_en": "Zero brass or woodwinds.",
+          "focus_en": "Block D Debut",
+          "actName_en": "Act II · The Dance of Love: Adagietto Transformed"
         },
         {
           "id": 9,
@@ -24437,7 +25208,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "本段先听其他线条"
             }
-          }
+          },
+          "title_en": "Whispered Chamber Transition (05:05 Cellos Quietly Restart Fugue)",
+          "desc_en": "04:43: 43 seconds of hushed chamber whispers. Horn holds a soft pedal; at 05:05 cellos quietly restart the fugue engine in pianissimo, joined at 05:15 by oboe and flute.",
+          "foreground_en": "05:05 Cellos restart fugue in pianissimo.",
+          "background_en": "05:15 Oboes and Flutes chime in.",
+          "focus_en": "Chamber Restart",
+          "actName_en": "Act II · The Dance of Love: Adagietto Transformed"
         },
         {
           "id": 10,
@@ -24497,7 +25274,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "本段先听其他线条"
             }
-          }
+          },
+          "title_en": "🔥 Second Great Fugue Eruption: Blocks B + D Combined in Battle",
+          "desc_en": "05:27: The second grand fugue erupts in full orchestra! At 05:35, horns and violins superimpose the dancing Adagietto D right on top of the galloping fugue B.",
+          "foreground_en": "Horns & Violins: Adagietto D.",
+          "background_en": "Tutti Strings & Woodwinds: furious Fugue B.",
+          "focus_en": "Block B + D Counterpoint",
+          "actName_en": "Act II · The Dance of Love: Adagietto Transformed"
         },
         {
           "id": 11,
@@ -24552,7 +25335,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "定音鼓急停重音"
             }
-          }
+          },
+          "title_en": "Block A Flashback & Three Dramatic Brass Emergency Brakes",
+          "desc_en": "06:16: Joyous flashback of Block A. Listen closely at 06:28, 06:32, and 06:36: heavy brass slams on the brakes three times in dramatic syncopated pauses.",
+          "foreground_en": "Block A celebratory return.",
+          "background_en": "06:28, 06:32, 06:36 Three brass emergency brakes.",
+          "focus_en": "Dramatic Caesuras",
+          "actName_en": "Act II · The Dance of Love: Adagietto Transformed"
         },
         {
           "id": 12,
@@ -24612,7 +25401,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "07:08 定音鼓雷霆烘托"
             }
-          }
+          },
+          "title_en": "Turbulent Minor Fugue Storm & Brass Stage-One Summit",
+          "desc_en": "06:37: Minor-key fugue storm. Low strings churn; at 06:55 heavy brass anchors the depths; at 07:08 trumpets and horns scale a glorious preliminary peak, collapsing at 07:16.",
+          "foreground_en": "07:08 Trumpets & Horns glorious peak.",
+          "background_en": "06:55 Trombones and Tuba foundation.",
+          "focus_en": "Minor Fugue Storm",
+          "actName_en": "Act II · The Dance of Love: Adagietto Transformed"
         },
         {
           "id": 13,
@@ -24667,7 +25462,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "本段先听其他线条"
             }
-          }
+          },
+          "title_en": "🎻 Block D Second Appearance: Pure String Romance Returns",
+          "desc_en": "07:18: Block D returns for 47 seconds of 100% pure string romance (zero winds or brass). An affectionate, warm variation building to a rich wave at 07:49.",
+          "foreground_en": "100% Pure Strings: warm romantic variation.",
+          "background_en": "Silky, flowing inner string counterpoint.",
+          "focus_en": "Block D Variation",
+          "actName_en": "Act III · Pastoral Meadow & Catastrophic Abyss"
         },
         {
           "id": 14,
@@ -24722,7 +25523,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "本段先听其他线条"
             }
-          }
+          },
+          "title_en": "🪈 Woodwind Meadow Pastoral: Flutes & Oboes with Playful Cello Pizzicato",
+          "desc_en": "08:06: The woodwinds' shining hour! Flutes and oboes whistle bird-like pastoral melodies over playful cello pizzicati.",
+          "foreground_en": "Flutes & Oboes: bird-like pastoral calls.",
+          "background_en": "Cellos: playful pizzicato bounces.",
+          "focus_en": "Woodwind Meadow",
+          "actName_en": "Act III · Pastoral Meadow & Catastrophic Abyss"
         },
         {
           "id": 15,
@@ -24778,7 +25585,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "本段先听其他线条"
             }
-          }
+          },
+          "title_en": "Horns & Woodwinds Seize Fugue B in Fierce Polyphonic Clashes",
+          "desc_en": "08:31: Fugue reignites! Horns aggressively seize the fugue subject and chorale fragments, locking horns with woodwind choirs in fierce counterpoint.",
+          "foreground_en": "Horns commanding fugue and chorale fragments.",
+          "background_en": "Woodwind choirs in dense antiphonal clash.",
+          "focus_en": "Polyphonic Battle",
+          "actName_en": "Act III · Pastoral Meadow & Catastrophic Abyss"
         },
         {
           "id": 16,
@@ -24829,7 +25642,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "定音鼓猛烈敲击"
             }
-          }
+          },
+          "title_en": "Refrain Return 2: Block A Grand Tutti Across Full Orchestra",
+          "desc_en": "08:58 (09:00): Block A returns home for the second grand time with full orchestral battery blazing at maximum power.",
+          "foreground_en": "Full Orchestra Tutti: Block A grand return.",
+          "background_en": "Thundering percussion and galloping strings.",
+          "focus_en": "Grand Refrain Return",
+          "actName_en": "Act III · Pastoral Meadow & Catastrophic Abyss"
         },
         {
           "id": 17,
@@ -24888,7 +25707,13 @@ window.MAHLER_DATA = {
               "highlight": true,
               "role": "★ 10:00 三角铁与镲片闪耀撞击!"
             }
-          }
+          },
+          "title_en": "💖 Block D Grand Return: The Most Blazing, Ecstatic Adagietto Outpouring",
+          "desc_en": "09:25: Block D's crowning statement! The Adagietto song is belted out in ecstatic, blazing triumph by full strings and golden horns, punctuated by sparkling triangle and cymbals at 10:00.",
+          "foreground_en": "High Violins & Horns: ecstatic Adagietto outpouring.",
+          "background_en": "10:00 Triangle and crash cymbals sparkling.",
+          "focus_en": "Ecstatic Adagietto Apotheosis",
+          "actName_en": "Act III · Pastoral Meadow & Catastrophic Abyss"
         },
         {
           "id": 18,
@@ -24952,7 +25777,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "11:06 定音鼓雷鸣"
             }
-          }
+          },
+          "title_en": "Third Fugue Storm (Stretto) & 11:08 Catastrophic Brass Collapse",
+          "desc_en": "10:09: Third fugue tempest in tight stretto overlap. At 10:49 heavy brass roars like a tidal wave, then at 11:08 collapses with a deafening crash into the abyss.",
+          "foreground_en": "10:49 Tidal wave of brass in stretto.",
+          "background_en": "11:08 Catastrophic collapse into silence.",
+          "focus_en": "Stretto Collapse",
+          "actName_en": "Act III · Pastoral Meadow & Catastrophic Abyss"
         },
         {
           "id": 19,
@@ -25007,7 +25838,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "本段先听其他线条"
             }
-          }
+          },
+          "title_en": "Chorale Meditation in the Abyss (Block C): Muted Brass & Cello Sighs",
+          "desc_en": "11:09: Mysterious chorale meditation in the depths (pianissimo). Muted horns, trombones, and woodwinds whisper solemn chords; at 11:25 cellos and basses sigh in the dark.",
+          "foreground_en": "Muted Horns & Woodwinds: ghostly Chorale C.",
+          "background_en": "11:25 Cellos & Basses: somber nocturnal sighs.",
+          "focus_en": "Abyssal Chorale",
+          "actName_en": "Act IV · The Final Ascent & Golden Coronation"
         },
         {
           "id": 20,
@@ -25063,7 +25900,13 @@ window.MAHLER_DATA = {
               "highlight": true,
               "role": "★ 11:48–11:58 竖琴(Harp)此处可留意拨奏!"
             }
-          }
+          },
+          "title_en": "🪕 Woodwind Dawn Awakening & 11:48 Notice the Solo Harp Pluck",
+          "desc_en": "11:38: Delicate woodwind counterpoint welcomes the dawn. Listen closely at 11:48–11:58: the solitary appearance of harp pizzicati in the entire finale!",
+          "foreground_en": "Solo Oboe, Clarinet & Flute: dawn counterpoint.",
+          "background_en": "11:48–11:58 Solitary delicate harp plucks.",
+          "focus_en": "Dawn & Solitary Harp",
+          "actName_en": "Act IV · The Final Ascent & Golden Coronation"
         },
         {
           "id": 21,
@@ -25119,7 +25962,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "本段先听其他线条"
             }
-          }
+          },
+          "title_en": "Final Ascent Phase 1: Strings Restart Adagietto D & Fugue B in Stepped Accelerando",
+          "desc_en": "12:00: Final ascent stage 1! Strings softly restart Adagietto D and Fugue B, stepping up speed and volume notch by notch.",
+          "foreground_en": "Violins and Violas: stepped accelerando.",
+          "background_en": "Briskly walking cello bass line.",
+          "focus_en": "Ascent Phase 1",
+          "actName_en": "Act IV · The Final Ascent & Golden Coronation"
         },
         {
           "id": 22,
@@ -25176,7 +26025,13 @@ window.MAHLER_DATA = {
               "highlight": false,
               "role": "定音鼓滚奏蓄力"
             }
-          }
+          },
+          "title_en": "Final Ascent Phase 2: Galloping Horns & 13:08 Trumpets Sounding the Charge",
+          "desc_en": "12:39: Final ascent stage 2! Horns gallop boldly in heroic song; at 13:08 trumpets sound an urgent climbing fanfare over manic violin tremolos.",
+          "foreground_en": "12:39 Heroic Horns -> 13:08 Trumpet climbing fanfares.",
+          "background_en": "Violins: frenzied, sparkling tremolos.",
+          "focus_en": "Ascent Phase 2",
+          "actName_en": "Act IV · The Final Ascent & Golden Coronation"
         },
         {
           "id": 23,
@@ -25232,7 +26087,13 @@ window.MAHLER_DATA = {
               "highlight": true,
               "role": "★ 13:27 大镲与定音鼓雷霆绽放"
             }
-          }
+          },
+          "title_en": "Final Climax Prelude: Orchestra Surges into Radiant D Major",
+          "desc_en": "13:23: The threshold of paradise! Full orchestra charges into radiant D major; at 13:27 crash cymbals ring out as cascading horn waterfalls lay the golden carpet.",
+          "foreground_en": "Tutti Brass: cascading horn fanfares.",
+          "background_en": "13:27 Crash cymbals and thundering drums.",
+          "focus_en": "Climactic Prelude",
+          "actName_en": "Act IV · The Final Ascent & Golden Coronation"
         },
         {
           "id": 24,
@@ -25326,7 +26187,13 @@ window.MAHLER_DATA = {
               ],
               "shortTitle": "圣咏终于抵达"
             }
-          ]
+          ],
+          "title_en": "👑 Ultimate Coronation: Golden Brass Chorale (13:48) & Presto Rush (14:21)",
+          "desc_en": "13:48: THE GOLDEN BRASS CHORALE ENTERS IN FULL MAJESTY! The promise of the symphony is crowned in eternal triumph, followed at 14:21 by a wild Presto sprint to the final thunderclap (14:55)!",
+          "foreground_en": "13:48 Golden Brass Chorale crowned in glory.",
+          "background_en": "14:21 Presto manic sprint -> 14:55 final hammer blow.",
+          "focus_en": "Supreme Coronation",
+          "actName_en": "Act IV · The Final Ascent & Golden Coronation"
         }
       ],
       "motifs": [
@@ -25346,7 +26213,11 @@ window.MAHLER_DATA = {
             23
           ],
           "color": "#d9a24e",
-          "audioStart": 36.97
+          "audioStart": 36.97,
+          "name_en": "Block A · Horn Rondo Theme",
+          "earprint_en": "Spacious leaps and complete, buoyant phrases deliver a joyously familiar homecoming each time they return.",
+          "firstCarrier_en": "Horn, Strings & Woodwind Hand-offs",
+          "role_en": "Guides listeners through kaleidoscopic contrasting episodes. With each recurrence, savor the shifting instrumentation and contrapuntal counter-melodies."
         },
         {
           "id": "B",
@@ -25371,7 +26242,11 @@ window.MAHLER_DATA = {
             23
           ],
           "color": "#75a7b4",
-          "audioStart": 83.28
+          "audioStart": 83.28,
+          "name_en": "Block B · Fugato Relay",
+          "earprint_en": "Cellos, second violins, and violas enter in strict imitative succession, culminating in bassoons and double basses with a broader counter-subject overhead.",
+          "firstCarrier_en": "Rapid Contrapuntal Strings",
+          "role_en": "Drives development forward while buzzing actively beneath broader melodic gestures. Track one thread first, then catch the interlocking second voice."
         },
         {
           "id": "C",
@@ -25385,7 +26260,11 @@ window.MAHLER_DATA = {
             4,
             18
           ],
-          "color": "#c5ab69"
+          "color": "#c5ab69",
+          "name_en": "Block C · The Transfigured Brass Chorale",
+          "earprint_en": "Broad sustained tones, unified homophonic pulse, and triumphant brass harmony ring out like an orchestral communion hymn.",
+          "firstCarrier_en": "Full Brass Hymn with Orchestral Chorus",
+          "role_en": "The ultimate culmination of the seed sown in Movement 2. What once collapsed in tragic exhaustion is now crowned in radiant D major joy."
         },
         {
           "id": "D",
@@ -25405,7 +26284,11 @@ window.MAHLER_DATA = {
             23
           ],
           "color": "#b98bac",
-          "audioStart": 234.47
+          "audioStart": 234.47,
+          "name_en": "Block D · Adagietto Metamorphosis",
+          "earprint_en": "The central lyrical theme from Movement 4 (m. 50) transfigured into sprightly, contrapuntal grazioso; note the gentle fall, rebound, and joyous ascent.",
+          "firstCarrier_en": "Lyrical String Threads",
+          "role_en": "The architectural keystone bridging the Adagietto and the Finale; experience how profound intimacy transforms into boundless communal celebration."
         }
       ],
       "misconceptions": [
@@ -26323,7 +27206,11 @@ window.MAHLER_DATA = {
         0.0002
       ],
       "introduction": "第五乐章是回旋曲与赋格的大型拼装现场。A 像不断回家的路标，B 用快速短音让声部接力，D 把第四乐章的抒情材料换成轻快的舞曲性格，C 则把第二乐章未能留住的圣咏带回终局。第一次只抓 A 和最后的 C；第二次再追 B 与 D 怎样并排跑。",
-      "midi": "assets/movement-5.mid"
+      "midi": "assets/movement-5.mid",
+      "title_en": "V. Rondo-Finale",
+      "introduction_en": "Allegro giocoso. A joyous contrapuntal tour-de-force fusing sonata, rondo, and four-part fugue, culminating in the golden brass chorale.",
+      "mission_en": "First listen: recognize the 4 Lego blocks (A: Horn Rondo, B: 4-Voice Fugue, C: Brass Chorale, D: Dancing Adagietto), and witness their climactic unification.",
+      "form_en": "Hybrid Rondo-Sonata with fugal episodes and transcendent chorale apogee."
     }
   ],
   "threads": [
@@ -26339,7 +27226,10 @@ window.MAHLER_DATA = {
       "sourceIds": [
         "lap-work",
         "mf-ii-guide"
-      ]
+      ],
+      "title_en": "The Golden Brass Chorale",
+      "description_en": "The solemn chorale that flares up in Movement 2 only to collapse into despair returns in the Finale at 13:48 in blazing D major to crown the symphony.",
+      "task_en": "Contrast the tragic breakdown of the chorale in Movement 2 with its radiant, unstoppable coronation in the Finale."
     },
     {
       "id": "thread-chorale",
@@ -26353,7 +27243,10 @@ window.MAHLER_DATA = {
       "sourceIds": [
         "lap-work",
         "dm-work"
-      ]
+      ],
+      "title_en": "The Triplet Fate Fanfare",
+      "description_en": "The opening 'three-shorts-and-a-long' military trumpet signal echoes across the entire funeral march, invades the storm of Movement 2, and finally reduces to quiet drumbeats.",
+      "task_en": "Follow the trumpet signal across different instrumental timbres, from solo brass down to solitary timpani."
     },
     {
       "id": "thread-song",
@@ -26367,7 +27260,10 @@ window.MAHLER_DATA = {
       "sourceIds": [
         "mf-iv-guide",
         "mf-v-guide"
-      ]
+      ],
+      "title_en": "The Horn of Nature & Dance",
+      "description_en": "The Corno Obligato acts as master of ceremonies in the Scherzo, calling the orchestra into a vast polyphonic playground of rustic Ländler and Viennese waltzes.",
+      "task_en": "Listen for when the horn commands the ensemble versus when it steps aside into lonely, poetic soliloquy."
     },
     {
       "id": "thread-texture",
@@ -26384,41 +27280,60 @@ window.MAHLER_DATA = {
       "sourceIds": [
         "lap-work",
         "dm-work"
-      ]
+      ],
+      "title_en": "The Metamorphosis of the Adagietto",
+      "description_en": "The intimate string love song of the Adagietto accelerates three-fold in the Finale, dancing as a counter-subject woven seamlessly into the fugue.",
+      "task_en": "Hear how the same melody sheds its melancholy yearning in Movement 4 to embrace exuberant sunshine and laughter in Movement 5."
     }
   ],
   "glossary": [
     {
       "term": "动机",
-      "plain": "容易认出的短材料：可以是一小段节奏、几音轮廓或特别的跳进。它能换乐器、速度和表情。"
+      "plain": "容易认出的短材料：可以是一小段节奏、几音轮廓或特别的跳进。它能换乐器、速度和表情。",
+      "term_en": "Chorale",
+      "plain_en": "A solemn, hymn-like melody played by brass or winds. In Mahler 5, it symbolizes spiritual breakthrough and celestial triumph."
     },
     {
       "term": "主题",
-      "plain": "比动机更完整、能唱成一句或一段的音乐身份。一个主题常由几个短动机构成。"
+      "plain": "比动机更完整、能唱成一句或一段的音乐身份。一个主题常由几个短动机构成。",
+      "term_en": "Fugato",
+      "plain_en": "A contrapuntal section where an initial theme is imitated consecutively by each voice at different pitch levels, chasing each other with racing momentum."
     },
     {
       "term": "声部",
-      "plain": "一条相对独立的器乐线；同一家族也可能同时有多条声部。这里不等于分离出来的录音轨。"
+      "plain": "一条相对独立的器乐线；同一家族也可能同时有多条声部。这里不等于分离出来的录音轨。",
+      "term_en": "Rondo",
+      "plain_en": "A classical form where a main refrain (A) alternates with contrasting episodes (B, C, D...), continually returning home (A-B-A-C-A-D-A)."
     },
     {
       "term": "复调",
-      "plain": "几条有自己走向的旋律同时发生。先追一条，再听第二条何时加入。"
+      "plain": "几条有自己走向的旋律同时发生。先追一条，再听第二条何时加入。",
+      "term_en": "Adagietto",
+      "plain_en": "Literally 'a little Adagio'. In Mahler 5, scored exclusively for strings and harp, serving as Mahler's wordless love letter to Alma."
     },
     {
       "term": "圣咏",
-      "plain": "此处指宽广、整齐、像赞歌的器乐写法，并没有合唱团真的加入。"
+      "plain": "此处指宽广、整齐、像赞歌的器乐写法，并没有合唱团真的加入。",
+      "term_en": "Ländler",
+      "plain_en": "A traditional Austrian rustic folk dance in 3/4 time with stomping beats, ancestral to the elegant Viennese waltz."
     },
     {
       "term": "兰德勒",
-      "plain": "奥地利等地区的三拍子乡村舞；聆听时可留意着地、跳步与重音。"
+      "plain": "奥地利等地区的三拍子乡村舞；聆听时可留意着地、跳步与重音。",
+      "term_en": "Stretto",
+      "plain_en": "In a fugue, when successive entries of the subject overlap in quick succession before the previous voice finishes, creating intense dramatic acceleration."
     },
     {
       "term": "回旋",
-      "plain": "熟悉材料在对比段落之间回来，像一条反复碰见的路；回来时未必原封不动。"
+      "plain": "熟悉材料在对比段落之间回来，像一条反复碰见的路；回来时未必原封不动。",
+      "term_en": "Leitmotif",
+      "plain_en": "A short, memorable musical idea or rhythm that recurs throughout a work, acting as an earprint that survives across changing orchestral colors."
     },
     {
       "term": "悬挂与解决",
-      "plain": "一个音暂时不肯落到和声里最安稳的位置，随后才移动到那里；等待本身就是张力。"
+      "plain": "一个音暂时不肯落到和声里最安稳的位置，随后才移动到那里；等待本身就是张力。",
+      "term_en": "Counterpoint / Polyphony",
+      "plain_en": "The art of combining multiple independent melodic voices so they harmonize beautifully while maintaining distinct rhythmic direction and character."
     }
   ],
   "sources": [
